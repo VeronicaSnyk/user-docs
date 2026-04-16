@@ -100,7 +100,7 @@ Snyk recommends always specifying the full name of the image in your CLI command
 
 ### Third-party integrations
 
-The Deployed risk factor is extended to third-party integrations through real-time monitoring of Kubernetes clusters, along with data from external sources. This enables a comprehensive assessment of deployed risks across diverse environments. By integrating with third-party tools, Snyk can cross-reference vulnerabilities from various sources, ensuring that the deployed risk factor reflects the most accurate and current threat landscape. This holistic approach allows Snyk to provide actionable insights and maintain robust security postures across all integrated platforms.
+The Deployed risk factor extends to third-party integrations through real-time monitoring of Kubernetes clusters and data from external sources. Snyk cross-references vulnerabilities from multiple sources to keep the deployed risk factor accurate and current. This gives you actionable insights and consistent security coverage across all integrated platforms.
 
 ## Technical details for Snyk Insights Deployed risk factor
 
