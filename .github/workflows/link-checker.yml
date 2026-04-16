@@ -1,0 +1,66 @@
+name: Link Checker
+
+on:
+  # Run on PRs that touch docs
+  pull_request:
+    branches: [main]
+    paths:
+      - 'docs/**/*.md'
+      - '.gitbook.yaml'
+
+  # Weekly full-repo check — catches external link rot
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6 AM UTC
+
+  workflow_dispatch:
+
+jobs:
+  # ── 1. Internal link check (relative paths and SUMMARY.md refs) ───────────
+  internal-links:
+    name: Internal link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check internal markdown links
+        run: |
+          python3 .github/scripts/check-links.py --internal-only
+
+  # ── 2. External link check (HTTP 404s, redirects, timeouts) ──────────────
+  external-links:
+    name: External link check
+    runs-on: ubuntu-latest
+    # Only run on schedule or manual dispatch (too slow for every PR)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install lychee
+        run: |
+          curl -sL https://github.com/lycheeverse/lychee/releases/latest/download/lychee-x86_64-unknown-linux-gnu.tar.gz \
+            | tar xz -C /usr/local/bin lychee
+
+      - name: Run lychee external link check
+        run: |
+          lychee \
+            --config .lychee.toml \
+            --format markdown \
+            --output lychee-report.md \
+            'docs/**/*.md' \
+            || true   # don't fail — report is filed as issue
+
+      - name: Upload link report
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-link-report
+          path: lychee-report.md
+
+      - name: Create or update issue with broken links
+        if: always()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Weekly broken external link report'
+          content-filepath: lychee-report.md
+          labels: |
+            link-rot
+            automated

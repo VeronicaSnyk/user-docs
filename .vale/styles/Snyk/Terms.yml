@@ -1,0 +1,31 @@
+# Snyk terminology and phrasing substitutions
+---
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+scope: text
+swap:
+  click on: select
+  Click on: Select
+  click: select
+  Click: Select
+  e-mail: email
+  E-mail: Email
+  setup: set up
+  Setup: Set up
+  One-time Password: one-time password
+  Time-based One-time Password: time-based one-time password
+  time based: time-based
+  login to: log in to
+  log into: log in to
+  login: log in
+  e.g.: for example
+  i.e.: that is
+  Google Script: Google Apps Script
+exceptions:
+  - Two-Factor Authentication (2FA)
+  - My target requires Two-Factor Authentication (2FA)
+  - Two-Factor Authentication (2FA) section
+  - Login Form
+  - Login Sequence

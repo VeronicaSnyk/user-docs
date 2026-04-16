@@ -1,0 +1,130 @@
+# Snyk writing rules — word substitutions
+# Source: writing-rules-style-guide.md
+---
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: false
+scope: text
+swap:
+  # Latin phrases
+  'e\.g\.': 'for example'
+  'i\.e\.': 'that is'
+  '\betc\b': 'and so on'
+  '\betc\.': 'and so on'
+  '\bvia\b': 'through or using'
+  'N\.B\.': 'note'
+
+  # Simpler alternatives
+  '\butilize\b': 'use'
+  '\butilization\b': 'use'
+  '\busage\b': 'use'
+  '\bcommence\b': 'start'
+  '\bcommencement\b': 'start'
+  'prior to': 'before'
+  'in advance of': 'before'
+  'in the event that': 'if'
+  'make sure': 'ensure'
+  'first of all': 'first'
+  'and/or': 'and'
+  'in order to': 'to'
+  'is able to': 'can'
+  'are able to': 'can'
+  'is required to': 'must'
+  'are required to': 'must'
+  '\bwithin\b': 'in'
+  'accordingly': 'so'
+  'furthermore': 'so'
+  'thereby': 'so'
+  'go to': 'navigate to'
+
+  # Avoid "once" to mean "after"
+  '^Once ': 'After '
+
+  # Redundant filler
+  '\bjust\b': ''
+  '\bactually\b': ''
+  '\bliterally\b': ''
+  '\bvery\b': ''
+  '\breally\b': ''
+  '\bsimply\b': ''
+  '\bplease\b': ''
+  'not to mention': ''
+  'when it comes to': ''
+  'first of all': 'first'
+
+  # Tense — future to present
+  'will be able to': 'can'
+
+  # Inclusive language
+  '\bwhitelist\b': 'allowlist'
+  '\bblacklist\b': 'denylist'
+  '\bhe or she\b': 'they'
+  '\bhe/she\b': 'they'
+  '\bhis or her\b': 'their'
+  '\bhis/her\b': 'their'
+  '\bthe disabled\b': 'people with disabilities'
+  '\bchairman\b': 'chairperson'
+
+  # Non-inclusive navigation
+  'click here': 'use a descriptive link text'
+
+  # Compound word forms (wrong → correct)
+  'code base': 'codebase'
+  'life cycle': 'lifecycle'
+  'run time': 'runtime'
+  'run-time': 'runtime'
+  'drop-down': 'dropdown'
+  'web-hook': 'webhook'
+  'web hook': 'webhook'
+  'hard-coded': 'hard coded'
+  'step by step': 'step-by-step'
+  'pull-request': 'pull request'
+  'white-paper': 'white paper'
+  'user name': 'username'
+  'stand-alone': 'standalone'
+  'cyber security': 'cybersecurity'
+  'knowledge-base': 'knowledge base'
+  'data-center': 'data center'
+  'web-server': 'web server'
+  'web site': 'website'
+  'e-mail': 'email'
+  'cross site scripting': 'cross-site scripting'
+  'man in the middle': 'man-in-the-middle'
+  'same origin policy': 'same-origin policy'
+  'real-time data': 'real-time data'
+
+  # Brand and product names
+  'NodeJS': 'Node.js'
+  'node\.js\b(?! )': 'Node.js'
+  'Github': 'GitHub'
+  'Gitlab': 'GitLab'
+  '\bNPM\b': 'npm'
+  '\.net\b': '.NET'
+  '\.Net\b': '.NET'
+  'devops': 'DevOps'
+  'devsecops': 'DevSecOps'
+  'appsec': 'AppSec'
+  'fintech': 'Fintech'
+  'CI / CD': 'CI/CD'
+  'CI/CD': 'CI/CD'
+  'AIBOM': 'AI-BOM'
+  'AiBOM': 'AI-BOM'
+  'AIBom': 'AI-BOM'
+  'snyk app': 'Snyk Web UI'
+  'snyk ui': 'Snyk Web UI'
+  'Docker containers': 'containers'
+  'Docker container registries': 'container registries'
+
+  # Snyk entity capitalization (lowercase → correct)
+  "snyk's": 'Snyk'
+
+  # Numbers (digits 1-9 in prose should be spelled out — flagged for review)
+  # Note: Vale substitution can't enforce context-sensitive number rules;
+  # handled by Numbers.yml existence-check instead.
+
+  # Plurals with parentheses
+  '\(s\)': 'the plural form'
+
+  # Thousands separator
+  '\b1000\b': '1,000'

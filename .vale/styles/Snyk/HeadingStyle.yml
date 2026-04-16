@@ -1,0 +1,15 @@
+# Snyk writing rules — heading style
+# Rule: Avoid starting headings with vague openers.
+---
+extends: existence
+message: "Avoid vague heading opener '%s'. Make the heading descriptive."
+level: warning
+scope: heading
+ignorecase: true
+tokens:
+  - 'This guide describes'
+  - 'This document describes'
+  - 'This page describes'
+  - 'Overview of'
+  - 'Introduction to'
+  - 'About '

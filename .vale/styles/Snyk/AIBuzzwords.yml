@@ -1,0 +1,27 @@
+# Snyk writing rules — AI-sounding buzzwords
+# Rule: Avoid AI-generated filler phrases that sound hollow.
+---
+extends: existence
+message: "Avoid AI buzzword/filler phrase: '%s'. Be specific and direct."
+level: error
+scope: text
+ignorecase: true
+tokens:
+  - 'in this new era'
+  - 'in the ever-evolving landscape'
+  - 'delivering seamless and intuitive'
+  - 'driving innovation'
+  - 'cutting-edge'
+  - 'leveraging advanced'
+  - 'leveraging the power'
+  - '\bsynergy\b'
+  - '\bsynergies\b'
+  - 'game.changer'
+  - 'next.generation'
+  - 'best.in.class'
+  - 'state.of.the.art'
+  - 'robust solution'
+  - 'holistic approach'
+  - 'empower\w* developer'
+  - 'foster\w* collaborat'
+  - 'resonates with'

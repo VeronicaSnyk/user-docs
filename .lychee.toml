@@ -1,0 +1,54 @@
+# lychee external link checker configuration
+# Docs: https://github.com/lycheeverse/lychee
+
+# Timeout per request (seconds)
+timeout = 20
+
+# Max concurrent requests
+max_concurrency = 8
+
+# Retry on transient failures
+max_retries = 3
+
+# Accept these HTTP status codes as valid
+accept = [200, 201, 206, 429]
+
+# Exclude patterns (known-good or require auth)
+exclude = [
+  # Snyk app (requires login)
+  'https://app\.snyk\.io',
+  'https://snyk\.io/account',
+
+  # GitBook internal preview URLs
+  'https://app\.gitbook\.com',
+
+  # Slack (requires auth)
+  'https://snyksec\.slack\.com',
+  'https://snyk\.slack\.com',
+
+  # Internal Jira/Confluence (requires VPN)
+  'https://snyksec\.atlassian\.net',
+
+  # GitHub edit links (always valid by convention)
+  'https://github\.com/snyk/user-docs/edit',
+
+  # Localhost / example URLs
+  'http://localhost',
+  'https://example\.com',
+  'your-org',
+  'your-username',
+  'your-repo',
+
+  # Known CDN-hosted images that may rate-limit
+  'https://storage\.googleapis\.com',
+]
+
+# Exclude files
+exclude_path = [
+  '.git',
+  'node_modules',
+  'tools/',
+]
+
+# User agent (some sites block CI bots)
+user_agent = "Mozilla/5.0 (compatible; lychee/0.14)"

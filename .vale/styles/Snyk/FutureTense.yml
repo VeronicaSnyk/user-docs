@@ -1,0 +1,21 @@
+# Snyk writing rules — future tense detection
+# Rule: Write in the present tense. Avoid "will be" and similar future constructions.
+---
+extends: existence
+message: "Avoid future tense: '%s'. Rewrite in the present tense."
+level: warning
+scope: text
+ignorecase: true
+tokens:
+  - 'will be'
+  - 'will appear'
+  - 'will show'
+  - 'will display'
+  - 'will allow'
+  - 'will enable'
+  - 'will redirect'
+  - 'will open'
+  - 'will create'
+  - 'will need to'
+  - 'will have to'
+  - '\bcurrently\b'

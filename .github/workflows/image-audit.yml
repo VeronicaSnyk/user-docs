@@ -1,0 +1,55 @@
+name: Image Audit
+
+on:
+  # Weekly check — catches accumulating orphans and new external embeds
+  schedule:
+    - cron: '0 7 * * 2'  # Every Tuesday at 7 AM UTC
+
+  # Also run on PRs that add/change images or docs
+  pull_request:
+    branches: [main]
+    paths:
+      - 'docs/**/*.md'
+      - 'docs/.gitbook/assets/**'
+
+  workflow_dispatch:
+
+jobs:
+  audit:
+    name: Image quality audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run image audit
+        id: audit
+        run: |
+          python3 .github/scripts/audit-images.py \
+            --path docs/ \
+            --fail-on error \
+            | tee image-audit-report.md
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: image-audit-report
+          path: image-audit-report.md
+
+      - name: Post report as PR comment
+        if: github.event_name == 'pull_request' && always()
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: image-audit
+          path: image-audit-report.md
+
+      - name: Create issue for weekly audit findings
+        if: github.event_name == 'schedule' && failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Weekly image audit findings'
+          content-filepath: image-audit-report.md
+          labels: |
+            images
+            accessibility
+            automated

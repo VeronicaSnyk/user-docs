@@ -1,0 +1,18 @@
+# Snyk writing rules — Snyk entity capitalization
+# Rule: Snyk Projects, Groups, and Organizations are always capitalized.
+---
+extends: existence
+message: "Capitalize Snyk entity: '%s' should be capitalized (Projects, Groups, Organizations)."
+level: warning
+scope: text
+ignorecase: false
+tokens:
+  - '\bsnyk projects?\b'
+  - '\bsnyk groups?\b'
+  - '\bsnyk organizations?\b'
+  - '\bsnyk orgs?\b'
+  - '\bsnyk code\b'
+  - '\bsnyk open source\b'
+  - '\bsnyk container\b'
+  - '\bsnyk iac\b'
+  - '\bsnyk web ui\b'

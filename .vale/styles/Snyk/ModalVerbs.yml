@@ -1,0 +1,15 @@
+# Snyk writing rules — modal verb detection
+# Rule: Avoid modal verbs (may, should, might) — they add uncertainty.
+# Exception: "can" is acceptable (it means capability, not uncertainty).
+---
+extends: existence
+message: "Avoid modal verb '%s' — it adds uncertainty. Rewrite with a definitive statement."
+level: warning
+scope: text
+ignorecase: true
+tokens:
+  - '\bshould\b'
+  - '\bmight\b'
+  - '\bmay\b(?! not)'
+  - '\bwould\b'
+  - '\bcould\b'

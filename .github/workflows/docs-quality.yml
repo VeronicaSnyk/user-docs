@@ -1,0 +1,76 @@
+name: Docs Quality Checks
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'docs/**/*.md'
+      - '.vale.ini'
+      - '.vale/**'
+      - '.markdownlint.yml'
+
+  # Allow manual runs for full-repo audits
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'Path to lint (e.g. docs/ or docs/scan-with-snyk/)'
+        required: false
+        default: 'docs/'
+
+jobs:
+  # ── 1. Vale style checks ──────────────────────────────────────────────────
+  vale:
+    name: Vale style lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Determine changed files (PR) or full scope (manual)
+        id: scope
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            # Only lint files changed in this PR
+            FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD \
+              | grep '\.md$' | grep '^docs/' || true)
+            echo "files=$FILES" >> "$GITHUB_OUTPUT"
+            echo "Linting changed files: $FILES"
+          else
+            echo "files=${{ inputs.scope }}" >> "$GITHUB_OUTPUT"
+            echo "Linting full scope: ${{ inputs.scope }}"
+          fi
+
+      - name: Run Vale
+        if: steps.scope.outputs.files != ''
+        uses: errata-ai/vale-action@reviewdog
+        with:
+          files: ${{ steps.scope.outputs.files }}
+          version: 3.7.1
+          reporter: github-pr-review   # inline PR comments
+          fail_on_error: true          # blocks merge on error-level findings
+          filter_mode: added           # only report on lines changed in PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ── 2. Markdown lint ──────────────────────────────────────────────────────
+  markdownlint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run markdownlint-cli2
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: 'docs/**/*.md'
+          config: '.markdownlint.yml'
+
+  # ── 3. SUMMARY.md consistency ─────────────────────────────────────────────
+  summary-check:
+    name: SUMMARY.md consistency
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate SUMMARY.md against file structure
+        run: |
+          python3 .github/scripts/check-summary.py

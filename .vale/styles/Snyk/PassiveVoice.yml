@@ -1,0 +1,23 @@
+# Snyk writing rules — passive voice detection
+# Rule: Use active voice. Avoid passive constructions.
+---
+extends: existence
+message: "Avoid passive voice: '%s'. Rewrite with an active subject."
+level: warning
+scope: text
+ignorecase: true
+tokens:
+  - 'is being \w+ed'
+  - 'are being \w+ed'
+  - 'was \w+ed by'
+  - 'were \w+ed by'
+  - 'has been \w+ed'
+  - 'have been \w+ed'
+  - 'had been \w+ed'
+  - 'will be \w+ed'
+  - 'can be \w+ed'
+  - 'should be \w+ed'
+  - 'must be \w+ed'
+  - 'this functionality enables the users to'
+  - 'is used to'
+  - 'are used to'
