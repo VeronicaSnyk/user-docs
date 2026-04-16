@@ -20,11 +20,17 @@ from urllib.parse import urlparse
 
 DOCS_ROOT = Path(__file__).parent.parent.parent / "docs"
 
-# Matches [text](target) and [text](target "title") — excludes http(s)
-LINK_RE = re.compile(r'\[([^\]]*)\]\(([^)]+)\)')
+# Matches [text](<target>) — angle-bracket form, allows ) inside path
+LINK_ANGLE_RE = re.compile(r'\[([^\]]*)\]\(<([^>]+)>\)')
 
-# Matches ![alt](src)
-IMAGE_RE = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
+# Matches [text](target) and [text](target "title") — plain form
+LINK_RE = re.compile(r'\[([^\]]*)\]\(([^)<>][^)]*)\)')
+
+# Matches ![alt](<src>) — angle-bracket image form
+IMAGE_ANGLE_RE = re.compile(r'!\[([^\]]*)\]\(<([^>]+)>\)')
+
+# Matches ![alt](src) — plain image form
+IMAGE_RE = re.compile(r'!\[([^\]]*)\]\(([^)<>][^)]*)\)')
 
 
 def is_external(url: str) -> bool:
@@ -32,9 +38,19 @@ def is_external(url: str) -> bool:
     return parsed.scheme in ("http", "https", "mailto", "ftp")
 
 
+def is_ide_deeplink(url: str) -> bool:
+    """IDE extension deep-link schemes that are not file paths (cursor:, antigravity:, etc.)."""
+    return re.match(r'^[a-zA-Z][a-zA-Z0-9+\-.]+:', url) is not None and not is_external(url)
+
+
 def is_gitbook_special(url: str) -> bool:
     """GitBook snippet syntax like {% ... %} or anchors-only."""
     return url.startswith("{%") or url.startswith("#")
+
+
+def is_template_variable(url: str) -> bool:
+    """Liquid/Jinja template variables like {{ snyk_project_url }}."""
+    return url.startswith("{{") or url.startswith("{%")
 
 
 def resolve_link(source_file: Path, target: str) -> Optional[Path]:
@@ -47,6 +63,11 @@ def resolve_link(source_file: Path, target: str) -> Optional[Path]:
     if not target:
         return None  # anchor-only link
     if is_external(target) or is_gitbook_special(target):
+        return None
+    if is_ide_deeplink(target) or is_template_variable(target):
+        return None
+    # Skip directory links — GitBook renders these as section index pages
+    if target.endswith("/"):
         return None
 
     resolved = (source_file.parent / target).resolve()
@@ -61,9 +82,13 @@ def check_file(md_file: Path, docs_root: Path) -> list[dict]:
         return [{"file": str(md_file), "line": 0, "target": "", "error": str(e)}]
 
     for line_num, line in enumerate(content.splitlines(), 1):
-        for pattern in (LINK_RE, IMAGE_RE):
+        seen_targets = set()
+        for pattern in (LINK_ANGLE_RE, IMAGE_ANGLE_RE, LINK_RE, IMAGE_RE):
             for match in pattern.finditer(line):
                 raw_target = match.group(2)
+                if raw_target in seen_targets:
+                    continue
+                seen_targets.add(raw_target)
                 resolved = resolve_link(md_file, raw_target)
                 if resolved is None:
                     continue
