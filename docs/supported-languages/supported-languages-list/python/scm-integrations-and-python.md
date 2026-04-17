@@ -110,7 +110,7 @@ Snyk’s Poetry analysis parses `pyproject.toml` with a TOML implementation that
 
 Example of a failing configuration:
 
-```
+```text
 include = [
   "py.typed",
   { path = "src/my_package/templates/**/*", format = ["sdist", "wheel"] },
@@ -119,7 +119,7 @@ include = [
 
 To fix this issue, use only one shape for every entry. For example, use only inline tables:
 
-```
+```text
 include = [
   { path = "py.typed" },
   { path = "src/my_package/templates/**/*", format = ["sdist", "wheel"] },

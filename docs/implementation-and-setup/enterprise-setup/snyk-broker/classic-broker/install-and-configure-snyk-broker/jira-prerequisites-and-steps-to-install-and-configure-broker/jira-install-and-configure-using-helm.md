@@ -17,7 +17,7 @@ Then, run the following commands to install the Broker and customize the environ
 
 Note: for `jiraHostname` value do not include `https://`
 
-```
+```bash
 helm install snyk-broker-chart snyk-broker/snyk-broker \
              --set scmType=jira \
              --set brokerToken=<ENTER_BROKER_TOKEN> \
@@ -39,7 +39,7 @@ When SSO is enabled, JIRA usually prohibits the use of a username and password a
 
 When SSO is enabled, you must use a specific Jira version that will instead use the authorization header with the bearer token. To use this version, provide the following configuration:
 
-```
+```bash
 helm install snyk-broker-chart snyk-broker/snyk-broker \
              --set scmType=jira-bearer-auth \
              --set brokerToken=<ENTER_BROKER_TOKEN> \

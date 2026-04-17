@@ -15,7 +15,7 @@ Follow the steps in [Find the role ARN](../aws-integration-web-ui/step-3-create-
 
 After you have the role ARN, send a request to the Snyk API in the format that follows to create the Cloud Environment:
 
-```
+```bash
 curl -X POST \
 'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/environments?version=2022-12-21~beta' \
 -H 'Authorization: token YOUR-API-TOKEN' \
@@ -90,7 +90,7 @@ The `data.attributes.status` field in the JSON output is set to `in_progress`. T
 
 If you wish, see if the scan is finished by sending another API request in the format that follows to get environment details. You can find the environment ID in the `data.id` field of the JSON output when you create the environment.
 
-```
+```bash
 curl -X GET \
   'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/environments?id=YOUR-ENVIRONMENT-ID&version=2022-12-21~beta' \
   -H 'Authorization: token YOUR-API-TOKEN'

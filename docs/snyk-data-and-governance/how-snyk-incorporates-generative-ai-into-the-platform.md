@@ -4,7 +4,7 @@ Snyk’s AI Security Platform uses generative AI to enhance automation, efficien
 
 This document explains what generative AI technologies Snyk uses and how data flows through our systems. It also describes the measures we take to protect your data. The field of AI is changing quickly. As a result, the AI technologies we use may change when we introduce new features or update existing ones.
 
-### Core principles
+## Core principles
 
 Snyk places the utmost importance on data security and integrity.
 

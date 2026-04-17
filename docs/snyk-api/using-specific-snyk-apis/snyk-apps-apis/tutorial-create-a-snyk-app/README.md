@@ -15,7 +15,7 @@ Run `npm init` and follow the prompts. You can add as much or as little informat
 
 Now that we have a place to save dependency information, use `npm` to install TypeScript as a development dependency:
 
-```
+```bash
 npm install typescript --save-dev
 ```
 
@@ -55,7 +55,7 @@ mkdir ./src
 
 Now that we have the basic parameters in place, we'll create a simple Hello World by creating the file `./src/index.ts`.
 
-```
+```bash
 const world = 'world';
 
 export function hello(world: string = world): string {
@@ -67,7 +67,7 @@ Now we can confirm that everything is wired up correctly. Run `npx tsc` to compi
 
 If everything is successful, the project tree looks like this:
 
-```
+```text
 my-snyk-app/
  - dist/
    - index.d.ts

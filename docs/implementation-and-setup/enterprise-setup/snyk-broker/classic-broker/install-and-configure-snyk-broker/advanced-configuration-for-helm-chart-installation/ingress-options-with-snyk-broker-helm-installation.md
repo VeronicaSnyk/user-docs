@@ -12,7 +12,7 @@ To enable a load balancer, add the `--set service.<service-type>=LoadBalancer`. 
 
 Example for Github:
 
-```
+```bash
 helm install snyk-broker-chart snyk-broker/snyk-broker \
              --set scmType=github-com \
              --set brokerToken=<ENTER_BROKER_TOKEN> \

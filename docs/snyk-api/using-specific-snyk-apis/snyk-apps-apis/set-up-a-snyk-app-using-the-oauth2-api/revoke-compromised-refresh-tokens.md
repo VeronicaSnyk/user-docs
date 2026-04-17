@@ -4,13 +4,13 @@ If you believe that a refresh token has been compromised then it is recommended 
 
 To do this issue a POST request to the revoke endpoint:
 
-```
+```text
 https://api.snyk.io/oauth2/revoke
 ```
 
 with the following properties in a x-www-form-urlencoded formatted request body:
 
-```
+```text
 token=(refresh token to be revoked)
 &client_id=(clientId from the app creation)
 &client_secret=(clientSecret from the app creation)

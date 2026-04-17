@@ -25,7 +25,7 @@ Click **Add Custom Power**. When the pop-up appears, select **Import Power from 
 
 When prompted, copy and paste the following URL path into the window:
 
-```
+```text
 https://github.com/snyk/kiro-power-snyk/tree/main/snyk-power
 ```
 
@@ -112,7 +112,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for [Kiro Agent Steering](https://kiro.dev/docs/steering/). Append the following contents to an Agent Steering file:
 
 {% code title="best_practices.md" overflow="wrap" %}
-```
+```yaml
 ---
 applyTo: "**"
 ---

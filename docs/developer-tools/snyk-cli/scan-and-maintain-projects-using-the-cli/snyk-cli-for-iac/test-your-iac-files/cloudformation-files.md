@@ -4,18 +4,18 @@ With Snyk Infrastructure as Code, you can test your CloudFormation files using t
 
 Test for an issue in specified files using the following command:
 
-```
+```bash
 snyk iac test
 ```
 
 Example:
 
-```
+```bash
 snyk iac test deploy.yaml
 ```
 
 You can also specify multiple files by appending the file names after each other, for example:
 
-```
+```bash
 snyk iac test file-1.yaml file-2.yaml
 ```

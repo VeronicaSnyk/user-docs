@@ -14,13 +14,13 @@ Your Project may have multiple states that you want to monitor separately, for e
 
 Set `--target-reference` to the current Git branch.
 
-```
+```bash
 snyk monitor --target-reference="$(git branch --show-current)"
 ```
 
 Use the latest Git tag.
 
-```
+```bash
 snyk monitor --target-reference="$(git describe --tags --abbrev=0)"
 ```
 

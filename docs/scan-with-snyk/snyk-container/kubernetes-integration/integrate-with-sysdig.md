@@ -12,7 +12,7 @@ Execute the commands below after installing Sysdig, in order to allow the Snyk C
 
 Create the `snyk-sysdig-secret` in the `snyk-monitor` namespace:
 
-```
+```bash
 kubectl create secret generic snyk-sysdig-secret -n snyk-monitor \
   --from-literal=token=$SYSDIG_RISK_SPOTLIGHT_TOKEN \
   --from-literal=endpoint=$SYSDIG_ENDPOINT_URL \
@@ -27,7 +27,7 @@ SYSDIG\_AGENT\_CLUSTER are the ones that you configured when [installing the Sys
 
 To enable Snyk to integrate with Sysdig and collect information about packages executed at runtime, use `--set sysdig.enabled=true` when installing the Snyk Controller:
 
-```
+```bash
 helm upgrade --install snyk-monitor snyk-charts/snyk-monitor \
   --namespace snyk-monitor \
   --set clusterName="Production cluster" \

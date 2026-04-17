@@ -15,7 +15,7 @@ The second is the interactive mode, which prompts you to enter all the values in
 
 `snyk apps create --experimental --interactive`
 
-```
+```bash
 snyk apps create --experimental --interactive
 
 ? Name of the Snyk App (visible to users when they install the Snyk App)? My Awesome Snyk App

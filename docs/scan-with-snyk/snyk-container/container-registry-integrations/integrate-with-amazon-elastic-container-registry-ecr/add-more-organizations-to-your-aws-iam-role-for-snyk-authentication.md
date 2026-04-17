@@ -8,7 +8,7 @@ After creating an AWS IAM role for Snyk, you can add more Organizations to the s
 
     Ensure the value of "sts:ExternalId" is enclosed with square brackets and insert the additional Organization ID inside those brackets. Use a comma ( , ) to separate between Organization ID values. For example:
 
-    ```
+    ```text
     "sts:ExternalId": [
     "11111111-1111-1111-1111-111111111111",
     "22222222-2222-2222-2222-222222222222",

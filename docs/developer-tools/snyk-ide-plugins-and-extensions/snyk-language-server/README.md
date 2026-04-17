@@ -39,7 +39,7 @@ Please refer to [snyk-cli](../../snyk-cli/ "mention") for installation and manua
 
 ### Starting the Snyk CLI in language server mode
 
-```
+```bash
 // we assume the CLI is in the system path and named `snyk`
 snyk language-server <flags>
 
@@ -106,7 +106,7 @@ Snyk Language Server and Snyk CLI support and need certain environment variables
 
 To automatically add these variables to the environment, Snyk Language Server searches for the following files, with the order determining precedence. If the executable is not called from an already configured environment (for example, via `zsh -i -c 'snyk-ls'`), you can also specify the config file with the `-c` command line flag for setting the required variables. Snyk Language Server reads the following files in the given precedence and order, not overwriting the already loaded variables.
 
-```
+```text
 given config file via -c flag
 <working-dir>/.snyk.env
 $HOME/.snyk.env

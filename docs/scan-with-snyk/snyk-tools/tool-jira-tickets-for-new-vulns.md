@@ -10,7 +10,7 @@ Use the binaries from [the release page](https://github.com/snyk-tech-services/j
 
 ## Usage - Quick start
 
-```
+```bash
 ./snyk-jira-sync-<yourplatform> 
     --orgID=<SNYK_ORG_ID>                    // Can find it under settings
     --token=<API Token>                      // Snyk API Token. Service accounts work.
@@ -19,7 +19,7 @@ Use the binaries from [the release page](https://github.com/snyk-tech-services/j
 
 **Extended options**
 
-```
+```bash
 ./snyk-jira-sync-<yourplatform> 
     --orgID=<SNYK_ORG_ID>                                                // Can find it under settings
     --projectID=<SNYK_PROJECT_ID>                                        // Optional. Syncs all projects in Organization if not provided.
@@ -80,7 +80,7 @@ https://github.com/michael-go/go-jsn/jsn to make JSON parsing a breeze github.co
 
 A logFile listing all the tickets created can be found where the tool has been run.
 
-```
+```json
 {
   "projects": {
     "123": [
@@ -115,7 +115,7 @@ A logFile listing all the tickets created can be found where the tool has been r
 
 The following is an example of config file structure. If your Jira project has custom mandatory fields configured, these fields must be added to the config file. Make sure you give both the key and value expected by Jira under the customMandatoryFields key of the config file:
 
-```
+```xml
 schema: 1
 snyk: 
     orgID: a1b2c3de-99b1-4f3f-bfdb-6ee4b4990513 # <SNYK_ORG_ID> 

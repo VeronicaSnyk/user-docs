@@ -18,7 +18,7 @@ Archived repos are excluded by default.
 
 You need the organizations data in JSON as an input to this command to help map Snyk Organization IDs and integration Ids that must be used during import against individual Targets to be imported. The following format is required:
 
-```
+```json
 {
   "orgData": [
     {
@@ -53,7 +53,7 @@ The steps to use this utility follow:
 
 You need the organization's data in JSON as an input to this command to help map Snyk Organization IDs and integration IDs that must be used during import against individual targets to be imported. The following format is required:
 
-```
+```json
 {
   "orgData": [
     {
@@ -89,7 +89,7 @@ The steps to use this utility follow:
 
 You need the organizations data in JSON as an input to this command to help map Snyk Organization IDs and integration Ids that must be used during import against individual targets to be imported. The following format is required:
 
-```
+```json
 {
   "orgData": [
     {
@@ -125,7 +125,7 @@ The steps to use this utility follow:
 
 You need the organizations data in JSON as an input to this command to help map Snyk Organization IDs and integration Ids that must be used during import against individual targets to be imported. The following format is required:
 
-```
+```json
 {
   "orgData": [
     {
@@ -160,7 +160,7 @@ The steps to use this utility follow:
 
 You need the organizations data in JSON as an input to this command to help map Snyk Organization IDs and integration Ids that must be used during import against individual targets to be imported. The following format is required:
 
-```
+```json
 {
   "orgData": [
     {

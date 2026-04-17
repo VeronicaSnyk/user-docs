@@ -4,7 +4,7 @@ The Bitbucket Data Center/Server integration allows you to continuously perform 
 
 For a quick reference, see the [Snyk and Bitbucket best practices cheat sheet](https://snyk.io/blog/snyk-bitbucket-best-practices-cheat-sheet/) on the Snyk blog.
 
-### How to set up a Bitbucket DC/Server Integration
+## How to set up a Bitbucket DC/Server Integration
 
 1. To give Snyk access to your Bitbucket DC/Server account, set up a dedicated service account in Bitbucket DC/Server with admin permissions.\
    Visit [Bitbucket Server documentation ](https://confluence.atlassian.com/bitbucketserver/users-and-groups-776640439.html#Usersandgroups-Creatingauser)to learn more about creating users.\

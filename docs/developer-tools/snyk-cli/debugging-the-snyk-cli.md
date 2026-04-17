@@ -19,13 +19,13 @@ The following examples show the use of the `--debug` option and the `SNYK_LOG_LE
 
 1. Using command line arguments to enable trace level logging.
 
-```
+```bash
 snyk test --debug --log-level=trace
 ```
 
 2. Using command line arguments to enable debugging and environment variables to set the debug level.
 
-```
+```bash
 export SNYK_LOG_LEVEL=trace 
 snyk test --debug
 ```
@@ -36,7 +36,7 @@ The CLI implements error codes from the Snyk [Error Catalog](../../scan-with-sny
 
 For example, when using the CLI while unauthorized, it outputs the appropriate Error Catalog error.
 
-```
+```bash
 > snyk test
 
  ERROR   Authentication error (SNYK-0005)

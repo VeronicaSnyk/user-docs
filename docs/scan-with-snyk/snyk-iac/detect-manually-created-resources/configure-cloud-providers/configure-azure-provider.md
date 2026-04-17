@@ -6,7 +6,7 @@ To use `iac describe`, set up credentials to make authenticated requests to your
 
 For a guide to configuring Azure authentication, see the [Terraform documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure).
 
-```
+```bash
 # Here we use a service principal account with a client secret
 $ AZURE_SUBSCRIPTION_ID=00000000-0000-0000-0000-000000000000\
   AZURE_TENANT_ID=00000000-0000-0000-0000-000000000000\
@@ -17,7 +17,7 @@ $ AZURE_SUBSCRIPTION_ID=00000000-0000-0000-0000-000000000000\
 
 You can also authenticate using the **az** CLI. Then you must specify only the `AZURE_SUBSCRIPTION_ID`:
 
-```
+```bash
 $ AZURE_SUBSCRIPTION_ID=00000000-0000-0000-0000-000000000000\
   snyk iac describe --to=azure+tf
 ```

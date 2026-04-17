@@ -89,7 +89,7 @@ An example of a set of role assertions for a user follows:
 {% hint style="info" %}
 The system also supports comma-separated lists of roles instead of an array.
 
-```
+```json
 {
   "roles": "snyk:group:*:group_viewer, snyk:org:development:org_admin, 
 snyk:org:test-org-N58YhztauHcaMiNfvi5fbL:custom:developer_readonly"
@@ -109,7 +109,7 @@ Custom mapping introduces wildcards, which allow one assertion to assign a user 
 
 Assertions using wildcards take a lower priority than assertions with a specific target. This means that it is possible, for example, to assign a user a default role for all Organizations, and specific roles in others:
 
-```
+```text
 roles: [
         "snyk:org:*:custom:developer_readonly",
         "snyk:org:development:org_admin",

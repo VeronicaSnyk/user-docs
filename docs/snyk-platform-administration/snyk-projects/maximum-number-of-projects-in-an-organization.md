@@ -24,7 +24,7 @@ In the Snyk CLI, the `snyk monitor` command returns the following error:
 
 In the Snyk API, an import request returns this error:
 
-```
+```text
 "data":{
         "code":400,
         "message":"This organization has 25000 of the maximum 25000 projects.

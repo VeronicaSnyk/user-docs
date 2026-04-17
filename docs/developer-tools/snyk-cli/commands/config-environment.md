@@ -41,7 +41,7 @@ Use only if the reported configuration issues are intentional and can be ignored
 
 ## Examples
 
-```
+```bash
 snyk config environment default
 snyk config environment SNYK-EU-01
 snyk config environment SNYK-AU-01

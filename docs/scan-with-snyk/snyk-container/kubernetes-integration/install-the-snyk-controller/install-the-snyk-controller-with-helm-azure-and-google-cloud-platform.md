@@ -22,7 +22,7 @@ To install the Snyk Controller with Helm, follow these mandatory steps:
 
 2. After the repository is added, create a unique namespace for the Snyk Controller:
 
-```
+```bash
 kubectl create namespace snyk-monitor
 ```
 
@@ -44,7 +44,7 @@ To install the Snyk Controller to scan images from a public container registry, 
 
 To do this, run the following command:
 
-```
+```bash
 kubectl create secret generic snyk-monitor -n snyk-monitor \
         --from-literal=dockercfg.json={} \
         --from-literal=integrationId=abcd1234-abcd-1234-abcd-1234abcd1234 \
@@ -57,7 +57,7 @@ For a successful integration, the secret must be called `snyk-monitor`.
 
 ### Install the Snyk Helm chart
 
-```
+```bash
 helm upgrade --install snyk-monitor snyk-charts/snyk-monitor \
              --namespace snyk-monitor \
              --set clusterName="Production cluster"
@@ -67,7 +67,7 @@ If you are running your own instance of Snyk, you must specify the API endpoint 
 
 In the following command, provide the full hostname of your Snyk instance.
 
-```
+```bash
 helm upgrade --install snyk-monitor snyk-charts/snyk-monitor \
              --namespace snyk-monitor \
              --set clusterName="Production cluster" \

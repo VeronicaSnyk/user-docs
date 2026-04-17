@@ -46,7 +46,7 @@ If the project root directory cannot be obtained from Git information, this scri
 
 The set up is as follows:
 
-```
+```bash
 mkdir -p ~/.config/nvim
 touch init.lua
 ```

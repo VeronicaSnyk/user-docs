@@ -19,13 +19,13 @@ To install `snyk-to-html`, you must have the required permissions on your machin
 
 You can install `snyk-to-html`using npm:
 
-```
+```bash
 npm install snyk-to-html -g
 ```
 
 To install the `snyk-to-html` plugin locally, [clone the `snyk-to-html` GitHub repository](https://github.com/snyk/snyk-to-html) and use the script:
 
-```
+```bash
 npm install
 npm run build
 node ./dist/index.js

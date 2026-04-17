@@ -18,7 +18,7 @@ You receive a webhook URL where you send requests.
 
 Create a Webhook in Snyk using the API with the `your-url` URL.
 
-```
+```text
 POST /api/v1/org/{orgId}/webhooks HTTP/2
 > Host: snyk.io
 > Authorization: token {authToken}
@@ -31,7 +31,7 @@ POST /api/v1/org/{orgId}/webhooks HTTP/2
 
 The API responds with the new webhook.
 
-```
+```text
 < HTTP/2 200 
 < Content-Type: application/json
 | {
@@ -42,7 +42,7 @@ The API responds with the new webhook.
 
 You can ping a webhook to test the Zapier trigger.
 
-```
+```text
 > POST /api/v1/org/{orgId}/webhooks/{webhookId}/ping HTTP/2
 > Host: snyk.io
 > Authorization: token {authToken}
@@ -110,7 +110,7 @@ Create the same JS Action:
 
 And the following JS snippet:
 
-```
+```text
 try {
   output = JSON.parse(inputData.body);
 } catch (err) {
@@ -128,7 +128,7 @@ Create one more JS Action:
 
 **"Code by Zapier" → "Run Javascript"**, and paste the following snippet:
 
-```
+```javascript
 function formatIssue({ pkgName, pkgVersions, issueData }) {
   return `
   <a href="${issueData.url}">${issueData.title}</a><br/>

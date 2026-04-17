@@ -39,6 +39,6 @@ Exclude resources not managed by IaC.
 
 ## Example
 
-```
+```bash
 $ snyk iac describe --json | snyk iac update-exclude-policy
 ```

@@ -6,6 +6,6 @@ See [Broker URLs](../../../../../../snyk-data-and-governance/regional-hosting-an
 
 Use the following command:
 
-```
+```bash
 --set brokerServerUrl=<broker-region-url>
 ```

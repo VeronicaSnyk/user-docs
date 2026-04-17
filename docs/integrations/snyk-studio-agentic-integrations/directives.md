@@ -40,7 +40,7 @@ The following directives can be customized to fit your organization needs.
 The following code snippet establishes the SAST constraint for new code and guides the agent through the mandated validation and remediation process:
 
 {% code overflow="wrap" %}
-```
+```text
 - Always run snyk_code_scan tool for new first party code that is generated in a Snyk-supported language.
 
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from Snyk.
@@ -58,7 +58,7 @@ The following code snippet establishes the SAST constraint for new code and guid
 The following code snippet extends the Secure at inception testing to include checks for Snyk Code, Snyk Open Source, Snyk Container, and Snyk IaC:
 
 {% code overflow="wrap" %}
-```
+```text
 - Always run snyk_code_scan tool for new first party code that is generated in a Snyk-supported language.
 - Always run snyk_sca_scan tool when dependencies are added or updated.
 - Always run snyk_container_scan tool when container images are built or referenced.
@@ -160,7 +160,7 @@ Once executed, a pull request can be generated to review, approve, and merge int
 This directive is invoked by calling the directive in an agent chat interaction, for example, `/snyk-fix`. This is invoked without any arguments, which results in any detected findings being remediated, or it is invoked with specific Snyk product filters or other indications of which resulting findings should be fixed:
 
 {% code title="snyk-fix.md" overflow="wrap" expandable="true" %}
-````
+````bash
 # Snyk Fix (All-in-One)
 
 ## Overview
@@ -367,7 +367,7 @@ If complex breaking changes detected:
 - Add TODO comments with migration notes
 - Note in summary that manual review is needed
 
-### Step 4.3: Apply Minimal Upgrade
+## Step 4.3: Apply Minimal Upgrade
 - Edit ONLY the necessary dependency in the manifest
 - Use the LOWEST version that fixes the vulnerability
 - Preserve file formatting and comments

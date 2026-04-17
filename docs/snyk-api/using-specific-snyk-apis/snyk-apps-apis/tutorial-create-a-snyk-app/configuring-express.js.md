@@ -10,7 +10,7 @@ In this section, we'll expand our application by adding `ExpressJS` to serve our
 
 Run the following to install the new packages we'll need for this section. We'll cover each in turn.
 
-```
+```bash
 npm install --save \
   express \
   express-rate-limit \
@@ -20,7 +20,7 @@ npm install --save \
 
 Install TypeScript type and interface definitions for our packages as dev dependencies:
 
-```
+```bash
 npm install --save-dev \
   @types/express \
   @types/express-rate-limit \

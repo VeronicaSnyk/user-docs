@@ -53,7 +53,7 @@ A `java.lang.NullPointerException` was encountered within Jetbrains 2025.1 when 
 
 The exception encountered is a `java.lang.NullPointerException` with the message: `Cannot read field "objId" because "robj" is null`. An examination of the stack trace reveals the origin and propagation of this error:
 
-```
+```text
 java.lang.NullPointerException: Cannot read field "objId" because "robj" is null
 at...[source](https://youtrack.jetbrains.com/issue/IJPL-186252/JCEF.-NullPointerException-Cannot-read-field-objId-because-robj-is-null)
 at com.intellij.ui.jcef.JBCefApp.createMessageRouter(JBCefApp.java:399)

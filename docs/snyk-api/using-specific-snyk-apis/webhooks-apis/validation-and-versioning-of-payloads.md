@@ -6,7 +6,7 @@ All transports sent to your webhooks have a `X-Hub-Signature` header, which cont
 
 You could use a function in Node.JS such as the following to validate these signatures on incoming requests from Snyk:
 
-```
+```javascript
 import * as crypto from 'crypto';
 
 function verifySignature(request, secret) {

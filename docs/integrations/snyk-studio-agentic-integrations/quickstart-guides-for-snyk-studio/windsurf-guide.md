@@ -99,7 +99,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for [Windsurf rules](https://docs.windsurf.com/windsurf/cascade/memories#rules). Append the following contents to the rules file at `global_rules.md`:
 
 {% code title="global_rules.md" overflow="wrap" %}
-```
+```yaml
 ---
 alwaysApply: true
 always_on: true
@@ -117,11 +117,11 @@ description: Snyk Security At Inception
 ```
 {% endcode %}
 
-#### Troubleshooting - Install Snyk MCP Server
+## Troubleshooting - Install Snyk MCP Server
 
 The Snyk MCP Server should be installed using the IDE Extension or Windsurf MCP Marketplace. If you need to install the Snyk MCP Server manually then follow one of the options below.
 
-#### Install with Node.js and `npx`
+### Install with Node.js and `npx`
 
 Create or edit the MCP configuration file `mcp_config.json` . This file can be accessed by navigating to the Windsurf Settings > Manage MCPs > View raw config.
 
@@ -141,7 +141,7 @@ If you have the Node.js `npx` executable installed in your environment, add the 
 
 <figure><img src="../../../.gitbook/assets/image (407) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Install with pre-installed Snyk CLI
+### Install with pre-installed Snyk CLI
 
 If you have the Snyk CLI installed and accessible on your system path, include the following JSON snippet in `mcp_config.json`. Specify the full path to the Snyk executable CLI:
 

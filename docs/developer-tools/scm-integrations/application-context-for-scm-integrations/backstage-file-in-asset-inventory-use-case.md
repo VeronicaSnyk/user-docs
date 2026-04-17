@@ -34,7 +34,7 @@ The Asset Summary tab shows the six backstage attributes that are configured in 
 
 In the Asset Attributes tab only the selected attributes should be added as metadata to the repository asset.
 
-```
+```json
 {
     name:"spring.goof",
     repositoryURL:"https://github.com/snyk/spring.goof.git",

@@ -24,7 +24,7 @@ If your credentials are already in `$HOME/.docker/config.json`, copy this inform
 
 If the `auth` entry is empty in the `$HOME/.docker/config.json`, run the following command and paste the output to `auth` entry in `dockercfg.json`:
 
-```
+```bash
 echo -n 'username:password' | base64
 ```
 

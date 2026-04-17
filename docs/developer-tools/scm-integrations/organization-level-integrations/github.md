@@ -1,6 +1,6 @@
 # GitHub
 
-### Prerequisites for GitHub integration
+## Prerequisites for GitHub integration
 
 * Internet-accessible repositories.\
   If your repositories are not internet-accessible, you must use [Snyk Broker](../../../implementation-and-setup/enterprise-setup/snyk-broker/).

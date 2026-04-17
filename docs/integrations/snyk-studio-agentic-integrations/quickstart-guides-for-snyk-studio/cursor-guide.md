@@ -48,7 +48,7 @@ Free users are limited to a set number of scans. If you reach the allotment, we 
 
 ## Alternative: Install Snyk Studio Directly
 
-#### Install using the Cursor Link
+### Install using the Cursor Link
 
 Click [this link](cursor://anysphere.cursor-deeplink/mcp/install?name=snyk\&config=eyJjb21tYW5kIjoibnB4IC15IHNueWtAbGF0ZXN0IG1jcCAtdCBzdGRpbyJ9) to directly add the Snyk MCP Server to Cursor. Confirm the installation by clicking `Install` in the Cursor settings.
 
@@ -124,7 +124,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for [Cursor rules](https://docs.cursor.com/en/context/rules). Append the following contents to the rules file at `.cursor/rules`:
 
 {% code title=".cursor/rules" overflow="wrap" %}
-```
+```yaml
 ---
 alwaysApply: true
 always_on: true

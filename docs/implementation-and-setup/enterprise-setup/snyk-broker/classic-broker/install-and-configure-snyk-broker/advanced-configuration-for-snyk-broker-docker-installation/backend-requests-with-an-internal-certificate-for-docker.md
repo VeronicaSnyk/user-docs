@@ -4,7 +4,7 @@ By default, the Broker Client establishes HTTPS connections to the backend syste
 
 For example, if your CA certificate is at `./private/ca.cert.pem`, provide it to the Docker container by mounting the folder and using the `NODE_EXTRA_CA_CERT` environment variable. See the following example for Bitbucket:
 
-```
+```bash
 docker run --restart=always \
            -p 8000:8000 \
            -e BROKER_TOKEN=secret-broker-token \
@@ -30,7 +30,7 @@ It must be `PEM`-formatted; `DER` is not supported. Supported certificate types 
 
 An example follows.
 
-```
+```text
 -----BEGIN CERTIFICATE-----
 <base64-encoded certificate>
 -----END CERTIFICATE----

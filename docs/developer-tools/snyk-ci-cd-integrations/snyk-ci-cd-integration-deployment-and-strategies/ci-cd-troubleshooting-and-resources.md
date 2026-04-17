@@ -2,7 +2,7 @@
 
 This page provides a few tips to help troubleshoot or scale CI/CD integrations.
 
-### Step 1: Try to replicate with the Snyk CLI
+## Step 1: Try to replicate with the Snyk CLI
 
 If the CLI and the pipeline are running the same engine, try to clone the Project and scan with the CLI.
 

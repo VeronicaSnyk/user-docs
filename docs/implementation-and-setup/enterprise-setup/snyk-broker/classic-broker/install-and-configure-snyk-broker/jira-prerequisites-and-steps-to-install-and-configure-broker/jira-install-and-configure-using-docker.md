@@ -38,7 +38,7 @@ When SSO is enabled, JIRA usually prohibits the use of a username and password a
 
 When SSO is enabled, you must use a specific Jira version that will instead use the authorization header with the bearer token. To use this version, provide the following configuration:
 
-```
+```bash
 docker run --restart=always \
            -p 8000:8000 \
            -e BROKER_TOKEN=secret-broker-token \

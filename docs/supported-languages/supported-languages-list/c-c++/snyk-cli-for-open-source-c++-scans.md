@@ -34,7 +34,7 @@ Having a large percentage of files in their original (unchanged) form is critica
 
 The example that follows shows a typical package with dependencies listed:
 
-```
+```bash
 c-example
 ├── deps
 │   ├── curl-7.58.0
@@ -155,7 +155,7 @@ You may need to change the source code of the dependencies that you use in your 
 
 To get machine-readable output in JSON, use the `--json` option:
 
-```
+```bash
 $ snyk test --unmanaged --json
 [
   {
@@ -272,7 +272,7 @@ For more information about command line options, see the Snyk help docs: [Option
 
 To import the test results (issues and dependencies) in the Snyk CLI, run the `snyk monitor --unmanaged` command:
 
-```
+```bash
 $ snyk monitor --unmanaged
 Monitoring /c-example (c-example)...
 

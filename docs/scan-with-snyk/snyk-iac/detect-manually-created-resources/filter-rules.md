@@ -11,7 +11,7 @@ Filters are applied on a normalized `struct` that contains the following fields:
 
 ​Examples of filter rules follow.
 
-```
+```bash
 # Will include only S3 bucket in the search
 $ snyk iac describe --filter="Type=='aws_s3_bucket'"
 # OR (beware of escape your shell special chars between double quotes)

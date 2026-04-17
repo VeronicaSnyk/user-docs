@@ -47,13 +47,13 @@ Regardless of the Organization you set as a global default, you can [run specifi
 
 To set a default Organization for all CLI tests, In the terminal, enter
 
-```
+```bash
 snyk config set org=<ORG_ID_or_ORG_INTERNAL_NAME>
 ```
 
 You receive the following confirmation:
 
-```
+```text
 org updated
 ```
 
@@ -61,7 +61,7 @@ From now on, all your CLI tests will run under the specified Organization.
 
 For example, to set the Snyk Demo Org as the default Organization for the CLI tests, use the Organization ID and enter:
 
-```
+```bash
 snyk config set org=a7708807-3881-xxxx-xxxx-xxxxxxxxxxxx
 ```
 
@@ -77,13 +77,13 @@ You can run a specific CLI test under a different Organization from the default.
 
 To set an Organization for a specific CLI test in the terminal, after the `test` command enter:
 
-```
+```bash
 --org=<ORG_ID_or_ORG_INTERNAL_NAME>
 ```
 
 For example, to set the Snyk Test Org as the Organization for a specific CLI test, we use the Organization internal name and enter:
 
-```
+```bash
 snyk code test --org=snyk-xxxx-xxx 
 ```
 

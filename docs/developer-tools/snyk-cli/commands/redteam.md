@@ -234,7 +234,7 @@ strategies:
   - "crescendo"
 ```
 
-### Validation rules
+## Validation rules
 
 The CLI validates the configuration before starting a scan:
 

@@ -21,7 +21,7 @@ You also need the subscription and tenant IDs of the Azure subscription you are 
 1. In the [Snyk Web UI](https://app.snyk.io/), navigate to **Settings** > **General** > **Organization ID** and copy your Organization ID.
 2. Send a request to the Snyk API in the following format, replacing `INPUT-TYPE` with `tf` for Terraform or `bash` for Bash:
 
-```
+```bash
 curl -X POST \
 'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/permissions?version=2022-12-21~beta' \
 -H 'Authorization: token YOUR-API-TOKEN' \

@@ -71,7 +71,7 @@ The following is a suggested instruction for creating project rules for use with
 <figure><img src="../../../.gitbook/assets/image (346) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code title=".amazonq/rules/amazonq-rules.md" overflow="wrap" %}
-```
+```text
 - Always run **snyk_code_scan** tool for new first party code that is generated in a Snyk-supported language.
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from **Snyk**.
 - Rescan the code after fixing the issues to ensure that the issues were fixed and that there are no newly introduced issues.

@@ -44,6 +44,6 @@ You can script this process and run it in a CLI pipeline or helm-template files 
 
 To share CLI results with the Snyk Web UI, use the `--report` CLI option. For example:
 
-```
+```bash
 snyk iac test out/ --report
 ```

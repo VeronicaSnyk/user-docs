@@ -8,7 +8,7 @@ The v1 Reporting API is being deprecated, and future development and support are
 
 This guide outlines the migration path for all routes in the legacy v1 Reporting API.
 
-### V1 Reporting legacy API to New Export API migration guide
+## V1 Reporting legacy API to New Export API migration guide
 
 The most significant change is the shift from a direct, synchronous request/response model (v1) to an asynchronous job-based model (Export API).
 
@@ -20,7 +20,7 @@ The most significant change is the shift from a direct, synchronous request/resp
 | Rate Limit         | 70 requests per minute, per user                 | 20 export POST requests per hour (status/results checks are unlimited)                                                                                                                                                                                                                                                         |
 | Required Headers   | Authorization                                    | Authorization, Version (for example `2024-10-15`)                                                                                                                                                                                                                                                                              |
 
-#### New export workflow
+### New export workflow
 
 To replace any v1 Reporting API call, follow these steps:
 

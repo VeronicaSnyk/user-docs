@@ -100,7 +100,7 @@ See the [Project Update documentation](../../../snyk-api/reference/projects-v1.m
 
 Example:
 
-```
+```text
  "tags": [
     {
       "key": "component",

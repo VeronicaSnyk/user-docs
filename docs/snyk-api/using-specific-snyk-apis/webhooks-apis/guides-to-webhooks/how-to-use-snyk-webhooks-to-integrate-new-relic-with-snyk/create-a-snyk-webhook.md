@@ -20,7 +20,7 @@ Content-Type: application/json
 
 The response is like this:
 
-```
+```json
 {
   "id": "{SNYK-WEBHOOK-ID}",
   "url": "https://{TARGET-WEBHOOK-URL}",

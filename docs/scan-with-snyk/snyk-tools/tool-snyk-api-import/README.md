@@ -27,13 +27,13 @@ Use the [GitHub Releases](https://github.com/snyk/snyk-api-import/releases) to d
 
 [snyk-api-import CLI is available as an npm package](https://www.npmjs.com/package/snyk-api-import). If you have Node.js installed locally, you can install it by running:
 
-```
+```bash
 npm install snyk-api-import@latest -g
 ```
 
 If you are using Yarn, run:
 
-```
+```bash
 yarn global add snyk-api-import
 ```
 

@@ -88,7 +88,7 @@ To configure the Container Registry Agent, the following environment variables a
 
 Run the Container Registry Agent container with the relevant configuration:
 
-```
+```bash
 docker run --restart=always \
        -p 8081:8081 \
        -e SNYK_PORT=8081 \
@@ -137,7 +137,7 @@ The following environment variables are required to configure the Broker Client.
 
 Run the Broker Client container with the relevant configuration:
 
-```
+```bash
 docker run --restart=always \
        -p 8000:8000 \
        -e BROKER_TOKEN="<secret-broker-token>" \
@@ -185,7 +185,7 @@ ECR setup requires that the following kinds of IAM resources be created:
 *   Snyk ECR Service Role: an IAM Role with access to ECR which is assumed by the Container Registry Agent IAM Role or IAM User to gain read-only access to ECR.\
     The ECR Service Role should have the following permissions:
 
-    ```
+    ```json
     [
       "ecr:GetLifecyclePolicyPreview",
       "ecr:GetDownloadUrlForLayer",

@@ -20,7 +20,7 @@ Install the Snyk MCP Server using the method suited to your OS and environment.
 
 Create or edit the MCP configuration file `~/Library/Application Support/Factory Bridge/mcp.json` .
 
-```
+```json
 {
   "mcpServers": { 
     "Snyk": {
@@ -40,7 +40,7 @@ If the `snyk` command is not available, add it by following the instructions on 
 
 #### Install with Node.js and `npx`
 
-```
+```json
 {
   "mcpServers": { 
     "Snyk": {
@@ -100,7 +100,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 
 The following is a suggested instruction for [creating memories with Factory](https://docs.factory.ai/user-guides/memory/understanding-memory#adding-new-facts):
 
-```
+```text
 - Always run **snyk_code_scan** tool for new first party code that is generated in a Snyk-supported language.
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from **Snyk**.
 - Rescan the code after fixing the issues to ensure that the issues were fixed and that there are no newly introduced issues.

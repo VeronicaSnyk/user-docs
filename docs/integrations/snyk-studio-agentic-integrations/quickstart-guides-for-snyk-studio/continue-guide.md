@@ -20,7 +20,7 @@ Install the Snyk MCP Server using the method that best suits your operating syst
 
 Create or edit the MCP configuration file `~/.continue/mcpServers/new-mcp-server.yaml` .
 
-```
+```yaml
 name: MCP Server
 version: 0.0.1
 schema: v1
@@ -40,7 +40,7 @@ If the `snyk` command is not available, add it by following the instructions on 
 
 Create or edit the MCP configuration file `~/.continue/mcpServers/new-mcp-server.yaml` .
 
-```
+```yaml
 name: MCP Server
 version: 0.0.1
 schema: v1
@@ -94,7 +94,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 
 The following is a suggested instruction for creating project rules for use with [Continue](https://docs.continue.dev/customize/deep-dives/rules). Append the following contents to the rules file at `.continue/rules/new-rule.md`:
 
-```
+```yaml
 ---
 applyTo: "**"
 ---

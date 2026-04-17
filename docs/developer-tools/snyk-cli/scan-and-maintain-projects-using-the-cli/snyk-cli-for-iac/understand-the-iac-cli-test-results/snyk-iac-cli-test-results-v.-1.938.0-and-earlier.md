@@ -8,7 +8,7 @@ Snyk analyzes your configuration file for issues and provides additional informa
 
 For example, when scanning a Terraform file, run the following command:
 
-```
+```bash
 snyk iac test aws_api_gateway_stage_logging.tf
 ```
 
@@ -25,14 +25,14 @@ The results include a list of issues sorted by severity, where each issue report
 
 The path of this issue is specified as follows:
 
-```
+```text
 resource > aws_api_gateway_stage[denied] > access_log_settings
 ```
 
 The following example represents the content of the `aws_api_gateway_stage` block, called "**denied**", which lacks the `access_log_settings` field.
 
 {% code title="aws_api_gateway_stage_logging.tf" %}
-```
+```hcl
 resource "aws_api_gateway_stage" "denied" {
   xray_tracing_enabled = true
 }

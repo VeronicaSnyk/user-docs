@@ -44,7 +44,7 @@ docker run --restart=always \
 
 Copy the following command to set up a fully configured Broker Client to use with Nexus 2. You can run the Docker container by providing the relevant configuration:
 
-```
+```bash
 docker run --restart=always \
   -p 7341:7341 \
   -e BROKER_TOKEN=<secret-broker-token> \

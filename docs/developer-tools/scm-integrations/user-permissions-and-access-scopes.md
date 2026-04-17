@@ -13,7 +13,7 @@ See the following for detailed permission requirements:
 * [Bitbucket](user-permissions-and-access-scopes.md#bitbucket-permission-requirements)
 * [Azure Repositories (TFS)](user-permissions-and-access-scopes.md#azure-repositories-tfs-permission-requirements)
 
-### GitHub for Snyk Essentials
+## GitHub for Snyk Essentials
 
 A PAT generated for the Group-level GitHub integration requires the following permissions:
 

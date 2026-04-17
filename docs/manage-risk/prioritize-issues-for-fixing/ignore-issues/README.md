@@ -63,7 +63,7 @@ For more information, see the [`ignore`](../../../developer-tools/snyk-cli/comma
 
 When you use `snyk ignore` for Open Source, the `.snyk` policy file is updated with the path and reason given if one was provided. An example follows:
 
-```
+```yaml
 'npm:moment:20170905':
 - moment:
 reason: The reason given
@@ -106,7 +106,7 @@ For Open Source Projects, you can ignore the vulnerability by creating a `.snyk`
 
 For example, if you want to ignore the vulnerability with SNYK ID [SNYK-RUBY-FASTREADER-20085](https://snyk.io/vuln/SNYK-RUBY-FASTREADER-20085) in `fastreader`, with the reason “No fix available” until 01 Jan 2024, you would write the following:
 
-```
+```yaml
 version: v1.5.0
 ignore:
     'SNYK-RUBY-FASTREADER-20085':
@@ -137,13 +137,13 @@ Thus when you ignore an issue, Snyk Code can also ignore that issue if it occurs
 
 As an example, the following two code snippets, denote the same issue, as the developer only renamed the variables:
 
-```
+```javascript
 var fs = require('fs');
 var logFileName = req.query.file || 'standard_log.log';
 var logfile = fs.readFile(logFileName, "utf8", function(err, data) {...
 ```
 
-```
+```javascript
 var filesystem = require('fs');
 var generalLogFileName = req.query.file || 'standard_log.log'; 
 var handleLogFile = filesystem.readFile(generalLogFileName, "utf8", function(err, data) {...

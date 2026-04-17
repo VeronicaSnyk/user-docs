@@ -93,7 +93,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction to use with [Goose CLI recipes](https://block.github.io/goose/docs/guides/recipes/session-recipes) or with [Goose hints file](https://block.github.io/goose/docs/guides/using-goosehints). Add the following contents to the `.goosehints` file in the root directory of the Project:
 
 {% code title=".goosehints" overflow="wrap" %}
-```
+```text
 # Project security best practices
 
 - Always run **snyk_code_scan** tool for new first party code that is generated in a Snyk-supported language.

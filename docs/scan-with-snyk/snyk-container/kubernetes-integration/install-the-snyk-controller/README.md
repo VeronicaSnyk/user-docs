@@ -13,7 +13,7 @@ Before you install the Snyk Controller:
 * You must have a minimum of 50 GB of storage available in the cluster as an [emptyDir](https://kubernetes.io/docs/concepts/storage/volumes/#emptydir).
 * You must have a minimum of the RAM requirements indicated in the code that follows to run on the cluster.
 
-```
+```yaml
 requests: cpu: "250m" memory: "400Mi"
 limits: cpu: "1" memory: "2Gi"
 ```

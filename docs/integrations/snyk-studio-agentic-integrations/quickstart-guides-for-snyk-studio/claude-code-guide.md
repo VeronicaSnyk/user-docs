@@ -67,7 +67,7 @@ The default ruleset frequency can be adjusted by editing the global `CLAUDE.md` 
 &#x20;For reference, the following are the smart apply rules Snyk places in Claude's global rules file when prompted:
 
 {% code overflow="wrap" %}
-```
+```text
 BEFORE declaring task complete: Run snyk_code_scan tool when a significant change has been made in first party code.
 - This should only apply for Snyk-supported coding language
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from Snyk.
@@ -112,7 +112,7 @@ Create or edit the MCP configuration file `~/.claude.json` .
 
 If you have the Snyk CLI installed and accessible on your system path, include the following JSON snippet in the file. You might need to specify the full path to the Snyk executable CLI:
 
-```
+```json
 {
   "mcpServers": {
     "Snyk": {
@@ -135,13 +135,13 @@ If the `snyk` command is not available, add it by following the instructions on 
 
 Run the Snyk MCP Server in `sse` transport mode using the Snyk CLI:
 
-```
+```bash
 snyk mcp -t sse 
 ```
 
 Then run the Claude Code CLI for adding a new MCP server:
 
-```
+```bash
 claude mcp add --transport sse snyk http://127.0.0.1:7695/sse
 ```
 
@@ -169,7 +169,7 @@ As a one-time setup, you need to authenticate and trust the current Project dire
 
 To remove Snyk Studio and its associated ruleset from your environment, use:
 
-```
+```bash
 snyk mcp configure --rm --tool=claude-cli
 ```
 
@@ -182,7 +182,7 @@ The following is a suggested instruction for creating project rules for use with
 <figure><img src="../../../.gitbook/assets/image (381) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code title="CLAUDE.md" overflow="wrap" %}
-```
+```text
 - Always run **snyk_code_scan** tool for new first party code that is generated in a Snyk-supported language.
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from **Snyk**.
 - Rescan the code after fixing the issues to ensure that the issues were fixed and that there are no newly introduced issues.

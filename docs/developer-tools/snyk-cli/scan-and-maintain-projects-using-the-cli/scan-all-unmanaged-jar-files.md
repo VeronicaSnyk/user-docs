@@ -30,7 +30,7 @@ The following is a Linux/Mac Bash script used with CLI versions before Snyk CLI 
 
 Setting a value for the `REMOTE_REPO_URL` variable is important; it is used to combine all scan results under a single Snyk Project in the UI using the `--remote-repo-url` parameter.
 
-```
+```bash
 #!/bin/bash
 
 SNYK_CLI_BINARY_NAME=snyk-cli

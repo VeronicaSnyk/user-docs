@@ -2,16 +2,16 @@
 
 This page provides an example of integrating Snyk into your GitHub workflow using the [Snyk CLI](../../).
 
-### Step 1: Set up the environment
+## Step 1: Set up the environment
 
 1.  Open the [Snyk CLI](../../), and run a git clone command on the **goof** repository.
 
-    ```
+    ```bash
        git clone https://github.com/snyk/goof.git
     ```
 2.  Create a new branch, add vulnerabilities on this branch, then merge changes back to GitHub as a Pull Request:
 
-    ```
+    ```bash
        git branch add_vulns
        git checkout add_vulns
     ```
@@ -30,7 +30,7 @@ To add the dependency:
 
 * Add the **tinymce 4.1.0** library at the bottom of the dependencies list:
 
-```
+```json
    {
    "name": "goof",
    ...
@@ -49,7 +49,7 @@ Tip: remember to place a comma after the previous dependency.
 
 *   Create a [lock file](https://docs.npmjs.com/files/package-lock.json) for the Node application:
 
-    ```
+    ```bash
     npm install --package-lock
     ```
 
@@ -61,7 +61,7 @@ Tip: if this file already exists, run rm package-lock.json to remove it.
 
 * Commit your change locally, checking the status of the change in the local git repository, then adding the change to the local git, and then committing it:
 
-```
+```bash
    git status
    git add package*
    git commit -m "adding tinymce v4.1.0"
@@ -69,11 +69,11 @@ Tip: if this file already exists, run rm package-lock.json to remove it.
 
 * Commit your local code change to GitHub, transferring the files and history to your upstream git repository on GitHub:
 
-```
+```bash
    git push --set-upstream origin add_vulns
 ```
 
-```
+```text
 GitHub has received your changes on your **add\_vulns** branch.
 ```
 

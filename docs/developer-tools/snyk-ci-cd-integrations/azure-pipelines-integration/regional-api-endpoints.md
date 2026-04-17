@@ -6,7 +6,7 @@ For more information about environment configuration, see [Configure the Snyk CL
 
 An example follows of  how you can modify the Snyk scan task to use an alternate endpoint:
 
-```
+```yaml
 variables:
   SNYK_API: https://api.us.snyk.io/
 ...

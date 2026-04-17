@@ -8,7 +8,7 @@ The GitHub Enterprise integration is available only with Enterprise plans. For m
 
 If you are a Snyk Enterprise plan customer, Snyk recommends that you use the GitHub Enterprise integration. If you use the self-hosted GitHub Enterprise product, you must use the GitHub Enterprise integration.
 
-### Prerequisites for GitHub Enterprise integration
+## Prerequisites for GitHub Enterprise integration
 
 * Internet-accessible repositories.\
   If your repositories are not internet-accessible, you must use [Snyk Broker](../../../implementation-and-setup/enterprise-setup/snyk-broker/). This requires creating a startup script. For the script and instructions, visit [GitHub Enterprise - install and configure using Docker](../../../enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/github-enterprise-prerequisites-and-steps-to-install-and-configure-broker/github-enterprise-install-and-configure-using-docker.md).

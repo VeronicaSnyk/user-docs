@@ -6,7 +6,7 @@ You can view all attributes for cloud resources in an Organization. This allows 
 
 To list all resources in an Organization, send a request to the [`/cloud/resources`](https://apidocs.snyk.io/#get-/orgs/-org_id-/cloud/resources) endpoint in the following format:
 
-```
+```bash
 curl -X GET \
   'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/resources?version=2022-12-21~beta' \
   -H 'Authorization: token YOUR-API-TOKEN'
@@ -103,7 +103,7 @@ Query parameters allow you to filter the list of resources.
 
 For example, to return resources from a single environment, add `environment_id=YOUR-ENVIRONMENT-ID` to the URL:
 
-```
+```bash
 curl -X GET \
   'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/resources?environment_id=YOUR-ENVIRONMENT-ID&version=2022-12-21~beta' \
   -H 'Authorization: token YOUR-API-TOKEN'
@@ -111,7 +111,7 @@ curl -X GET \
 
 Some parameters allow you to specify multiple values. To return resources in Amazon Web Services (AWS) regions `us-east-1` or `us-east-2`, add `location=us-east-1,us-east-2` to the URL:
 
-```
+```bash
 curl -X GET \
   'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/resources?location=us-east-1,us-east-2&version=2022-12-21~beta' \
   -H 'Authorization: token YOUR-API-TOKEN'
@@ -119,7 +119,7 @@ curl -X GET \
 
 You can combine query parameters by using the `&` symbol. To return only 5 AWS S3 buckets, add `resource_type=aws_s3_bucket&limit=5` to the URL:
 
-```
+```bash
 curl -X GET \
   'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/resources?resource_type=aws_s3_bucket&limit=5&version=2022-12-21~beta' \
   -H 'Authorization: token YOUR-API-TOKEN'
@@ -131,7 +131,7 @@ For a list of supported parameters, see the [List resources API documentation](h
 
 To view details for a single resource through the Snyk API, send a request in the following format.&#x20;
 
-```
+```bash
 curl -X GET \
   'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/resources?id=YOUR-RESOURCE-ID&version=2022-12-21~beta' \
   -H 'Authorization: token YOUR-API-TOKEN'

@@ -24,7 +24,7 @@ Additionally, after you create the IAM role, allow a few minutes for AWS to upda
 
 An example follows:
 
-```
+```text
    arn:aws:iam::881001789406:role/TestSnykIntegration_role
 ```
 

@@ -10,18 +10,18 @@ Be sure you have the [Serverless CLI installed](https://www.serverless.com/frame
 
 After installing the Serverless CLI, **navigate** to the directory that contains your Serverless files and **generate** the Serverless artifacts by entering the following:
 
-```
+```bash
 serverless package --package serverless-artifacts
 ```
 
 Then you can enter the following Snyk CLI command to test for vulnerabilities:
 
-```
+```bash
 snyk iac test
 ```
 
 You can also upload the results into the Snyk UI with the command:
 
-```
+```bash
 snyk iac test --report
 ```

@@ -1,6 +1,6 @@
 # GitHub Read-only Projects
 
-### How GitHub Read-only Projects work
+## How GitHub Read-only Projects work
 
 Snyk offers GitHub Read-only Projects, providing the ability to monitor a public GitHub repository that is not owned by your Organization.
 

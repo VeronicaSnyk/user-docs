@@ -10,7 +10,7 @@ The steps to start an import follow.
 
 The file is expected to have a required `targets` top-level key, which is an array of import targets.
 
-```
+```text
 {
   targets: [
     {..},
@@ -21,7 +21,7 @@ The file is expected to have a required `targets` top-level key, which is an arr
 
 Each **import target** has the following keys:
 
-```
+```json
 {
   // required
   "orgId": "<public_snyk_org_id>",
@@ -50,7 +50,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: GitLab**
 
-```
+```json
 {
   "targets": [
     {
@@ -75,7 +75,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: Bitbucket Server**
 
-```
+```json
 {
   "targets": [
     {
@@ -105,7 +105,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: GitHub.com, GitHub Enterprise, dev.azure.com, Hosted Azure Repos**
 
-```
+```json
 {
   "targets": [
     {
@@ -124,7 +124,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: Google Container Registry**
 
-```
+```json
 {
   "targets": [
     {
@@ -140,7 +140,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: Azure Container Registry, Elastic Container Registry, Artifactory Container Registry**
 
-```
+```json
 {
   "targets": [
     {

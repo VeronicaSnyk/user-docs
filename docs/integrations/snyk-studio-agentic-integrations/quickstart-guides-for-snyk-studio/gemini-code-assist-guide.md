@@ -102,7 +102,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for Gemini Code Assist rules. Following the [documentation proposal for Gemini Code Assist style guide](https://developers.google.com/gemini-code-assist/docs/customize-gemini-behavior-github), append the following contents to the rules file at `.gemini/styleguide.md`:
 
 {% code title=".gemini/styleguide.md" overflow="wrap" %}
-```
+```text
 
 # Project security best practices
 
@@ -113,7 +113,7 @@ The following is a suggested instruction for Gemini Code Assist rules. Following
 ```
 {% endcode %}
 
-#### Add Gemini Code Assist security rules using the Settings UI
+## Add Gemini Code Assist security rules using the Settings UI
 
 You can add these rules using VS Code **UI Settings** and locate the **Geminicodeassist: Rules** configuration:
 

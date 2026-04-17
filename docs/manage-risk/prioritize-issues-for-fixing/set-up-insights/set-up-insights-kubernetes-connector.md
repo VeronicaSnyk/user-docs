@@ -72,7 +72,7 @@ To ensure you have set up your Kubernetes connector properly, navigate to the **
 
 ## FAQ
 
-#### **What is the difference between the** [**Kubernetes monitor**](../../../scan-with-snyk/snyk-container/kubernetes-integration/overview-of-kubernetes-integration/) **(also called Snyk Controller or Snyk-Monitor) and the Kubernetes connector?**
+### **What is the difference between the** [**Kubernetes monitor**](../../../scan-with-snyk/snyk-container/kubernetes-integration/overview-of-kubernetes-integration/) **(also called Snyk Controller or Snyk-Monitor) and the Kubernetes connector?**
 
 * The Kubernetes monitor extracts images from a Kubernetes cluster’s workloads and scans them for vulnerabilities. The Kubernetes monitor reports the **Deployed** risk factor.
 * The Kubernetes connector extracts workload configurations from a Kubernetes cluster. The Kubernetes connector reports the **Public facing** and **Deployed** risk factors.

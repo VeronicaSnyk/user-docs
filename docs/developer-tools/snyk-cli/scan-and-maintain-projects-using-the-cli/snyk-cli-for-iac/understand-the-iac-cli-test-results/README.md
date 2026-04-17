@@ -11,7 +11,7 @@ Snyk Infrastructure as Code offers additional CLI `iac test` results in Snyk CLI
 
 To use the new IaC CLI output results, install the latest Snyk CLI version or update to this version, for example, by entering:
 
-```
+```bash
 npm install snyk -g 
 ```
 

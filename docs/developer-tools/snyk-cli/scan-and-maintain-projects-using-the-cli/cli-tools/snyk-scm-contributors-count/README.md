@@ -44,7 +44,7 @@ Note that currently the tool **does not** count emails that end with "noreply.gi
 
 Run the following:
 
-```
+```bash
 npm i -g snyk-scm-contributors-count
 ```
 

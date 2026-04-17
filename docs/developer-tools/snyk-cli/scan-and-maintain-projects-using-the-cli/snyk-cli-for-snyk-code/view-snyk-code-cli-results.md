@@ -69,7 +69,7 @@ You can filter the test results that are shown in the CLI terminal and display o
 
 To display only issues above a specific severity level, enter the following:
 
-```
+```bash
 snyk code test <path/to/folder> --severity-threshold=<low|medium|high>
 ```
 
@@ -81,7 +81,7 @@ For example, in the `snyk-goof-master` folder, eight issues were found, four wit
 
 To display only issues with a High severity level and above, enter the following:
 
-```
+```bash
 snyk code test /Users/username/Documents/Repositories/snyk-goof-master --severity-threshold=high
 ```
 
@@ -117,13 +117,13 @@ The severity levels of the issues discovered by running `snyk code test` and rep
 
 To output the test results to JSON format, enter the following:
 
-```
+```bash
 snyk code test <path/to/folder> --json
 ```
 
 To output the test results to SARIF format, enter the following:
 
-```
+```bash
 snyk code test <path/to/folder> --sarif
 ```
 
@@ -131,7 +131,7 @@ The test results appear in the terminal in JSON or SARIF format.
 
 Because JSON and SARIF are the same for `snyk code test`, only a JSON example is shown here. The example shows how to output the test results of the `snyk-goof-master` folder in JSON format in the terminal by using the following command:
 
-```
+```bash
 snyk code test /Users/username/Documents/Repositories/snyk-goof-master --json
 ```
 
@@ -155,13 +155,13 @@ The `snyk code test --json-file-output=<path/to/new_file>` command is available 
 
 To export the results to a new JSON file, with a standard display of results in the terminal, use the following command:
 
-```
+```bash
 snyk code test --json-file-output=<path/to/new_json_file>
 ```
 
 To export the test results to a new SARIF file, use the following command:
 
-```
+```bash
 snyk code test --sarif-file-output=<path/to/new_sarif_file>
 ```
 
@@ -169,7 +169,7 @@ The test results appear in the terminal in the standard format, and a JSON or SA
 
 Because JSON and SARIF are the same for snyk code test, only a JSON example is shown here. To export the test results of the `snyk-goof-master` folder to a JSON file called `json`, change the directory to the root folder of the repository, and enter the following:
 
-```
+```bash
 snyk code test --json-file-output=json
 ```
 
@@ -185,12 +185,12 @@ In the repository folder, a JSON file is created:
 
 To export the results to a new JSON file without displaying the results in the terminal, use the following command:
 
-```
+```bash
 snyk code test --json > <path/to/new_json_file>
 ```
 
 To export the results to a SARIF file without displaying the results in the terminal, use the following command:
 
-```
+```bash
 snyk code test --sarif > <path/to/new_sarif_file>
 ```

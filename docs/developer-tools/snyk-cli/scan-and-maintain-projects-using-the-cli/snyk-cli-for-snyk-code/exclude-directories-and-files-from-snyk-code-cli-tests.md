@@ -18,7 +18,7 @@ The command `snyk ignore --file-path` applies only to the folder from which you 
 
 2\. In the terminal, enter the following:
 
-```
+```bash
 snyk ignore --file-path=<directory_or_file>
 ```
 
@@ -30,7 +30,7 @@ The `.snyk` file is created as a hidden file. If you do not see it in your root 
 
 3\. Optionally, to specify several directories or files for exclusion enter:
 
-```
+```bash
 snyk ignore --file-path=<directory1_or_file1> && snyk ignore --file-path=<directory2_or_file2> && snyk ignore --file-path=<directory3_or_file3>
 ```
 
@@ -46,7 +46,7 @@ To re-include in the test directories or files that were excluded from it, manua
 
 2\. To exclude the `app.js` and `db.js` files, and display only issues that are discovered in the `routes/index.js` file, enter:
 
-```
+```bash
 snyk ignore --file-path=app.js && snyk ignore --file-path=db.js
 ```
 

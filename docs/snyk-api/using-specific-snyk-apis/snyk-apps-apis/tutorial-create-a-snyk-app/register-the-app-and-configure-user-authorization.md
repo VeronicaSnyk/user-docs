@@ -16,7 +16,7 @@ We've made some good progress with our TypeScript application so far, but at the
 
 There are two methods for retrieving an `orgid`. The first is to log in to your Snyk account and visit the Organization settings page of the Organization for which you wish to retrieve the ID. The path to the Organization settings page is:
 
-```
+```text
 https://app.snyk.io/org/{your-org-name}/manage/settings
 ```
 
@@ -73,7 +73,7 @@ After access has been provisioned, the user will be kicked back to our app's reg
 
 Essentially, our app needs to generate a link like the following and then send the user to it when it's time to authorize:
 
-```
+```text
 https://app.snyk.io/oauth2/authorize?response_type=code&client_id={clientId}&redirect_uri={redirectURI}&state={state}&code_challenge={codeChallenge}&code_challenge_method=S256
 ```
 

@@ -84,7 +84,7 @@ You can filter unenriched repositories directly from the banner by selecting the
 
 <figure><img src="../.gitbook/assets/inventory_all_assets_no_of_repos.png" alt=""><figcaption></figcaption></figure>
 
-#### Unenriched assets with Group SCM integration
+### Unenriched assets with Group SCM integration
 
 If you use a Group-level integration, the banner shows assets not discovered through that integration. Although the integration is in place, some assets are not being pulled in. Possible reasons for unrenriched assets:
 

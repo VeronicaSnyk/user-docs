@@ -14,7 +14,7 @@ Snyk does not share any file contents over the network, only the required metada
 
 ## `snyk iac test --report` example output
 
-```
+```text
 > snyk iac test myproject --report
 
 Testing arm-file.tf...
@@ -63,7 +63,7 @@ You can attach tags to the scanned Projects using the `--project-tags` option. T
 
 The following example attaches the tags `department` and `team` to the scanned Projects, with values `platform` and `persistence`, respectively.
 
-```
+```bash
 > snyk iac test myproject --report \
     --project-tags=department=platform,team=persistence
 ```
@@ -78,7 +78,7 @@ You can set attributes for the scanned Projects using the `--project-business-cr
 
 The following example sets the business criticality to `high`, the environment to the values `frontend` and `internal`, and the lifecycle to `development` for each scanned Project.
 
-```
+```bash
 > snyk iac test myproject --report \
     --project-business-criticality=high \
     --project-environment=frontend,internal \
@@ -91,7 +91,7 @@ You can set the target reference for the scanned Projects using the `--target-re
 
 The following example sets the target reference for the scanned Projects to the name of the current Git branch.
 
-```
+```bash
 snyk iac test myproject --report \
     --target-reference="$(git branch --show-current)"
 ```

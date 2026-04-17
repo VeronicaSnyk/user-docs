@@ -50,7 +50,7 @@ Use `snyk-delta --baselineOrg xxx --baselineProject xxx --currentOrg xxx --curre
 
 ## Usage as module
 
-```
+```bash
 import { getDelta } from 'snyk-delta'
 
 const jsonResultsFromSnykTest = Read from file or pipe snyk test command

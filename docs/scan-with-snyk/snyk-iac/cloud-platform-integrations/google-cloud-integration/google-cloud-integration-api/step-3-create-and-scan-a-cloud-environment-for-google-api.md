@@ -11,7 +11,7 @@ To send a request to the [Snyk API](https://apidocs.snyk.io/?version=2022-12-21%
 
 Send a request to the Snyk API in the format below to create the Cloud Environment:
 
-```
+```bash
 curl -X POST \
 'https://api.snyk.io/rest/orgs/YOUR-ORGANIZATION-ID/cloud/environments?version=2022-12-21~beta' \
 -H 'Authorization: token YOUR-API-TOKEN' \

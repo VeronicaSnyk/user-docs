@@ -4,13 +4,13 @@ As the `access_token` will expire in a short time, the App will need to frequent
 
 To exchange for a fresh `access_token`, make a POST request to the token endpoint:
 
-```
+```text
 https://api.snyk.io/oauth2/token
 ```
 
 with the following properties in a x-www-form-urlencoded formatted request body:
 
-```
+```text
 grant_type=refresh_token
 &refresh_token=(refresh token from the previous step)
 &client_id=(clientId from the app creation)

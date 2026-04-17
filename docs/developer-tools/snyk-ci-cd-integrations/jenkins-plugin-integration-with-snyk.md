@@ -88,7 +88,7 @@ This step depends on whether you are using Freestyle Projects or Pipeline Projec
 
 Use the `snykSecurity` step as part of your pipeline script. You can use the **Snippet Generator** to generate the code from a web form and copy it into your pipeline. Refer to the following example.
 
-```
+```bash
 pipeline {
   agent any
 

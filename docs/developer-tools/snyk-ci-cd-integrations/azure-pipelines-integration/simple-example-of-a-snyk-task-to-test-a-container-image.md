@@ -2,7 +2,7 @@
 
 The following is a simple example of a Snyk task to test a container image.
 
-```
+```yaml
 - task: SnykSecurityScan@1
   inputs:
     serviceConnectionEndpoint: 'snykToken'

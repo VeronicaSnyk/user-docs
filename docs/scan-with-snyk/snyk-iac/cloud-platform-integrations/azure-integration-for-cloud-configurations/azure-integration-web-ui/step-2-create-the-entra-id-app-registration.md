@@ -25,13 +25,13 @@ Before you use the [Terraform CLI](https://www.terraform.io/downloads), ensure y
 1. In your terminal, navigate to the directory containing the Terraform file you downloaded (named `snyk-permissions-azure.tf` if downloaded from the Snyk Web UI).
 2. Using the Terraform CLI, initialize the Terraform Project:
 
-```
+```bash
 terraform init
 ```
 
 3. Review and apply the Terraform plan:
 
-```
+```bash
 terraform apply
 ```
 
@@ -39,7 +39,7 @@ terraform apply
 
 Terraform then provisions the infrastructure. When it is finished, you will see the following output:
 
-```
+```text
 Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
 
 Outputs:

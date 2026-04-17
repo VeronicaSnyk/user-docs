@@ -46,6 +46,6 @@ After the integration is set up, you can verify that Snyk data is being forwarde
 
 If you need to run a manual search, use this query in Advanced Event Search:
 
-```
+```bash
 #Vendor = snyk and @error != "true"
 ```

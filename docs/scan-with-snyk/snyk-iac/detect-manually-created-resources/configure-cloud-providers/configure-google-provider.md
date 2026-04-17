@@ -8,7 +8,7 @@ Because the `iac describe` command uses the Cloud Asset API, you must use a serv
 
 For information on setting up a service account, see the [GoogleCloud documentation](https://cloud.google.com/docs/authentication/production).
 
-```
+```bash
 GOOGLE_APPLICATION_CREDENTIALS=your-creds.json \
   CLOUDSDK_CORE_PROJECT=my-project \
   snyk iac describe --to="gcp+tf"
@@ -28,7 +28,7 @@ To enumerate resources, you need at least the role [Cloud Asset Viewer](https://
 
 To use `iac describe` with deep mode, you need access to retrieve the details of a resource, and the **Cloud Asset Viewer** role is not enough. To be able to get the details, set up the basic role of [**Viewer**](https://cloud.google.com/iam/docs/understanding-roles#basic-definitions) on your project. To read your IAM policies you also need the role [iam.securityReviewer](https://cloud.google.com/iam/docs/understanding-roles#iam-roles) on your project.
 
-```
+```text
 # Mandatory role to allow describe to enumerate resources
 roles/cloudasset.viewer
 

@@ -61,7 +61,7 @@ To utilize smart scan from install, add the following argument to the npx instal
 The default ruleset frequency can be adjusted by editing Gemini CLI's global `Gemini.md` file. For reference, the following are the smart apply rules Snyk places in Gemini CLI's global rules file when prompted:
 
 {% code overflow="wrap" %}
-```
+```text
 BEFORE declaring task complete: Run snyk_code_scan tool when a significant change has been made in first party code.
 - This should only apply for Snyk-supported coding language
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from Snyk.
@@ -90,7 +90,7 @@ gemini extensions install https://github.com/snyk/agentic-integration-wrappers
 
 To confirm the extension was installed, run the following command in the Gemini CLI:
 
-```
+```text
 /extensions list
 ```
 
@@ -172,7 +172,7 @@ To practice [Secure at inception](../../../discover-snyk/getting-started/glossar
 Append one of the following contents to the context file at `~/.gemini/GEMINI.md`  &#x20;
 
 {% code title="~/.gemini/GEMINI.md" overflow="wrap" %}
-```
+```text
 # Project security best practices
 
 - Always run **snyk_code_scan** tool for new first party code that is generated in a Snyk-supported language.
@@ -186,6 +186,6 @@ Append one of the following contents to the context file at `~/.gemini/GEMINI.md
 
 To remove Snyk Studio and the associated rulesets from your environment, use:
 
-```
+```bash
 snyk mcp configure --rm --tool=gemini-cli
 ```

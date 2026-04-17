@@ -1,6 +1,6 @@
 # Snyk Platform credits
 
-### Credits for the Snyk Credits plan
+## Credits for the Snyk Credits plan
 
 The Snyk Credits plan consolidates features into a single license for quick, flexible deployment. You can utilize your credits as needed for these capabilities. The Tenant Admin can enable or disable these features by navigating to **Settings** under the Tenant section in the Snyk Web UI.
 

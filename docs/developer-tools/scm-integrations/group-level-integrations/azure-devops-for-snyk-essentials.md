@@ -4,7 +4,7 @@ The Integrations page shows all active integrations, including data from your ex
 
 ## Pulled entities <a href="#azure-devops-pulled-entities" id="azure-devops-pulled-entities"></a>
 
-#### Prerequisites <a href="#azure-devops-integrate-using-snyk-apprisk" id="azure-devops-integrate-using-snyk-apprisk"></a>
+### Prerequisites <a href="#azure-devops-integrate-using-snyk-apprisk" id="azure-devops-integrate-using-snyk-apprisk"></a>
 
 To configure a Group-level integration, you must be a Group Admin or have a custom role that includes the `Edit Snyk Essentials` permissions under the [Group-level permissions](../../../snyk-platform-administration/user-roles/pre-defined-roles.md#group-level-permissions).
 

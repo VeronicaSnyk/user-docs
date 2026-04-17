@@ -10,7 +10,7 @@ After successfully pushing your custom rules bundle, you can enforce the use of 
 
 Finally, after you have enforced your custom rules using one of these options, configure the Snyk Snyk CLI with your username and password to allow Snyk to authorize a pull from your OCI registry:
 
-```
+```bash
 snyk config set oci-registry-username=<org registry username>
 snyk config set oci-registry-password=<org registry password>
 ```
@@ -22,7 +22,7 @@ This sets the following Snyk environment variables:
 
 After you have completed this configuration, you can run a Snyk IaC scan. The CLI will pull the bundle pushed to the configured container registry in the background.
 
-```
+```bash
 snyk iac test <file>
 ```
 
@@ -90,7 +90,7 @@ If manually updating the settings through the Snyk Settings page is too time-con
 
 * For example, in order to configure the custom rules bundle at the Group level, use the endpoint [Update the Infrastructure as Code settings for a group](../../../../snyk-api/reference/iacsettings.md#groups-group_id-settings-iac) by providing the following body:
 
-```
+```json
 {
    "data": {
          "type": "iac_settings",
@@ -107,7 +107,7 @@ If manually updating the settings through the Snyk Settings page is too time-con
 
 * If you want to update the tag only, you can send over a simpler body:
 
-```
+```json
 {
    "data": {
          "type": "iac_settings",
@@ -122,7 +122,7 @@ If manually updating the settings through the Snyk Settings page is too time-con
 
 * If you want to disable custom rules, you can send over the `is_enabled` flag:
 
-```
+```json
 {
    "data": {
          "type": "iac_settings",
@@ -137,7 +137,7 @@ If manually updating the settings through the Snyk Settings page is too time-con
 
 The API replies with the Group settings so you can confirm the changes:
 
-```
+```json
 {
   "type": "iac_settings",
   "id": "<group id>",
@@ -157,7 +157,7 @@ Similarly to the Settings page, the endpoint [Update the Infrastructure as Code 
 
 * To override the Group configurations, call the endpoint [Update the Infrastructure as Code settings for an org](../../../../snyk-api/reference/iacsettings.md#orgs-org_id-settings-iac) by providing a different custom rules bundle and tag in the request body:
 
-```
+```json
 {
    "data": {
          "type": "iac_settings",
@@ -174,7 +174,7 @@ Similarly to the Settings page, the endpoint [Update the Infrastructure as Code 
 
 * The API replies with the Organization settings and the Group settings under the `parents` section so that you can compare the two:
 
-```
+```json
 {
   "type": "iac_settings",
   "id": "<org id>",
@@ -204,7 +204,7 @@ Similarly to the Settings page, the endpoint [Update the Infrastructure as Code 
 
 * To revert to the Group settings, call the API by providing the following request body:
 
-```
+```json
 {
    "data": {
          "type": "iac_settings",
@@ -219,7 +219,7 @@ Similarly to the Settings page, the endpoint [Update the Infrastructure as Code 
 
 * The API replies with the Organization settings and the Group settings under the `parents` section so that you can compare the two:
 
-```
+```json
 {
   "type": "iac_settings",
   "id": "<org id>",
@@ -252,7 +252,7 @@ Similarly to the Settings page, the endpoint [Update the Infrastructure as Code 
 
 You can also configure the location of the custom rules bundle using Snyk config for your Organization. In your Project folder, use the following command to configure your container registry with the Snyk IaC CLI:
 
-```
+```bash
 snyk config set oci-registry-url=registry-1.docker.io/org-account/org-bundle-image:1.3.14
 ```
 
@@ -270,7 +270,7 @@ Be sure to clear any previously defined URLs in the Snyk Settings page or disabl
 
 Enable debug logs by running the command with the `-d` option:
 
-```
+```bash
 snyk iac test <file> -d
 ```
 
@@ -278,14 +278,14 @@ Some possible problems include:
 
 * Providing an invalid container registry URL. See the note above if you are using Docker Hub. The error is
 
-```
+```text
 We were unable to download the custom bundle to the disk. 
 Please ensure access to the remote Registry and validate you have provided all the right parameters.
 ```
 
 * Providing invalid credentials. The error is:
 
-```
+```text
 There was an authentication error. Incorrect credentials provided.
     We were unable to download the custom bundle to the disk.
     Please ensure access to the remote Registry and validate you have provided all the right parameters.

@@ -6,7 +6,7 @@ To use `iac describe`, set up credentials to make authenticated requests to GitH
 
 GitHub tokens can be created from [this GitHub page](https://github.com/settings/tokens/).
 
-```
+```bash
 $ GITHUB_TOKEN=14758f1afd44c09b7992073ccf00b43d \
   GITHUB_ORGANIZATION=my-org \
   snyk iac describe --to="github+tf"
@@ -16,7 +16,7 @@ $ GITHUB_TOKEN=14758f1afd44c09b7992073ccf00b43d \
 
 The following GitHub token scopes are the minimum required for `iac describe` to scan every GitHub-supported resource.
 
-```
+```text
 # Required to enumerate private repos
 repo
 

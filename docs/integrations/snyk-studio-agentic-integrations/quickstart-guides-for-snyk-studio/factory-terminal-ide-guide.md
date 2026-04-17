@@ -2,7 +2,7 @@
 
 Access Snyk Studio, including Snyk's MCP server, in Factory Terminal/IDE to secure code generated with agentic workflows through an LLM. You can achieve this by installing Snyk Studio directly.
 
-### Install Factory Terminal/IDE
+## Install Factory Terminal/IDE
 
 Install Factory Droid to your local machine from the [Factory website](https://docs.factory.ai/cli/getting-started/quickstart).
 
@@ -10,7 +10,7 @@ Install Factory Droid to your local machine from the [Factory website](https://d
 
 Add the Snyk entry to `~/.factory/mcp.json`. To learn more, visit the official [Factory documentation](https://docs.factory.ai/cli/configuration/mcp#configuration) for more information.
 
-```
+```json
 {
   "mcpServers": {
     "Snyk": {
@@ -85,7 +85,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for [Factory AGENTS.md](https://docs.factory.ai/cli/configuration/agents-md). Append the following contents to the rules file at `AGENTS.md`:
 
 {% code title="AGENTS.md" overflow="wrap" %}
-```
+```yaml
 ---
 alwaysApply: true
 always_on: true

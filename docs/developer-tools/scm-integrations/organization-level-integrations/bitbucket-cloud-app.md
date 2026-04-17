@@ -15,7 +15,7 @@ Snyk recommends using the Bitbucket Cloud App integration for smoother integrati
 If you are using the [Bitbucket Cloud API token integration](bitbucket-cloud.md), see [Migrate a Bitbucket Cloud integration](bitbucket-cloud.md#migrate-to-the-bitbucket-cloud-app) for more information.
 {% endhint %}
 
-### Setting up a Bitbucket Cloud App
+## Setting up a Bitbucket Cloud App
 
 To give Snyk access to your Bitbucket account, you need to install the Snyk App on your Bitbucket Cloud workspace.
 

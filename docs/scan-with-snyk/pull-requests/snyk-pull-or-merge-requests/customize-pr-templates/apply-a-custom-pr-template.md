@@ -75,6 +75,6 @@ If you use [Snyk Broker](../../../../implementation-and-setup/enterprise-setup/s
 
 To do this, you must remove `ACCEPT=/path/to/custom.json` and add the following environment variable to your Broker container or deployment:
 
-```
+```bash
 ACCEPT_CUSTOM_PR_TEMPLATES=true
 ```

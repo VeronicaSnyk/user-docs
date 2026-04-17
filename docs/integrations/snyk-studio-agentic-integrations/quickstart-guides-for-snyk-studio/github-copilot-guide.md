@@ -174,7 +174,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for [GitHub Copilot custom instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions). Append the following contents to the rules file at `.github/copilot-instructions.md`:
 
 {% code title=".github/copilot-instructions.md" overflow="wrap" %}
-```
+```yaml
 ---
 alwaysApply: true
 always_on: true

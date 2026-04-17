@@ -88,7 +88,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for [Qodo best practices](https://docs.qodo.ai/qodo-documentation/qodo-gen/chat/chat-modes/standard-mode/commands/generate-best-practices). Append the following contents to the rules file at `best_practices.md`:
 
 {% code title="best_practices.md" overflow="wrap" %}
-```
+```yaml
 ---
 applyTo: "**"
 ---
@@ -102,7 +102,7 @@ applyTo: "**"
 ```
 {% endcode %}
 
-#### Qodo Workflows
+## Qodo Workflows
 
 Create a custom Snyk workflow to scan and remediate security vulnerabilities. The following is a suggestion for [Qodo workflows](https://docs.qodo.ai/qodo-documentation/qodo-gen/agent/workflows). Append the following contents to a Qodo agent file `remediate-snyk-studio.toml`:
 

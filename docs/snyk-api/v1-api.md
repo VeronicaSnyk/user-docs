@@ -35,13 +35,13 @@ To use this API, you must get your token from Snyk. You can find the token in yo
 
 Provide the token in an `Authorization` header with the token, preceded by `token`:
 
-```
+```http
 Authorization: token API_KEY
 ```
 
 Otherwise, a 401 "Unauthorized" response will be returned.
 
-```
+```http
 HTTP/1.1 401 Unauthorized
 
 {

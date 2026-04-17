@@ -102,7 +102,7 @@ These are the properties set by the plugin on scanned artifacts. Artifact access
 
 You can enable debug logs by modifying your `${ARTIFACTORY_HOME}/var/etc/artifactory/logback.xml`file and adding the following line:
 
-```
+```xml
 <logger name="io.snyk" level="debug"/>
 ```
 

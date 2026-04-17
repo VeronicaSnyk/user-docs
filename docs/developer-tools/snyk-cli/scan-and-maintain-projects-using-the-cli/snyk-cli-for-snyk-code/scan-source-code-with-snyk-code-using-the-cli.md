@@ -18,7 +18,7 @@ To exclude certain directories or files from the Snyk Code CLI test, you can use
 
 To test the repository folder, in the terminal, enter the following:
 
-```
+```bash
 snyk code test
 ```
 
@@ -28,7 +28,7 @@ Snyk Code tests the folder and displays the [test results](view-snyk-code-cli-re
 
 For example, to test the `snyk-goof` repository from its root folder, first change the directory to the root folder of the repository. Then enter:
 
-```
+```bash
 snyk code test
 ```
 
@@ -40,7 +40,7 @@ Snyk Code tests the `snyk-goof` repository, and displays the vulnerability issue
 
 To test a repository from another folder, in the terminal, enter the following:
 
-```
+```bash
 snyk code test <path/to/folder>
 ```
 
@@ -48,7 +48,7 @@ The `path/to/folder` is the full path of the repository you want to test using S
 
 For example, to test the `snyk-goof` repository from another directory, enter:
 
-```
+```bash
 snyk code test /Users/username/Documents/Repositories/snyk-goof
 ```
 
@@ -80,7 +80,7 @@ This allows using Snyk Code as a blocking CI/CD gate to test and block builds at
 
 In the terminal, enter the following command:
 
-```
+```bash
 snyk code test --report --project-name="<PROJECT_NAME>"
 ```
 
@@ -96,13 +96,13 @@ If a Snyk Code Project created with the CLI does not yet exist for the provided 
 
 To make the Project easier to interpret in Snyk Web UI, you can use additional commands to specify a target name and also target references, such as Git branches. The following command will create or upload an existing Project named `<PROJECT_NAME>` under a target named `<TARGET_NAME>`.
 
-```
+```bash
 snyk code test --report --project-name="<PROJECT_NAME>" --target-name="<TARGET_NAME>"
 ```
 
 The following command creates or uploads an existing Project named `<PROJECT_NAME>` under a target named `<TARGET_NAME>` and grouped by the "`$(git branch --show-current)"` branch name.
 
-```
+```bash
 snyk code test --report --project-name="<PROJECT_NAME>" --target-name="<TARGET_NAME>" --target-reference="$(git branch --show-current)"
 ```
 
@@ -110,7 +110,7 @@ snyk code test --report --project-name="<PROJECT_NAME>" --target-name="<TARGET_N
 
 You can use the `--help` flag with the `snyk code test` command to view inline documentation directly in your terminal.
 
-```
+```bash
 snyk code test --help
 ```
 
@@ -146,7 +146,7 @@ You can ignore issues in Snyk Web UI. The ignores will be used to [publish CLI r
 
 For [publishing workflows](scan-source-code-with-snyk-code-using-the-cli.md#publish-cli-results-to-a-snyk-code-project), after the CLI results are published to a Snyk Code Project, issues that were ignored in the Web UI will be ignored in CLI tests when you use the following command:
 
-```
+```bash
 snyk code test --report --project-name="PROJECT_NAME"
 ```
 

@@ -58,7 +58,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 
 The following is a suggested instruction for Augment Code user guidelines:
 
-```
+```text
 - Always run Snyk Code scanning tool for new first party code generated.
 - Always run Snyk SCA scanning tool for new dependencies or dependency updates.
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from Snyk.

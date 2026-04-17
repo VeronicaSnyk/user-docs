@@ -25,7 +25,7 @@ Then, run the following commands to install the Broker and customize the environ
 
 Note: for `baseNexusUrl` and `nexusUrl` values include `https://`
 
-```
+```bash
 helm install snyk-broker-chart snyk-broker/snyk-broker \
              --set scmType=nexus \
              --set brokerToken=<ENTER_BROKER_TOKEN> \
@@ -52,7 +52,7 @@ Then run the following commands to customize the environment variables. For defi
 
 Note: for `baseNexusUrl` and `nexusUrl` values include `https://`
 
-```
+```bash
 helm install snyk-broker-chart snyk-broker/snyk-broker \
              --set scmType=nexus2 \
              --set brokerToken=<ENTER_BROKER_TOKEN> \

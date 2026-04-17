@@ -321,7 +321,7 @@ If you are setting up Snyk Essentials for asset management with over 1,000 repos
 
 Run the Docker command using the unified `snyk/broker:universal` image and your specific environment variables:
 
-```
+```bash
 docker run --restart always \
   -p 8000:8000 \
   -e DEPLOYMENT_ID=<YOUR_DEPLOYMENT_ID> \
@@ -336,7 +336,7 @@ docker run --restart always \
 
 Deploy using the official Snyk Universal Broker Helm chart. Ensure your secrets are stored securely as Kubernetes secrets.
 
-```
+```bash
 helm pull oci://registry-1.docker.io/snyk/snyk-universal-broker helm install my-snyk-broker oci://registry-1.docker.io/snyk/snyk-universal-broker
 --set deploymentId='YOUR_DEPLOYMENT_ID'
 --set clientId='YOUR_CLIENT_ID'

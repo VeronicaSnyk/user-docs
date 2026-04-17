@@ -21,7 +21,7 @@ To install the Snyk MCP Server using Codex's own `.codex/config.toml` file, proc
 * Create or edit the `.codex/config.toml` file
 *   Insert the following `mcp_servers` configuration block to the file:\\
 
-    ```
+    ```json
     [mcp_servers.snyk-security]
     command = "npx"
     args = ["-y", "snyk@latest", "mcp", "-t", "stdio"]
@@ -37,7 +37,7 @@ To install the Snyk MCP Server using the `.codex/config.toml` Codex file, follow
 * Create or edit the `.codex/config.toml` file
 *   Insert the following `mcpServers` configuration block to the file:\\
 
-    ```
+    ```json
     [mcp_servers.snyk-security]
     command = "/absolute/path/to/snyk"
     args = ["mcp", "-t", "stdio"]
@@ -92,7 +92,7 @@ To practice s[#secure-at-inception](../../../discover-snyk/getting-started/gloss
 The following is a suggested instruction for [Codex CLI's AGENTS.md context file](https://github.com/openai/codex?tab=readme-ov-file#memory--project-docs). Add the following contents to the `AGENTS.md` file in your root directory of your Project:
 
 {% code title="AGENTS.md" overflow="wrap" %}
-```
+```text
 # Project security best practices
 
 - Always run **snyk_code_scan** tool for new first party code that is generated in a Snyk-supported language.

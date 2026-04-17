@@ -10,7 +10,7 @@ The Bitbucket Cloud API token integration lets you:
 * Detect vulnerabilities in your open-source components
 * Provide automated fixes and upgrades
 
-### How to set up the Bitbucket Cloud Integration
+## How to set up the Bitbucket Cloud Integration
 
 {% hint style="info" %}
 Admin permissions are required; however, Snyk's access is ultimately limited by the [permissions assigned to the API Token](https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/).\

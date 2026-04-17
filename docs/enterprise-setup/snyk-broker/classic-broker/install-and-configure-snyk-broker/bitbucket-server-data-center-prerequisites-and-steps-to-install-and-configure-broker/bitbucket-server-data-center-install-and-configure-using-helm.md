@@ -19,7 +19,7 @@ When installing, you must add a command in your script to set the `brokerServerU
 
 Use the following command to configure Broker to be used with Bitbucket Server using Basic Auth:
 
-```
+```bash
 helm install snyk-broker-chart snyk-broker/snyk-broker \
              --set scmType=bitbucket-server \
              --set brokerToken=<ENTER_BROKER_TOKEN> \
@@ -35,7 +35,7 @@ helm install snyk-broker-chart snyk-broker/snyk-broker \
 
 Use the following command to configure Broker to be used with Bitbucket Server using Bearer Auth (Personal Access Token):
 
-```
+```bash
 helm install snyk-broker-chart snyk-broker/snyk-broker \
              --set scmType=bitbucket-server-bearer-auth \
              --set brokerToken=<ENTER_BROKER_TOKEN> \

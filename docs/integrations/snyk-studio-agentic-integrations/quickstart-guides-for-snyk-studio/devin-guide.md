@@ -60,7 +60,7 @@ To practice [Secure at Inception](../../../discover-snyk/getting-started/glossar
 The following is a suggested instruction for Devin Knowledge:
 
 {% code title="Devin Knowledge" overflow="wrap" %}
-```
+```text
 - Always run **snyk_code_scan** tool for new first party code that is generated in a Snyk-supported language.
 - If any security issues are found based on newly introduced or modified code or dependencies, attempt to fix the issues using the results context from **Snyk**.
 - Rescan the code after fixing the issues to ensure that the issues were fixed and that there are no newly introduced issues.
