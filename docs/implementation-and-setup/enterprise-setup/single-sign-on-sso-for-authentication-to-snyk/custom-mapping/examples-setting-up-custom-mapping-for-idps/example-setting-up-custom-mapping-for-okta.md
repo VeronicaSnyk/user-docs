@@ -1,3 +1,7 @@
+---
+description: Map Okta groups or user roles to Snyk Organizations and roles using legacy custom mapping for your SAML SSO integration.
+---
+
 # Example: setting up custom mapping for Okta
 
 The following shows two different options for custom mapping of Okta roles, using [Legacy custom mapping](../legacy-custom-mapping.md).

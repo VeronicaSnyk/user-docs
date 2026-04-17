@@ -1,3 +1,7 @@
+---
+description: Verify the integrity of downloaded Snyk CLI standalone binaries using SHA256 checksums and GPG signatures.
+---
+
 # Verifying CLI standalone binaries
 
 You can verify both the shasum of downloaded binaries and their GPG signatures.

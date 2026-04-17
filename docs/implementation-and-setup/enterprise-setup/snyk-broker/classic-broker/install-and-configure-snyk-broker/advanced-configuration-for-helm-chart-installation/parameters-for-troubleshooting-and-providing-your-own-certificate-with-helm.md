@@ -1,3 +1,7 @@
+---
+description: Disable TLS verification or provide a custom CA certificate to troubleshoot SSL issues in your Snyk Broker Helm installation.
+---
+
 # Parameters for troubleshooting and providing your own certificate with Helm
 
 To troubleshoot SSL inspection issues, you can set the `tlsRejectUnauthorized` parameter to `disable`.

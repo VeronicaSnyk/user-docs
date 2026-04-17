@@ -1,3 +1,7 @@
+---
+description: Review asset security posture, open issues, and coverage trends using the Asset Dashboard, Issues Detail, and Risk Exposure reports in Snyk reporting.
+---
+
 # Exposure and coverage reports
 
 The Exposure and coverage reports section includes the following reports:

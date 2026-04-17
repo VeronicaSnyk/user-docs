@@ -1,3 +1,7 @@
+---
+description: View, filter, and manage all your Snyk Projects from the Projects listing page, including import history and bulk actions.
+---
+
 # Snyk Projects
 
 Snyk Project information appears in the **Projects** listing, which you can display from the menu on the Snyk dashboard. The filters you can add depend on the **Group by** option you choose from the pulldown on the right. To filter by Origin or source, use an Integrations filter.

@@ -1,3 +1,8 @@
+---
+description: >-
+  Download the Terraform template or Bash script for Azure app registration as the first onboarding step via the API.
+---
+
 # Step 1: Download Azure app registration IaC template or script (API)
 
 Before you can create a Cloud Environment for an Azure subscription, you must **download** a Terraform infrastructure as code (IaC) template or Azure CLI Bash script declaring the following resources:

@@ -1,3 +1,7 @@
+---
+description: Configure app roles in Entra ID to map your users to Snyk Groups and Organizations through SAML or WAAD SSO.
+---
+
 # Example: setting up custom mapping for Entra ID
 
 The following information shows how to configure the custom mapping of roles for Entra ID (formerly Azure AD).

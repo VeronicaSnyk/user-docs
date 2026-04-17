@@ -1,3 +1,7 @@
+---
+description: Set the Broker server URL for your regional Snyk deployment when installing the Broker Helm chart in a multi-tenant environment.
+---
+
 # Multi-tenant settings for Helm chart installation
 
 To use the Helm chart in different multi-tenant regions, set the `brokerServerUrl` for the region you are using.

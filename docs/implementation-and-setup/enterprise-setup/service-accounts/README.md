@@ -1,3 +1,7 @@
+---
+description: Create and manage service accounts to authenticate automation workflows and integrations without using personal user tokens.
+---
+
 # Service accounts
 
 {% hint style="info" %}

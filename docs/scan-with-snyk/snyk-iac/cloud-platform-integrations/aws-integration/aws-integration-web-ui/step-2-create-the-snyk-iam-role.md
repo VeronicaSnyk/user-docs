@@ -1,3 +1,8 @@
+---
+description: >-
+  Create the Snyk IAM role using your downloaded IaC template to grant Snyk read-only access to your AWS account.
+---
+
 # Step 2: Create the Snyk IAM role
 
 {% hint style="info" %}

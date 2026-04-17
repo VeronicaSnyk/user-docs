@@ -1,3 +1,7 @@
+---
+description: Inject additional environment variables into your Snyk Broker Helm deployment using an override values file.
+---
+
 # Custom additional options for Broker Helm Chart installation
 
 If you need to inject additional option(s) using environment variables, use the `override.yaml` value file to add any additional environment variable(s) you may need.

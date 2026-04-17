@@ -1,3 +1,7 @@
+---
+description: Verify and configure Snyk Essentials at the Group level by connecting your cloud-based SCM tools to enable repository asset discovery across your Organization.
+---
+
 # Set up Snyk Essentials
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}

@@ -1,3 +1,7 @@
+---
+description: Understand which generative AI technologies Snyk uses, how your data flows through AI systems, and the safeguards Snyk applies to protect your code and security data.
+---
+
 # How Snyk incorporates generative AI into the platform
 
 Snyk’s AI Security Platform uses generative AI to enhance automation, efficiency, and innovation for developers and security teams. Snyk uses a mix of solutions, including proprietary, self-hosted models and third-party large language models (LLMs).

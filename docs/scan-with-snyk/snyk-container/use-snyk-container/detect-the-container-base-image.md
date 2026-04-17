@@ -1,3 +1,8 @@
+---
+description: >-
+  Identify the base image of your container and receive recommendations to fix vulnerable layers.
+---
+
 # Detect the container base image
 
 Detecting vulnerable base images allows you to identify the source of your vulnerabilities and fix them by updating the base image according to recommendations.

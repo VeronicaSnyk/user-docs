@@ -1,3 +1,7 @@
+---
+description: Configure your Snyk Organization, token, and CLI settings before integrating Snyk into your CI/CD pipeline.
+---
+
 # CI/CD setup
 
 ## Prerequisites for CI/CD

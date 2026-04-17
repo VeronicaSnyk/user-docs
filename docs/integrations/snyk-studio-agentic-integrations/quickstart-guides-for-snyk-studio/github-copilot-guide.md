@@ -1,3 +1,7 @@
+---
+description: Access Snyk Studio in VS Code with GitHub Copilot using the Snyk Security plugin to scan AI-generated code for vulnerabilities.
+---
+
 # GitHub Copilot guide
 
 You can access Snyk Studio, including Snyk's MCP server, in VSCode to secure code generated with agentic workflows through Copilot. This can be achieved in several ways. For most users, we recommend accessing Snyk Studio using the Snyk Security plugin.

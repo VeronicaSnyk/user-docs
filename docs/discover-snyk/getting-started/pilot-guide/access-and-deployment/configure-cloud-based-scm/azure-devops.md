@@ -1,3 +1,7 @@
+---
+description: Generate an Azure DevOps personal access token and configure the Azure DevOps SCM integration with Snyk by following the step-by-step pilot setup instructions.
+---
+
 # Azure DevOps
 
 {% include "../../../../../.gitbook/includes/pilot-guide-toc.md" %}

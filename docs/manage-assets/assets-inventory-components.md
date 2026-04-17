@@ -1,3 +1,7 @@
+---
+description: Explore the key attributes available in each inventory layout, including assets, issues, coverage controls, tags, labels, developers, class, risk factors, source, and more.
+---
+
 # Assets inventory components
 
 Each inventory layout is presented in a table format, detailing the available key attributes:

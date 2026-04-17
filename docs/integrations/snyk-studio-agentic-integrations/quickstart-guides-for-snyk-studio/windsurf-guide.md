@@ -1,3 +1,7 @@
+---
+description: Access Snyk Studio in Windsurf using the Snyk Security plugin to scan AI-generated code for security vulnerabilities.
+---
+
 # Windsurf guide
 
 Access [Snyk Studio](../../../discover-snyk/getting-started/glossary.md#snyk-studio), including Snyk's MCP server, in Windsurf to secure code generated with agentic workflows through an LLM. This can be achieved by using the Snyk Security plugin or installing Snyk Studio directly. For most users, we recommend accessing Snyk Studio using the Snyk Security plugin.

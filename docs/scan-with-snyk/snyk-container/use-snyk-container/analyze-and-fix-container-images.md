@@ -1,3 +1,8 @@
+---
+description: >-
+  Analyze container Projects in Snyk and apply fixes to resolve vulnerabilities found in your images.
+---
+
 # Analyze and fix container images
 
 You can import container Projects into Snyk using the CLI command [`snyk container monitor`](../../../developer-tools/snyk-cli/commands/container-monitor.md). Alternatively, you can import Projects directly from a supported container registry using the Snyk Web UI.

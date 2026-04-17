@@ -1,3 +1,7 @@
+---
+description: Generate a Bitbucket personal access token with the required permissions and configure the Bitbucket SCM integration with Snyk for your pilot deployment.
+---
+
 # BitBucket
 
 {% include "../../../../../.gitbook/includes/pilot-guide-toc.md" %}

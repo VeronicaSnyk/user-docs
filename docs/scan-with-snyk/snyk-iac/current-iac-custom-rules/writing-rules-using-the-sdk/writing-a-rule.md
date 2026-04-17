@@ -1,3 +1,8 @@
+---
+description: >-
+  Write custom IaC security rules in Rego using the Snyk IaC SDK to enforce your organization's policies.
+---
+
 # Writing a rule
 
 ## Rules in Rego

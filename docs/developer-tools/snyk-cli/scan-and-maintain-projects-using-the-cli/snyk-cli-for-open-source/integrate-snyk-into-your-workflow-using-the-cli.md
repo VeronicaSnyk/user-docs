@@ -1,3 +1,7 @@
+---
+description: Embed Snyk CLI open-source scanning into your development workflow to catch vulnerabilities early.
+---
+
 # Integrate Snyk into your workflow using the CLI
 
 This page provides an example of integrating Snyk into your GitHub workflow using the [Snyk CLI](../../).

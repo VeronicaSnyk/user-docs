@@ -1,3 +1,8 @@
+---
+description: >-
+  Enhance the developer experience by automatically applying fixes directly within pull requests using Snyk Agent Fix.
+---
+
 # Pull Request experience
 
 {% hint style="info" %}

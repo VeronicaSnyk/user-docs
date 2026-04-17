@@ -1,3 +1,7 @@
+---
+description: Run the Snyk CLI in debug mode to get verbose logs that help diagnose unexpected behavior and configuration issues.
+---
+
 # Debugging the Snyk CLI
 
 When working with the CLI on your Projects, it is possible that you encounter unexpected behavior that requires investigation. Such behavior can be caused by configuration, environment, or bugs.

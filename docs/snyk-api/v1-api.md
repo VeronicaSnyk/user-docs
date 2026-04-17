@@ -1,3 +1,7 @@
+---
+description: Use the Snyk V1 API for legacy integrations while planning your migration to the GA REST API.
+---
+
 # V1 API
 
 ## About the V1 API

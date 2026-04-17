@@ -1,3 +1,7 @@
+---
+description: Validate incoming Snyk webhook payloads using the HMAC signature in the X-Hub-Signature header.
+---
+
 # Validation and versioning of payloads
 
 ## Validating payloads

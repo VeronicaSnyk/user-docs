@@ -1,3 +1,8 @@
+---
+description: >-
+  View cloud configuration issues for your Organization in the Snyk Web UI and filter by cloud provider.
+---
+
 # View cloud issues in the Snyk Web UI
 
 You can view cloud issues for an Organization through the Snyk Web UI.

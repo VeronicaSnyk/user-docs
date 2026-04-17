@@ -1,3 +1,8 @@
+---
+description: >-
+  Bulk-import Projects into Snyk at scale using the snyk-api-import tool for GitHub, GitLab, Bitbucket, and more.
+---
+
 # Tool: snyk-api-import
 
 Snyk helps you find, fix, and monitor for known vulnerabilities in your dependencies, both on an ad hoc basis and as part of your Continuous Integration (CI) (build) system.

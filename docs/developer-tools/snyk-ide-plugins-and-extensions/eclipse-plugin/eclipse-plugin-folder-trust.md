@@ -1,3 +1,7 @@
+---
+description: Grant folder trust in the Eclipse plugin to allow Snyk to scan code in your workspace directories.
+---
+
 # Eclipse plugin folder trust
 
 The Snyk plugin asks for folder trust before allowing scans to be run against new folders.&#x20;

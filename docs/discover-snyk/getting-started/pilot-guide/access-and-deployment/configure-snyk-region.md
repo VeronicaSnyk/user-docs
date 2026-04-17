@@ -1,3 +1,7 @@
+---
+description: Confirm your Snyk account region and configure the Snyk Web UI login URL and CLI environment variable to connect to the correct regional API endpoint during your pilot.
+---
+
 # Configure Snyk region
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}

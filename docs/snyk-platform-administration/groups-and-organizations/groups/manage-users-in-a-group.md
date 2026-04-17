@@ -1,3 +1,7 @@
+---
+description: View, invite, and manage user roles and permissions for members of your Snyk Group.
+---
+
 # Manage users in a Group
 
 {% hint style="info" %}

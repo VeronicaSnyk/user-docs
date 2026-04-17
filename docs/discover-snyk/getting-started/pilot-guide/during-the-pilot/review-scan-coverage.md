@@ -1,3 +1,7 @@
+---
+description: Verify your Group-level SCM integration and review the Inventory overview to identify which repositories have been tested and where coverage gaps exist during your pilot.
+---
+
 # Review scan coverage
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}

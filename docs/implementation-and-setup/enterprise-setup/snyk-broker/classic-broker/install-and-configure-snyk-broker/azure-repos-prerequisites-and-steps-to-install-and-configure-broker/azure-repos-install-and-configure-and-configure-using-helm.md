@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Broker Client for Azure Repos using the Helm chart with the required environment variables.
+---
+
 # Azure Repos - install and configure and configure using Helm
 
 {% hint style="info" %}

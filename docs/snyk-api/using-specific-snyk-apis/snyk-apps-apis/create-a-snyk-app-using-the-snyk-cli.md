@@ -1,3 +1,7 @@
+---
+description: Create a Snyk App interactively or with flags using the experimental snyk apps create CLI command.
+---
+
 # Create a Snyk App using the Snyk CLI
 
 {% hint style="warning" %}

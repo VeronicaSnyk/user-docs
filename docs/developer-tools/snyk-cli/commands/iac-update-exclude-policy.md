@@ -1,3 +1,7 @@
+---
+description: Generate exclusion policy rules for use with snyk iac describe to suppress specific resource drift findings.
+---
+
 # IaC update-exclude-policy
 
 ## Usage

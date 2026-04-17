@@ -1,3 +1,7 @@
+---
+description: Configure an IAM Role for the Container Registry Agent to assume read-only access to Amazon ECR through Snyk Broker.
+---
+
 # Setting up the Container Registry Agent for a brokered ECR integration
 
 ## Terminology and diagram for brokered ECR integration

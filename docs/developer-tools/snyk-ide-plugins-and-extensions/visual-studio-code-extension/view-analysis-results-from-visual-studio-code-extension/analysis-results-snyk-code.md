@@ -1,3 +1,7 @@
+---
+description: Review Snyk Code SAST vulnerability findings displayed in the Visual Studio Code extension panel.
+---
+
 # Analysis results: Snyk Code
 
 Snyk Code analysis shows security vulnerabilities and quality issues in your code with every scan.
@@ -31,4 +35,3 @@ You can also choose to ignore a suggestion, either a particular one or a recurri
 <figure><img src="../../../../.gitbook/assets/quick-fix-menu.png" alt="Quick Fix menu"><figcaption><p>Quick Fix menu</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2023-03-17 at 12.32.2okta-saml-application-creation.png" alt="Ignore options with issue detail"><figcaption><p>Ignore options with issue detail</p></figcaption></figure>
-

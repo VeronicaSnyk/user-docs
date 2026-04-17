@@ -1,3 +1,7 @@
+---
+description: Define rules for how Snyk handles Open Source issues by creating customizable security and license policies that automatically change severity or ignore issues based on conditions.
+---
+
 # Policies
 
 {% hint style="info" %}

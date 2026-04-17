@@ -1,3 +1,7 @@
+---
+description: Add Snyk Studio to Gemini Code Assist to scan AI-generated code for vulnerabilities using the Snyk MCP server.
+---
+
 # Gemini Code Assist guide
 
 You can access Snyk Studio, including Snyk's MCP server, in Gemini Code Assist to secure code generated with agentic workflows through an LLM. This can be achieved in several ways. When you use it for the first time, the MCP server will ask for trust and trigger authentication if necessary.

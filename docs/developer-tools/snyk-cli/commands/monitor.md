@@ -1,3 +1,7 @@
+---
+description: Create a continuously monitored project snapshot in Snyk to receive alerts about newly disclosed vulnerabilities.
+---
+
 # Monitor
 
 ## Usage

@@ -1,3 +1,7 @@
+---
+description: Add a custom user schema and configure a SAML connection in Google Workspace to map roles into Snyk Organizations.
+---
+
 # Example: setting up custom mapping for Google Workspace
 
 The following shows how to use [custom mapping](../) to map roles for a Google Workspace custom SAML connection.

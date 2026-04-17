@@ -1,3 +1,7 @@
+---
+description: Review key Snyk reports during your pilot—including Issues Detail, SLA Management, and Developer Usage—to prioritize vulnerabilities and measure team adoption.
+---
+
 # Review reporting
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}

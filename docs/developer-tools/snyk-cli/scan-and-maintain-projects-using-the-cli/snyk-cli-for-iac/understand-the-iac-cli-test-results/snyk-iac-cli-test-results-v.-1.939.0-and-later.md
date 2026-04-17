@@ -1,3 +1,7 @@
+---
+description: Understand the updated IaC CLI test result format introduced in Snyk CLI version 1.939.0 and later.
+---
+
 # Snyk IaC CLI test results (v. 1.939.0 and later)
 
 {% hint style="info" %}

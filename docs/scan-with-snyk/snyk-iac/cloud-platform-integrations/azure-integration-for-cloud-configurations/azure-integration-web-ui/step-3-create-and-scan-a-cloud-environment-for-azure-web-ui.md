@@ -1,3 +1,8 @@
+---
+description: >-
+  Create and scan an Azure Cloud Environment in Snyk from the Snyk Web UI to identify cloud configuration issues.
+---
+
 # Step 3: Create and scan a Cloud Environment for Azure (Web UI)
 
 {% hint style="info" %}

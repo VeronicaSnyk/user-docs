@@ -1,3 +1,8 @@
+---
+description: >-
+  Install the Snyk Controller on Amazon EKS using Helm to enable Kubernetes workload vulnerability scanning.
+---
+
 # Install the Snyk Controller on Amazon Elastic Kubernetes Service (Amazon EKS)
 
 {% hint style="info" %}

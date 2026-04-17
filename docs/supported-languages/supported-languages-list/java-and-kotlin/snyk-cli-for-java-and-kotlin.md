@@ -1,3 +1,8 @@
+---
+description: >-
+  Scan Java and Kotlin Maven and Gradle projects for vulnerabilities using the Snyk CLI.
+---
+
 # Snyk CLI for Java and Kotlin
 
 To test Maven and Gradle Projects, use the `snyk test` command as follows:

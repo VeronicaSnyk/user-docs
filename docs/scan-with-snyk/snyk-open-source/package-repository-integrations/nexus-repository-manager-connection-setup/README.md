@@ -1,3 +1,8 @@
+---
+description: >-
+  Connect Snyk to your Nexus Repository Manager to resolve and scan private package dependencies.
+---
+
 # Nexus repository manager connection setup
 
 {% hint style="info" %}

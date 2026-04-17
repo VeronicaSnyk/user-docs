@@ -1,3 +1,7 @@
+---
+description: Create a Slack incoming webhook App to receive and display Snyk vulnerability notifications in your Slack channel.
+---
+
 # Slack setup to connect Snyk with AWS Lambda
 
 To enable Snyk to communicate with Slack, start by setting up incoming webhooks through Slack Apps. These are provided by Slack to enable developers to communicate with Slack.

@@ -1,3 +1,7 @@
+---
+description: Use Groups to organize multiple Organizations under one administrative unit and manage shared settings and users.
+---
+
 # Groups
 
 Snyk Groups make it easier for you to work in teams. Groups can contain many Organizations, and each Organization can contain many collaborators and Projects.

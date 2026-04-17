@@ -1,3 +1,7 @@
+---
+description: See example requests for the Update existing integration endpoint, including how to configure Broker for an existing integration.
+---
+
 # Examples for the Update existing integration endpoint
 
 Examples follow for the [Update existing integration](../reference/integrations-v1.md#org-orgid-integrations-integrationid) endpoint in the [Integrations (v1)](../reference/integrations-v1.md) API.

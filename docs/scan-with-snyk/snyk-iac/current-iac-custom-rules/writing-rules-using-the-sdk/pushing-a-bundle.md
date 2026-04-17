@@ -1,3 +1,8 @@
+---
+description: >-
+  Push your custom IaC rules bundle to an OCI registry for distribution using the SDK push command.
+---
+
 # Pushing a bundle
 
 Optionally, once you have generated your custom rules bundle, you can distribute it automatically to one of our supported OCI registries by using the `push` command:

@@ -1,3 +1,7 @@
+---
+description: Install Snyk Studio directly in Factory Terminal/IDE to scan AI-generated code for security vulnerabilities.
+---
+
 # Factory Terminal/IDE guide
 
 Access Snyk Studio, including Snyk's MCP server, in Factory Terminal/IDE to secure code generated with agentic workflows through an LLM. You can achieve this by installing Snyk Studio directly.

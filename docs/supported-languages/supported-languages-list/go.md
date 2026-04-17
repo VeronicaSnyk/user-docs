@@ -1,3 +1,8 @@
+---
+description: >-
+  Scan Go modules and packages for open-source vulnerabilities and code security issues using Snyk.
+---
+
 # Go
 
 ## Applicability and integration

@@ -1,3 +1,7 @@
+---
+description: Streamline security training management by assigning Snyk Learn lessons to users, setting due dates, tracking completion, and aligning learning with compliance timelines.
+---
+
 # Snyk Learn assignments
 
 {% hint style="info" %}

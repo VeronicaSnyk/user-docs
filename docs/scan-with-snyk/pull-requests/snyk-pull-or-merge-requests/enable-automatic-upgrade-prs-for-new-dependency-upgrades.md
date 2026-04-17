@@ -1,3 +1,8 @@
+---
+description: >-
+  Enable Snyk to automatically open upgrade pull requests when new, non-vulnerable dependency versions are available.
+---
+
 # Enable automatic upgrade PRs for new dependency upgrades
 
 {% hint style="info" %}

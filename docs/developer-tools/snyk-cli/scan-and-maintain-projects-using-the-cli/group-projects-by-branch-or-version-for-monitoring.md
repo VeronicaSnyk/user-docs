@@ -1,3 +1,7 @@
+---
+description: Organize monitored Projects by branch or version to track vulnerabilities across multiple release streams.
+---
+
 # Group Projects by branch or version for monitoring
 
 {% hint style="info" %}

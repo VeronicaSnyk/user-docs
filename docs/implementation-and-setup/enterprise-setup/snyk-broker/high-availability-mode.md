@@ -1,3 +1,7 @@
+---
+description: Deploy multiple Snyk Broker Client replicas in high availability mode to distribute load and eliminate single points of failure.
+---
+
 # High availability mode
 
 Snyk Broker can bring high availability capabilities to both servers and clients, thus increasing the scalability of the current Broker, initially to support the addition of the “git-clone-through-broker” flow for Snyk Code.

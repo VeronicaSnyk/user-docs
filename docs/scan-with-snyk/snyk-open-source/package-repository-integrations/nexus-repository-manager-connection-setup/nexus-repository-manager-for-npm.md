@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Snyk to use your Nexus Repository Manager for scanning private npm dependencies.
+---
+
 # Nexus repository manager for npm
 
 {% hint style="info" %}

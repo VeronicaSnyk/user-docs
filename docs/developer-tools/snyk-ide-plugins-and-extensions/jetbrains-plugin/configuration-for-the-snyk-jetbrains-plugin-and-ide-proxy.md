@@ -1,3 +1,7 @@
+---
+description: Configure the Snyk JetBrains plugin settings and proxy options to match your development environment.
+---
+
 # Configuration for the Snyk JetBrains plugin and IDE proxy
 
 {% hint style="info" %}

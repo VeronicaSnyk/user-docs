@@ -1,3 +1,8 @@
+---
+description: >-
+  Contribute to the snyk-api-import open-source tool by signing the contributor agreement and submitting pull requests.
+---
+
 # Contributing to snyk-api-import
 
 ## Contributor Agreement

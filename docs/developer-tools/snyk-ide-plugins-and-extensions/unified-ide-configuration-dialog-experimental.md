@@ -1,3 +1,7 @@
+---
+description: Configure all Snyk IDE plugin settings from a single unified dialog available as an experimental feature.
+---
+
 # Unified IDE Configuration Dialog (experimental)
 
 You can use only one IDE configuration dialog to configure all your IDEs.

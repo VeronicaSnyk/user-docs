@@ -1,3 +1,8 @@
+---
+description: >-
+  Scan open-source libraries for vulnerabilities and license compliance using Snyk Open Source.
+---
+
 # Scan open-source libraries and licenses
 
 You can scan your open-source libraries using Snyk Open Source:&#x20;

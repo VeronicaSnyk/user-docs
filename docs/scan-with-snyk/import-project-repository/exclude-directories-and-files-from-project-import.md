@@ -1,3 +1,8 @@
+---
+description: >-
+  Exclude specific folders and files from Snyk Project imports when using SCM integrations.
+---
+
 # Exclude directories and files from Project import
 
 If you import a Project through an SCM integration, add the folders to exclude in the **Exclude folders** field of the import window.

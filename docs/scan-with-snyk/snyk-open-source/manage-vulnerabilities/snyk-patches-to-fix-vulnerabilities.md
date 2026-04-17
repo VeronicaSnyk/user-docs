@@ -1,3 +1,8 @@
+---
+description: >-
+  Apply Snyk patches to fix vulnerabilities when no compatible upgrade path is available for a dependency.
+---
+
 # Snyk patches to fix vulnerabilities
 
 ## Introduction to patches

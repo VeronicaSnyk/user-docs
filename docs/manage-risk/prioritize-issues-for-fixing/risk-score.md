@@ -1,3 +1,7 @@
+---
+description: Use the Snyk Risk Score—ranging from 0 to 1,000—to prioritize Snyk Open Source and Container vulnerabilities based on potential impact and likelihood of exploitation.
+---
+
 # Risk Score
 
 {% hint style="info" %}

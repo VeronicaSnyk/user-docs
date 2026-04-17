@@ -1,3 +1,7 @@
+---
+description: Browse the Snyk Learn catalog by topic or status, track your progress through lessons and learning paths, and customize your profile to improve learning recommendations.
+---
+
 # Your learning
 
 ## Finding learning opportunities

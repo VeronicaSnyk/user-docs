@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Snyk to use your Nexus Repository Manager for scanning private Maven dependencies.
+---
+
 # Nexus repository manager for Maven
 
 {% hint style="info" %}

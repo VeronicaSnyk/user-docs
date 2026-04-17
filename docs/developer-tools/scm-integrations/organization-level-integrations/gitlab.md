@@ -1,3 +1,7 @@
+---
+description: Connect Snyk to GitLab to scan repositories, run merge request checks, and automatically fix open-source vulnerabilities.
+---
+
 # GitLab
 
 {% hint style="info" %}

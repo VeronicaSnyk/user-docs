@@ -1,3 +1,7 @@
+---
+description: Interpret the output from snyk iac test to understand detected misconfigurations and their severity.
+---
+
 # Understand the IaC CLI test results
 
 {% hint style="info" %}

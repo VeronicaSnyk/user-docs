@@ -1,3 +1,7 @@
+---
+description: Track completion of Snyk Learn assignments at the Organization level using the assignment report dashboard, with filters, due date management, and exportable compliance data.
+---
+
 # Assignment reports
 
 {% hint style="info" %}

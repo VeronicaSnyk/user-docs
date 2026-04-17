@@ -1,3 +1,7 @@
+---
+description: Integrate Snyk webhooks with Zapier to trigger automated workflows when Snyk detects new vulnerabilities.
+---
+
 # How to use Snyk webhooks with Zapier
 
 {% hint style="info" %}

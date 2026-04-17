@@ -1,3 +1,7 @@
+---
+description: Resolve common issues with the Snyk Eclipse plugin, including authentication failures and scan errors.
+---
+
 # Troubleshooting for the Eclipse plugin
 
 {% hint style="warning" %}

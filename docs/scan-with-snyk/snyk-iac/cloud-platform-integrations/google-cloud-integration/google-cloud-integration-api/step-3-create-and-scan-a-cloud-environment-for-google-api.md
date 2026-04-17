@@ -1,3 +1,8 @@
+---
+description: >-
+  Create and scan a Google Cloud Environment in Snyk via the API to detect cloud configuration issues.
+---
+
 # Step 3: Create and scan a Cloud Environment for Google (API)
 
 {% hint style="info" %}

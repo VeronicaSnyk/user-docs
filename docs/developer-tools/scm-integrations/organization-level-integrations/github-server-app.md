@@ -1,3 +1,7 @@
+---
+description: Connect Snyk to self-hosted GitHub instances using the GitHub Server App and Universal Broker for secure scanning.
+---
+
 # GitHub Server App
 
 {% hint style="info" %}

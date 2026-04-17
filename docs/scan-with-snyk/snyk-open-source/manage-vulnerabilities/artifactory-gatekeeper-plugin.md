@@ -1,3 +1,8 @@
+---
+description: >-
+  Use the Artifactory Gatekeeper Plugin to block vulnerable packages from being downloaded in your pipeline.
+---
+
 # Artifactory Gatekeeper Plugin
 
 {% hint style="info" %}

@@ -1,3 +1,7 @@
+---
+description: Run adversarial red teaming scans against your AI application using the experimental snyk redteam command.
+---
+
 # Redteam
 
 **Warning:** `snyk redteam` is an experimental command. The `--experimental` flag is required. Behavior and options may change in future releases without notice.

@@ -1,3 +1,7 @@
+---
+description: Review the permission requirements and access scopes needed for each Snyk SCM integration and connection method.
+---
+
 # User permissions and access scopes
 
 Snyk SCM integrations may require different permission requirements based on the connection method.

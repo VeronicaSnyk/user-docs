@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Broker Client for Artifactory Repository using Docker with the required environment variables.
+---
+
 # Artifactory Repository - install and configure using Docker
 
 {% hint style="info" %}

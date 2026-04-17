@@ -1,3 +1,7 @@
+---
+description: Understand what Snyk Apps are, how they extend the platform, and how to start building a new App using the Demo repository.
+---
+
 # About Snyk Apps
 
 Snyk Apps are integrations that extend the functionality of the Snyk platform, allowing you to create a Snyk experience to suit your specific needs.

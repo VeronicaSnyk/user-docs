@@ -1,3 +1,7 @@
+---
+description: Connect private container registries to Snyk using the Container Registry Agent to scan images without exposing credentials.
+---
+
 # Snyk Broker - Container Registry Agent
 
 {% hint style="info" %}

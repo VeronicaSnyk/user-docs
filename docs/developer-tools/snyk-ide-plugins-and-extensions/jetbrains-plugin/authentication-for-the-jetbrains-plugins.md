@@ -1,3 +1,7 @@
+---
+description: Authenticate the Snyk JetBrains plugin using your API token or OAuth to connect to your Snyk account.
+---
+
 # Authentication for the JetBrains plugin
 
 To scan your Projects, you must authenticate with Snyk.

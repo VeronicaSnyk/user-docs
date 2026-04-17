@@ -1,3 +1,7 @@
+---
+description: Add Snyk Studio to the Continue extension to scan code generated with agentic workflows for vulnerabilities.
+---
+
 # Continue guide
 
 You can access Snyk Studio, including Snyk's MCP server, in Continue to secure code generated with agentic workflows through an LLM. This can be achieved in several ways. When you use it for the first time, the MCP server asks for trust and trigger authentication if necessary.

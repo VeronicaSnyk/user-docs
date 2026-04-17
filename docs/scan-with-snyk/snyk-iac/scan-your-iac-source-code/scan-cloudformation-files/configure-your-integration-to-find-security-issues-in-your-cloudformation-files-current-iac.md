@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure your SCM integration to enable Snyk IaC scanning of CloudFormation files in your repositories.
+---
+
 # Configure your integration to find security issues in your CloudFormation files
 
 Snyk tests and monitors CloudFormation files from source code repositories. It gives advice on how to better secure cloud environments by catching misconfigurations before they are pushed to production, along with assistance on how best to fix them.

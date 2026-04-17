@@ -1,3 +1,7 @@
+---
+description: Set up Snyk using a supported browser and a compatible language, package manager, or framework to begin scanning your code, dependencies, containers, and infrastructure.
+---
+
 # Getting started
 
 {% hint style="info" %}

@@ -1,3 +1,7 @@
+---
+description: Configure a Ping Identity SAML application and link it to Snyk to enable Single Sign-On for your users.
+---
+
 # Ping Identity setup
 
 This page explains how to set up a Ping Identity Application and connect it to Snyk to facilitate SSO.

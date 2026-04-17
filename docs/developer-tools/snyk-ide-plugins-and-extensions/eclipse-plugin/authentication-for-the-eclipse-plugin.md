@@ -1,3 +1,7 @@
+---
+description: Authenticate the Snyk Eclipse plugin using your API token or OAuth to connect to your Snyk account.
+---
+
 # Authentication for the Eclipse plugin
 
 To scan your Projects, you must authenticate with Snyk.&#x20;

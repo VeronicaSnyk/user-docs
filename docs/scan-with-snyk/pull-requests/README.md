@@ -1,3 +1,8 @@
+---
+description: >-
+  Automatically create fix and upgrade pull requests when Snyk identifies vulnerabilities in your Projects.
+---
+
 # Pull Requests
 
 ## Snyk Fix PRs

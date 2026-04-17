@@ -1,3 +1,7 @@
+---
+description: Configure HTTP and HTTPS proxy settings for your Snyk Broker Docker container to route traffic through your network proxy.
+---
+
 # Proxy support with Docker
 
 For proxy configuration, see [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/).

@@ -1,3 +1,8 @@
+---
+description: >-
+  Install the Snyk Controller in your Kubernetes cluster to enable workload scanning and vulnerability monitoring.
+---
+
 # Install the Snyk Controller
 
 ## Prerequisites for installing the Snyk Controller

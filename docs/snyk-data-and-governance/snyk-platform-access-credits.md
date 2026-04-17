@@ -1,3 +1,7 @@
+---
+description: Understand how Snyk Platform credits work, what capabilities they cover, and how to manage your credit-based plan through the Snyk Web UI.
+---
+
 # Snyk Platform credits
 
 ## Credits for the Snyk Credits plan

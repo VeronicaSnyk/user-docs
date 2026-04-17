@@ -1,3 +1,8 @@
+---
+description: >-
+  Understand how Kubernetes-specific factors influence the Snyk Priority Score for detected vulnerabilities.
+---
+
 # Kubernetes and the Snyk Priority Score
 
 {% hint style="info" %}

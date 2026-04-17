@@ -1,3 +1,7 @@
+---
+description: Register your TypeScript project as a Snyk App via the API and implement the OAuth2 authorization flow.
+---
+
 # Register the App and configure user authorization
 
 In the previous sections of this tutorial, we set up our TypeScript project, added an Express server, and configured some basic routing. We'll be building on top of the project we created in the previous sections. It is highly recommended that you complete the previous portions of this tutorial before continuing if you have not done so already.

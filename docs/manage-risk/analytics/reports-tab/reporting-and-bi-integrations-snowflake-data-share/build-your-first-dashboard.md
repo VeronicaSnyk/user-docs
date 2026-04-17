@@ -1,3 +1,7 @@
+---
+description: Use example Snowflake SQL queries organized by AppSec KPIs—including backlog, aging, MTTR, SLA, and PR check adoption—to build your first security analytics dashboard.
+---
+
 # Build your first dashboard
 
 This guide provides example queries to build out your first AppSec dashboard, based on key performance indicators (KPIs) and relevant use cases. These are organized by use case and explained in terms of business value and implementation considerations. While the provided queries offer a starting point, Snyk encourages you to customize them to suit your specific requirements.

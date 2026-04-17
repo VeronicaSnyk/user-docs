@@ -1,3 +1,7 @@
+---
+description: Create and manage Project collections to group related Projects for bulk actions, reporting, and team-based access.
+---
+
 # Project collections
 
 On this page you will find information about how to create and use Project collections:

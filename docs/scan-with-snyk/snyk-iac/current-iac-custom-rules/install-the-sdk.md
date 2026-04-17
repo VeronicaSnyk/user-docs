@@ -1,3 +1,8 @@
+---
+description: >-
+  Install the Snyk IaC SDK using npm or prebuilt binaries to start writing custom security rules.
+---
+
 # Install the SDK
 
 ​Install the SDK using one of these options:

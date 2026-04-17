@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Broker Client for Jira using the Helm chart including regional Broker server URL settings.
+---
+
 # Jira - install and configure using Helm
 
 Before installing, review the [prerequisites](./) and the general instructions for installation using [Helm](../../../../../../enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/install-and-configure-broker-using-helm.md).

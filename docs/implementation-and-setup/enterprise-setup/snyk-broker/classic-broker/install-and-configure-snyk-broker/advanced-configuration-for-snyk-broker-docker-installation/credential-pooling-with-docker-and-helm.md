@@ -1,3 +1,7 @@
+---
+description: Create a pool of API credentials for your Snyk Broker to rotate automatically and avoid rate-limiting issues.
+---
+
 # Credential pooling with Docker and Helm
 
 Under some circumstances it can be desirable to create a "pool" of credentials, for example, to work around rate-limiting issues. You can do this by creating an environment variable ending in `_POOL`, separating each credential with a comma. The Broker Client will then, when doing variable replacement, look to see if the variable in use has a variant with a `_POOL` suffix, and if so, use the next item in that pool. For example, if you have set the environment variable `GITHUB_TOKEN`, but want to provide multiple tokens, you would do this instead:

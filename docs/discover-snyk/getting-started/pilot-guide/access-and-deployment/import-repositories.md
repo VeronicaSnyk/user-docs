@@ -1,3 +1,7 @@
+---
+description: Import repositories into Snyk from the Dashboard or Integrations tab after setting up your SCM integration, to begin scanning your code for vulnerabilities during the pilot.
+---
+
 # Import repositories
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}

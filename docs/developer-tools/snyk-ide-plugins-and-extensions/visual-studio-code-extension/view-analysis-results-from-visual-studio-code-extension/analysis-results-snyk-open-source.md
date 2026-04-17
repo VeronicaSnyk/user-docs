@@ -1,3 +1,7 @@
+---
+description: Review Snyk Open Source dependency vulnerability findings in the Visual Studio Code extension.
+---
+
 # Analysis results: Snyk Open Source
 
 Snyk Open Source analysis shows vulnerabilities in your code with every scan. The scan runs in the background and is enabled by default.

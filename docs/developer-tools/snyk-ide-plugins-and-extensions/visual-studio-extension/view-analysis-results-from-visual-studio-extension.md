@@ -1,3 +1,7 @@
+---
+description: Review Snyk open-source and code vulnerability results displayed in the Visual Studio extension panel.
+---
+
 # View analysis results from Visual Studio extension
 
 ## Issues display in the Visual Studio extension

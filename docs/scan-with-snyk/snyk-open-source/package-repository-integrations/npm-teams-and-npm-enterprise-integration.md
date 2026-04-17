@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Snyk to authenticate with npm Teams or npm Enterprise to scan private npm package dependencies.
+---
+
 # npm Teams and npm Enterprise integration
 
 {% hint style="info" %}

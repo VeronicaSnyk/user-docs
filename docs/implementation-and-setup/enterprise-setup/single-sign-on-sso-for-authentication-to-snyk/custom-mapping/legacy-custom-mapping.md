@@ -1,3 +1,7 @@
+---
+description: Use legacy custom mapping to assign Snyk Group and Organization roles by sending role patterns in SAML attributes or OIDC claims.
+---
+
 # Legacy custom mapping
 
 To configure this option, send the `roles` array within the SAML attributes or OIDC claims to adhere to **one** of the following patterns:

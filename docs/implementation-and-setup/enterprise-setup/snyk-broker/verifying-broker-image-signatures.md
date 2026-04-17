@@ -1,3 +1,7 @@
+---
+description: Verify Snyk Broker container image signatures using Cosign to confirm authenticity before deployment.
+---
+
 # Verifying Broker image signatures
 
 Beginning with version 4.169.1, all Broker container images are signed using Cosign.

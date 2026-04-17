@@ -1,3 +1,7 @@
+---
+description: Analyze whether your application code calls a vulnerable function or class to determine reachability and make more informed, risk-based prioritization decisions with Snyk.
+---
+
 # Reachability analysis
 
 {% hint style="info" %}

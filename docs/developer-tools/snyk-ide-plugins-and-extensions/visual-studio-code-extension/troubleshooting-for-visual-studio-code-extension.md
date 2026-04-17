@@ -1,3 +1,7 @@
+---
+description: Resolve common issues with the Snyk Visual Studio Code extension, including scan failures and authentication problems.
+---
+
 # Troubleshooting for Visual Studio Code extension
 
 {% hint style="warning" %}

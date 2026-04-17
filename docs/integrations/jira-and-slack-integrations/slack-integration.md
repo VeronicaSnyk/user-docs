@@ -1,3 +1,7 @@
+---
+description: Set up Slack notifications to receive alerts about new vulnerabilities and available upgrades affecting your Snyk Projects.
+---
+
 # Slack integration
 
 {% hint style="warning" %}

@@ -1,3 +1,7 @@
+---
+description: Connect your Snyk Organization to a Bitbucket Cloud workspace using the Bitbucket Cloud App for continuous security scanning.
+---
+
 # Bitbucket Cloud App
 
 The Bitbucket Cloud App is positioned to be the default Bitbucket Cloud integration

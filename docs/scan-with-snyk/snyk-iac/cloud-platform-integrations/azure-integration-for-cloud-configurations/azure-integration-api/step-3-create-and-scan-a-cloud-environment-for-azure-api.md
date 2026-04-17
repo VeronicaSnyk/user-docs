@@ -1,3 +1,8 @@
+---
+description: >-
+  Create and scan an Azure Cloud Environment in Snyk via the API to detect cloud configuration issues.
+---
+
 # Step 3: Create and scan a Cloud Environment for Azure (API)
 
 {% hint style="info" %}

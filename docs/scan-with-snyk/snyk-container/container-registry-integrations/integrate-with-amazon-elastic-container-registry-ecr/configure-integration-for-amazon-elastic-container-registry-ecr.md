@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure the Snyk integration with Amazon ECR by creating an IAM role and connecting your Organization.
+---
+
 # Configure integration for Amazon Elastic Container Registry (ECR)
 
 {% hint style="warning" %}

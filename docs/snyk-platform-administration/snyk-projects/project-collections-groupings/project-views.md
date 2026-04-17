@@ -1,3 +1,7 @@
+---
+description: Create Project views from filter combinations to save and share a custom subset of your Organization's Projects.
+---
+
 # Project views
 
 On this page you will find information about how to create and use Project views:

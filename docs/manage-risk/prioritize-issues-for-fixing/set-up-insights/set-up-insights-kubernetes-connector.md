@@ -1,3 +1,7 @@
+---
+description: Deploy the Snyk Kubernetes connector agent in your clusters to collect deployed image data and network configuration details needed for risk factor analysis.
+---
+
 # Set up Insights: Kubernetes connector
 
 ## What is Kubernetes connector?

@@ -1,3 +1,7 @@
+---
+description: Scan Azure Resource Manager (ARM) template files for security misconfigurations using the Snyk CLI.
+---
+
 # ARM files
 
 With Snyk Infrastructure as Code, you can test your configuration files using the CLI.

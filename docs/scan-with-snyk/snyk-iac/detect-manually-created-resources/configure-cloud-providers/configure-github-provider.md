@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure GitHub credentials for the Snyk IaC describe command to detect unmanaged GitHub resources.
+---
+
 # Configure GitHub provider
 
 ## Authentication for GitHub provider

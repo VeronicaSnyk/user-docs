@@ -1,3 +1,7 @@
+---
+description: Create, name, and manage Personal Access Tokens to authenticate API, CLI, and IDE workflows with expiry up to 90 days.
+---
+
 # Personal Access Tokens (PATs)
 
 ## What are PATs?

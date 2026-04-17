@@ -1,3 +1,8 @@
+---
+description: >-
+  Update the name, IAM role ARN, or other attributes of an existing Snyk cloud environment.
+---
+
 # Update a cloud environment
 
 You can update the following attributes for a [cloud environment](../key-concepts-for-cloud-scans.md#environments):

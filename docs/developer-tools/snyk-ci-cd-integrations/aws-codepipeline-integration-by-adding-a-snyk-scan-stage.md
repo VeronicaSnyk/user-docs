@@ -1,3 +1,7 @@
+---
+description: Add Snyk Open Source SCA scanning to your AWS CodePipeline using AWS CodeBuild and the Snyk CLI.
+---
+
 # AWS CodePipeline integration with CodeBuild
 
 This guide outlines the steps for setting up a [Snyk Open Source](https://snyk.io/product/open-source-security-management/) security scanning workflow for AWS CodePipeline using [AWS CodeBuild](https://aws.amazon.com/codebuild/). By using the Snyk CLI and the built-in capabilities of CodeBuild, you can build a configurable solution for running Snyk software composition analysis (SCA) scans in your CI/CD pipeline.

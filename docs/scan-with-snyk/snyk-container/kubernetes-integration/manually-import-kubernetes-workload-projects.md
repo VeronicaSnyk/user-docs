@@ -1,3 +1,8 @@
+---
+description: >-
+  Manually import Kubernetes workload Projects into Snyk for vulnerability monitoring across multiple clusters.
+---
+
 # Manually import Kubernetes workload Projects
 
 Using the same integration ID, you can import multiple clusters to one Snyk Organization by giving clusters a unique cluster name during installation.

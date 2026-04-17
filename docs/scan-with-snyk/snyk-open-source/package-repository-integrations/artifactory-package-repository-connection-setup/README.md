@@ -1,3 +1,8 @@
+---
+description: >-
+  Connect Snyk to your Artifactory package repository to resolve and scan private dependencies.
+---
+
 # Artifactory package repository connection setup
 
 {% hint style="info" %}

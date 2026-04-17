@@ -1,3 +1,8 @@
+---
+description: >-
+  Write, test, bundle, and distribute custom security rules for Snyk IaC using the SDK.
+---
+
 # IaC custom rules
 
 {% hint style="info" %}

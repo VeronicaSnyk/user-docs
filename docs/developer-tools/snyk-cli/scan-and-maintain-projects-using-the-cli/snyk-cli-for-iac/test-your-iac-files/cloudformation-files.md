@@ -1,3 +1,7 @@
+---
+description: Scan AWS CloudFormation templates for security misconfigurations using the Snyk CLI.
+---
+
 # CloudFormation files
 
 With Snyk Infrastructure as Code, you can test your CloudFormation files using the CLI. You can test files in both YAML and JSON formats. You can also scan AWS CDK applications; see [AWS CDK files](aws-cdk-files.md).

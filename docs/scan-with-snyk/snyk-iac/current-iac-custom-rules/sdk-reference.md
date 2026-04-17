@@ -1,3 +1,8 @@
+---
+description: >-
+  Review the complete SDK reference for the snyk-iac-rules tool, including commands, options, and descriptions.
+---
+
 # SDK reference
 
 ## NAME

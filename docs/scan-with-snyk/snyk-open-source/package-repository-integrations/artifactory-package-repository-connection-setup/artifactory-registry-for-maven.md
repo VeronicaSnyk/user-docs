@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Snyk to use your Artifactory registry as a Maven mirror for scanning private Java dependencies.
+---
+
 # Artifactory registry for Maven
 
 {% hint style="info" %}

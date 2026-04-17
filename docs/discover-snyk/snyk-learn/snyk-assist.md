@@ -1,3 +1,7 @@
+---
+description: Get instant answers to Snyk product and application security questions using Snyk Assist, an AI-powered learning assistant integrated directly into the Snyk Learn platform.
+---
+
 # Snyk Assist for Learn
 
 {% hint style="info" %}

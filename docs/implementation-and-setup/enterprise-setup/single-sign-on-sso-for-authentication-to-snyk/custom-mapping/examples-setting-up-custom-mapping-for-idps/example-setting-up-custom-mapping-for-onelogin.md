@@ -1,3 +1,7 @@
+---
+description: Assign roles directly to users in OneLogin and pass them in the SAML assertion to provision users into Snyk with the correct permissions.
+---
+
 # Example: setting up custom mapping for OneLogin
 
 This example shows how to configure user roles after you have [configured OneLogin SSO for Snyk](../../set-up-snyk-single-sign-on-sso.md).

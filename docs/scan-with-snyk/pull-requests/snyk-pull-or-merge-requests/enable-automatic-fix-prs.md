@@ -1,3 +1,8 @@
+---
+description: >-
+  Enable Snyk to automatically open fix pull requests when new vulnerabilities are found in your Projects.
+---
+
 # Enable automatic Fix PRs
 
 {% hint style="info" %}

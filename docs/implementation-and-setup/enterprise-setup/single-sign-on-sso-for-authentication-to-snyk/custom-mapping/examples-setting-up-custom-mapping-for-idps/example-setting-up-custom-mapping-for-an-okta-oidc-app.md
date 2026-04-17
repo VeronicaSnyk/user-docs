@@ -1,3 +1,7 @@
+---
+description: Configure custom role mapping for an Okta OIDC application to provision users into Snyk Organizations with the correct roles.
+---
+
 # Example: setting up custom mapping for an Okta OIDC app
 
 Follow these steps configure an integration for OIDC Okta.

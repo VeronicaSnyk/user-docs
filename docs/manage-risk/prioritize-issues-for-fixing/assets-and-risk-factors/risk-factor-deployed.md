@@ -1,3 +1,7 @@
+---
+description: Identify which container images are actively deployed in your Kubernetes clusters so Snyk can surface the Deployed risk factor and help you reduce your risk surface area.
+---
+
 # Risk factor: deployed
 
 Any deployed code increases the risk of exploitation of your application and business.

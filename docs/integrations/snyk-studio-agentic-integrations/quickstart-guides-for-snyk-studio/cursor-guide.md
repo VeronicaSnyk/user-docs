@@ -1,3 +1,7 @@
+---
+description: Access Snyk Studio in Cursor using the Snyk Security extension to scan AI-generated code for security vulnerabilities.
+---
+
 # Cursor guide
 
 You can access Snyk Studio, including Snyk's MCP server, in Cursor to secure code generated with agentic workflows through an LLM. This can be achieved in several ways. For most users, we recommend accessing Snyk Studio using the Snyk Security extension.

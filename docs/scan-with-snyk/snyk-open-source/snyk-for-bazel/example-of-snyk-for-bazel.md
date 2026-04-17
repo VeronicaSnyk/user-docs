@@ -1,3 +1,8 @@
+---
+description: >-
+  Follow a complete example of scanning a Bazel Java project for vulnerabilities using the Snyk Dep Graph API.
+---
+
 # Example of Snyk for Bazel
 
 {% hint style="info" %}

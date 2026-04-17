@@ -1,3 +1,8 @@
+---
+description: >-
+  Browse example commands for snyk iac describe to detect unmanaged resources across cloud providers.
+---
+
 # IaC describe command examples
 
 For a full list of `snyk iac describe` options, see [`snyk iac describe`](../../../developer-tools/snyk-cli/commands/iac-describe.md) command help or display the help by running:

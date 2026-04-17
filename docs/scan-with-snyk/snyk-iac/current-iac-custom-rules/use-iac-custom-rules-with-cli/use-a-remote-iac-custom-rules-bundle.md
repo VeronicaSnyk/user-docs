@@ -1,3 +1,8 @@
+---
+description: >-
+  Distribute and apply a remote IaC custom rules bundle from an OCI registry during Snyk CLI scans.
+---
+
 # Use a remote IaC custom rules bundle
 
 After you generate your custom rules bundle, you can distribute it to one of the supported OCI registries by following the steps in [Pushing a bundle](../writing-rules-using-the-sdk/pushing-a-bundle.md).

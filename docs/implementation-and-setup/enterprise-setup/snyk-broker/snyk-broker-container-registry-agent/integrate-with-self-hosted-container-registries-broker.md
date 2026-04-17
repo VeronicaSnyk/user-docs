@@ -1,3 +1,7 @@
+---
+description: Integrate Snyk with self-hosted container registries using the Broker Container Registry Agent to keep credentials within your network.
+---
+
 # Integrate with self-hosted container registries
 
 {% hint style="info" %}

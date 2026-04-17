@@ -1,3 +1,7 @@
+---
+description: Get started with the Snyk CLI to scan and monitor your code, dependencies, containers, and IaC configurations.
+---
+
 # Getting started with the Snyk CLI
 
 ## Introduction to the Snyk CLI

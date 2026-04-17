@@ -1,3 +1,7 @@
+---
+description: Authenticate the Snyk Visual Studio Code extension to connect it to your Snyk account.
+---
+
 # Authentication for Visual Studio Code extension
 
 To scan your Projects, you must authenticate with Snyk.&#x20;

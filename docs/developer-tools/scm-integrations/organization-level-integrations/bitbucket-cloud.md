@@ -1,3 +1,7 @@
+---
+description: Connect Snyk to Bitbucket Cloud using an API token to scan repositories and detect open-source vulnerabilities.
+---
+
 # Bitbucket Cloud
 
 {% hint style="info" %}

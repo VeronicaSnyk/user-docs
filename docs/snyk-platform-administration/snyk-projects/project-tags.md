@@ -1,3 +1,7 @@
+---
+description: Add key-value tags to your Snyk Projects to enable filtering, grouping, and reporting across your Organizations.
+---
+
 # Project tags
 
 {% hint style="info" %}

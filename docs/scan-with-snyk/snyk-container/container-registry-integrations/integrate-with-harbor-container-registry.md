@@ -1,3 +1,8 @@
+---
+description: >-
+  Integrate Snyk with Harbor Container Registry to scan and monitor container images for vulnerabilities.
+---
+
 # Integrate with Harbor Container Registry
 
 {% hint style="info" %}

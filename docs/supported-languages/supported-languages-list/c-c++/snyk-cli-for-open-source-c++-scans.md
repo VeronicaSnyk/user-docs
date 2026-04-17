@@ -1,3 +1,8 @@
+---
+description: >-
+  Scan open-source C/C++ dependencies for vulnerabilities by hashing files and testing against the Snyk Vuln DB.
+---
+
 # Snyk CLI for open-source C++ scans
 
 ## Snyk CLI for open-source C/C++

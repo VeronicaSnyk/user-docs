@@ -1,3 +1,7 @@
+---
+description: Scan container images for vulnerabilities and monitor them continuously using the Snyk CLI.
+---
+
 # Scan and monitor images
 
 It is common to use both `test` and `monitor` commands with Snyk Container. You can use the `snyk container test` command for quick checks. You can use the `snyk container monitor` command for ongoing assurance and to easily share results.

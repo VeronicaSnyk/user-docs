@@ -1,3 +1,7 @@
+---
+description: Modify your .snyk policy file to ignore a specific vulnerability issue by ID, path, expiry, or reason.
+---
+
 # Ignore
 
 ## Usage and description

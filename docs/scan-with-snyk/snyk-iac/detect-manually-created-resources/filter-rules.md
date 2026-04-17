@@ -1,3 +1,8 @@
+---
+description: >-
+  Build filter rules to include or exclude specific resources from Snyk IaC unmanaged resource detection.
+---
+
 # Filter rules
 
 You can use filter rules to describe resources and ignore resources. You can use both inclusion and exclusion logic.

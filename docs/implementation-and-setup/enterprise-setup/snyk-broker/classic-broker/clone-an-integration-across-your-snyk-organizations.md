@@ -1,3 +1,7 @@
+---
+description: Copy a brokered Git integration across multiple Snyk Organizations so they all share the same Broker token.
+---
+
 # Clone an integration across your Snyk Organizations
 
 You can choose to use the same brokered Git integration across multiple Organizations in Snyk by copying and duplicating the Organization you have already configured.

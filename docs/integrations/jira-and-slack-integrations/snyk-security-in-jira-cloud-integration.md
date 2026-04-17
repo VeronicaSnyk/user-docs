@@ -1,3 +1,7 @@
+---
+description: View Snyk scan results and create Jira issues for security vulnerabilities directly from your native Jira Cloud environment.
+---
+
 # Snyk Security in Jira Cloud integration
 
 {% hint style="info" %}

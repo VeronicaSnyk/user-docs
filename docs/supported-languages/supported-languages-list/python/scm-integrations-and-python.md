@@ -1,3 +1,8 @@
+---
+description: >-
+  Import Python repositories from supported SCM integrations and understand scan behavior and limitations.
+---
+
 # SCM integration support for Python
 
 {% hint style="warning" %}

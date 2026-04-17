@@ -1,3 +1,7 @@
+---
+description: Administer your Snyk account using functions including user management, Groups, Organizations, Projects, and custom roles.
+---
+
 # Overview
 
 {% hint style="info" %}

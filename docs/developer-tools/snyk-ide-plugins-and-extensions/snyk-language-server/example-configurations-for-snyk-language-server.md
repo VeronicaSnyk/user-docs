@@ -1,3 +1,7 @@
+---
+description: Review example configurations for connecting the Snyk Language Server to editors such as Neovim and Emacs.
+---
+
 # Example configurations for Snyk Language Server
 
 ## Example configuration for Sublime Text

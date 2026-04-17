@@ -1,3 +1,7 @@
+---
+description: Review how Snyk accesses, transfers, and stores your data across its deployment options, including multi-tenant SaaS, single-tenant, and Snyk Broker configurations.
+---
+
 # How Snyk handles your data
 
 Snyk is a developer security platform designed to place the utmost importance on data security. This document aims to provide you with transparency as to how and what data is accessed, transferred, and stored by Snyk in connection with our services.

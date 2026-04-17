@@ -1,3 +1,7 @@
+---
+description: Generate a GitLab personal access token with the required permissions and configure the GitLab SCM integration with Snyk for your pilot deployment.
+---
+
 # GitLab
 
 {% include "../../../../../.gitbook/includes/pilot-guide-toc.md" %}

@@ -1,3 +1,7 @@
+---
+description: Run a Snyk Code static analysis scan against your source code from the command line.
+---
+
 # Scan source code with Snyk Code using the CLI
 
 When you test your repository source code using the Snyk CLI, you can:

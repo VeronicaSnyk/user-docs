@@ -1,3 +1,7 @@
+---
+description: Review and interpret Snyk Code vulnerability findings returned by the CLI, including severity and fix guidance.
+---
+
 # View Snyk Code CLI results
 
 The Snyk CLI enables you to perform the following actions on the results of the `snyk code test` command:

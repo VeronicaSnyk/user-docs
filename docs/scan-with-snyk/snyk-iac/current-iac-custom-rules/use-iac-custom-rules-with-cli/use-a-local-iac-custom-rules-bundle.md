@@ -1,3 +1,8 @@
+---
+description: >-
+  Use a local custom rules bundle with the Snyk CLI to apply your organization's IaC policies during scans.
+---
+
 # Use a local IaC custom rules bundle
 
 {% hint style="info" %}

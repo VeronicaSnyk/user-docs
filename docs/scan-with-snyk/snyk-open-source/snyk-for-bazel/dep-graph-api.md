@@ -1,3 +1,8 @@
+---
+description: >-
+  Use the Snyk Dep Graph API to submit dependency graphs from Bazel builds for vulnerability testing.
+---
+
 # Dep Graph API
 
 {% hint style="info" %}

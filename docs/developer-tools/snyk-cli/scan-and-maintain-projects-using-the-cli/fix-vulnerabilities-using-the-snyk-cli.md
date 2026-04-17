@@ -1,3 +1,7 @@
+---
+description: Apply automatic fixes to open-source vulnerabilities directly from the Snyk CLI using snyk fix.
+---
+
 # Fix vulnerabilities using the Snyk CLI
 
 The Snyk CLI provides support for fixing vulnerabilities found by using the `snyk test` command. For information about fixes in the Web UI, see [Fix your vulnerabilities](../../../scan-with-snyk/snyk-open-source/manage-vulnerabilities/fix-your-vulnerabilities.md). For general information about patches, see [Snyk patches to fix vulnerabilities](../../../scan-with-snyk/snyk-open-source/manage-vulnerabilities/snyk-patches-to-fix-vulnerabilities.md).

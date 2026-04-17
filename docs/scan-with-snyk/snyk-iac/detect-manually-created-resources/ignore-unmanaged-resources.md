@@ -1,3 +1,8 @@
+---
+description: >-
+  Exclude specific unmanaged resources from Snyk IaC describe results using the .snyk policy file.
+---
+
 # Ignore unmanaged resources
 
 The `.snyk` policy file can be used to exclude unmanaged resources from being detected by `snyk iac describe`. See [the `.snyk` policy file doc](../../../manage-risk/policies/the-.snyk-file.md) for general information.

@@ -1,3 +1,7 @@
+---
+description: Review prerequisites and choose between Helm or Docker installation to configure Snyk Broker for Artifactory Repository.
+---
+
 # Artifactory Repository - prerequisites and steps to install and configure Broker
 
 {% hint style="info" %}

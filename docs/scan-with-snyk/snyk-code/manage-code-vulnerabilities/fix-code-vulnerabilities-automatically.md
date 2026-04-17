@@ -1,3 +1,8 @@
+---
+description: >-
+  Use Snyk Agent Fix to automatically generate and apply code fixes for security vulnerabilities in your source code.
+---
+
 # Fix code vulnerabilities automatically
 
 {% hint style="info" %}

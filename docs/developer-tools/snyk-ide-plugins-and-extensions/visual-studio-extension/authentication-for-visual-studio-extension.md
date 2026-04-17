@@ -1,3 +1,7 @@
+---
+description: Authenticate the Snyk Visual Studio extension to connect it to your Snyk account.
+---
+
 # Authentication for Visual Studio extension
 
 To scan your Projects, you must authenticate with Snyk.

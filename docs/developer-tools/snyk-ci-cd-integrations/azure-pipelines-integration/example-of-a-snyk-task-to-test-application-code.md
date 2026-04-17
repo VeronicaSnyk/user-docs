@@ -1,3 +1,7 @@
+---
+description: Review an example Snyk Security Scan task configuration for testing application code in Azure Pipelines.
+---
+
 # Example of a Snyk task to test application code
 
 The following shows an example of Snyk Security Scan task configuration and parameters for testing application code.

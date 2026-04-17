@@ -1,3 +1,8 @@
+---
+description: >-
+  Integrate Snyk with DigitalOcean Container Registry to import and monitor container images for vulnerabilities.
+---
+
 # Integrate with DigitalOcean
 
 Snyk integrates with DigitalOcean to enable you to import your container images and monitor them for vulnerabilities.

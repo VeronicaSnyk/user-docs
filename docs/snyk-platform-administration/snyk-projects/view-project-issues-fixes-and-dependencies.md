@@ -1,3 +1,7 @@
+---
+description: View issues, fix advice, and dependency trees for a Snyk Project to understand and address its vulnerabilities.
+---
+
 # View Project issues, fixes, and dependencies
 
 The following Project information is available on the Snyk Web UI:

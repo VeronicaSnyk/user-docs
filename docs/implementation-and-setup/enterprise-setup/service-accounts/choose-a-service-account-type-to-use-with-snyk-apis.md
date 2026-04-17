@@ -1,3 +1,7 @@
+---
+description: Compare access token and OAuth 2.0 service account types to select the right authentication method for your Snyk API workflows.
+---
+
 # Choose a service account type to use with Snyk APIs
 
 ## Group level or Organization level

@@ -1,3 +1,7 @@
+---
+description: Create a Snyk webhook using the API to send vulnerability events to your AWS Lambda function URL.
+---
+
 # Set up the Snyk webhook
 
 Create the Snyk Webhook using the [Create a webhook API](../../../../reference/webhooks-v1.md#org-orgid-webhooks).

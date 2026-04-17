@@ -1,3 +1,7 @@
+---
+description: Configure the Snyk Organization used for Snyk Code CLI tests to ensure results appear in the correct workspace.
+---
+
 # Set the Snyk Organization for CLI tests
 
 If you have several Organizations in your Snyk account, before you test your code using the CLI, specify which Snyk Organization will be used for the test count.

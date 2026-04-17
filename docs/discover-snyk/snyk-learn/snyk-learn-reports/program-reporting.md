@@ -1,3 +1,7 @@
+---
+description: Monitor the progress and engagement of your security training programs across your Organization using the Snyk Learn in-app program reporting, available at the Group level.
+---
+
 # Program reporting
 
 {% hint style="info" %}

@@ -1,3 +1,8 @@
+---
+description: >-
+  Install the Snyk Controller on Azure and Google Cloud Platform using Helm for Kubernetes workload scanning.
+---
+
 # Install the Snyk Controller with Helm (Azure and Google Cloud Platform)
 
 {% hint style="info" %}

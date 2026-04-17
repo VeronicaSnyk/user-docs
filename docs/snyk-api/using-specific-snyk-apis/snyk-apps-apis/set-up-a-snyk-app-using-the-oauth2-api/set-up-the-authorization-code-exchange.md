@@ -1,3 +1,7 @@
+---
+description: Exchange your OAuth2 authorization code for an access token by making a POST request to the token endpoint.
+---
+
 # Set up the authorization code exchange
 
 After you receive an authorization **code**, you must exchange it for an access token.

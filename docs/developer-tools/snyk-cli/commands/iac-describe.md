@@ -1,3 +1,7 @@
+---
+description: Detect unmanaged infrastructure resources by comparing your Terraform state with your actual cloud environment.
+---
+
 # IaC describe
 
 ## Usage

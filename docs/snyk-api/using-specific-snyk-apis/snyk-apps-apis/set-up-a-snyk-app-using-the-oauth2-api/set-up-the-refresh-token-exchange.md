@@ -1,3 +1,7 @@
+---
+description: Exchange an expiring access token for a new one using the refresh token before the current token expires.
+---
+
 # Set up the refresh token exchange
 
 As the `access_token` will expire in a short time, the App will need to frequently request a new one using the `refresh_token`. This must be done while the `refresh_token` itself is still valid.

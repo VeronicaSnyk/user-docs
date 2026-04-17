@@ -1,3 +1,8 @@
+---
+description: >-
+  Integrate Snyk with Google Container Registry to import and monitor container images for vulnerabilities.
+---
+
 # Integrate with Google Container Registry (GCR)
 
 {% hint style="warning" %}

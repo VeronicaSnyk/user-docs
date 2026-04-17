@@ -1,3 +1,8 @@
+---
+description: >-
+  View and inventory all cloud resources detected by Snyk across your Organization's cloud provider accounts.
+---
+
 # View cloud resources
 
 You can view all attributes for cloud resources in an Organization. This allows you to inventory all of your resources across cloud provider accounts or see the recorded state of any resource during the most recent scan.

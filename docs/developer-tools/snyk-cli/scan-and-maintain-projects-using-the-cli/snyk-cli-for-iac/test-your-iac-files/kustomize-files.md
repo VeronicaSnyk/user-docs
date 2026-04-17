@@ -1,3 +1,7 @@
+---
+description: Scan Kustomize overlays and base configurations for Kubernetes misconfigurations using the Snyk CLI.
+---
+
 # Kustomize files
 
 You can scan a Kustomize template by building the Kubernetes manifest file and then scanning it using the Snyk CLI `iac test` command.

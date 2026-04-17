@@ -1,3 +1,7 @@
+---
+description: Count and summarize the number of unique contributors across your SCM repositories over the last 90 days.
+---
+
 # snyk-scm-contributors-count
 
 ## What does this tool do?

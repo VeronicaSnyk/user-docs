@@ -1,3 +1,7 @@
+---
+description: Revoke a compromised OAuth2 refresh token immediately to prevent unauthorized access to Snyk through your App.
+---
+
 # Revoke compromised refresh tokens
 
 If you believe that a refresh token has been compromised then it is recommended that you revoke that token as soon as possible. This is to prevent misuse of the token to gain access to Snyk systems.&#x20;

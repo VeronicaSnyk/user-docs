@@ -1,3 +1,7 @@
+---
+description: Exclude specific IaC files or directories from Snyk CLI scans using command-line flags.
+---
+
 # IaC exclusions using the command line
 
 When you scan directories or a large collection of IaC files using the Snyk CLI `iac test` command, it is easy to include unwanted files or directories in your scan by mistake. When this happens, use your command line tools to exclude specific files or directories from the scan. This page describes some solutions to the most typical use cases.

@@ -1,3 +1,7 @@
+---
+description: Upgrade your Snyk Bitbucket Pipelines integration from a version earlier than 1.0.0 to use the latest Snyk images.
+---
+
 # Migrating to Bitbucket Pipelines v1.0.0
 
 When you are upgrading from < 1.0.0 to 1.0.0+, make the following changes in your configuration:

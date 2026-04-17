@@ -1,3 +1,7 @@
+---
+description: Resolve common issues with the Snyk JetBrains plugin, including connection failures and missing scan results.
+---
+
 # Troubleshooting for the JetBrains plugin
 
 {% hint style="warning" %}

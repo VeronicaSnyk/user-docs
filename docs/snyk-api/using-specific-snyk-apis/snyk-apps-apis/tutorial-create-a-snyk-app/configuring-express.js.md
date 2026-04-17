@@ -1,3 +1,7 @@
+---
+description: Add Express.js to your Snyk App project and configure middleware to handle routing and different request types.
+---
+
 # Configuring Express.js
 
 ## Set up Express to serve the application

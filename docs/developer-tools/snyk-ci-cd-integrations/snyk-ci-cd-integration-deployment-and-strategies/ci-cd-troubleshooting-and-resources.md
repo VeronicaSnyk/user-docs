@@ -1,3 +1,7 @@
+---
+description: Troubleshoot Snyk CI/CD integration issues by replicating problems with the CLI and scaling your configuration.
+---
+
 # CI/CD troubleshooting and resources
 
 This page provides a few tips to help troubleshoot or scale CI/CD integrations.

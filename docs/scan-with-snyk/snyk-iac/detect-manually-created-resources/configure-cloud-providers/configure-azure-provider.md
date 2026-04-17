@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Azure credentials for the Snyk IaC describe command to detect unmanaged Azure resources.
+---
+
 # Configure Azure provider
 
 ## Authentication of Azure provider

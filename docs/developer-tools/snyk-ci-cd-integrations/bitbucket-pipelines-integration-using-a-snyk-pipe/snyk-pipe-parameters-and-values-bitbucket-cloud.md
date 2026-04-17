@@ -1,3 +1,7 @@
+---
+description: Review all available parameters and values for configuring the Snyk pipe in your Bitbucket Cloud pipeline YAML.
+---
+
 # Snyk pipe parameters and values (Bitbucket Cloud)
 
 ## Configure the Snyk pipe

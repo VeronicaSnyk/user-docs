@@ -1,3 +1,7 @@
+---
+description: Track all versioned changes to Snyk REST API endpoints including additions, modifications, and breaking changes.
+---
+
 ## 2026-03-25
 
 ### POST - `/orgs/{org_id}/policies` - Updated

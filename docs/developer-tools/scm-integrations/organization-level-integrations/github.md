@@ -1,3 +1,7 @@
+---
+description: Connect Snyk to GitHub to scan repositories, run pull request checks, and receive automated fix pull requests.
+---
+
 # GitHub
 
 ## Prerequisites for GitHub integration

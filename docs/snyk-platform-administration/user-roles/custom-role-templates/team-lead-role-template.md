@@ -1,3 +1,7 @@
+---
+description: Use this Group-level role template to give team leads full Organization-level permissions plus customization rights for other users.
+---
+
 # Team Lead role template
 
 A Team Lead is equivalent to the default [**Organization Admin**](../pre-defined-roles.md) rol&#x65;**,** providing additional capabilities to customize or change user permissions for other users.\

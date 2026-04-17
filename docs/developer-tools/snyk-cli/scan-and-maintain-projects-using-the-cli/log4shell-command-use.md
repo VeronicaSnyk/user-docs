@@ -1,3 +1,7 @@
+---
+description: Use the Snyk CLI to detect Log4Shell vulnerabilities across your application dependencies.
+---
+
 # Log4shell command use
 
 ## Introduction

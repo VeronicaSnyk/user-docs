@@ -1,3 +1,7 @@
+---
+description: Migrate from the deprecated V1 Reporting API to the Dataset Export API for improved data export and analytics capabilities.
+---
+
 # V1 Reporting APIs to Export API migration guide
 
 {% hint style="warning" %}

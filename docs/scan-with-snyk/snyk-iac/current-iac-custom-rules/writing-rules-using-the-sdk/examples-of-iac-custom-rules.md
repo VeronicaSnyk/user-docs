@@ -1,3 +1,8 @@
+---
+description: >-
+  Review complete examples of simple boolean and complex IaC custom rules written in Rego.
+---
+
 # Examples of IaC custom rules
 
 ## Example of a simple boolean rule

@@ -1,3 +1,8 @@
+---
+description: >-
+  Create and scan an AWS Cloud Environment in Snyk from the Snyk Web UI to detect infrastructure misconfigurations.
+---
+
 # Step 3: Create and scan a Cloud Environment (Web UI)
 
 {% hint style="info" %}

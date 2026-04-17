@@ -1,3 +1,7 @@
+---
+description: Configure attribute mappings and group names in Ping Identity to assign users to Snyk Organizations through custom mapping.
+---
+
 # Example: setting up custom mapping for Ping Identity
 
 This page explains how to configure the custom mapping of roles for Ping Identity using [Legacy custom mapping](../legacy-custom-mapping.md).

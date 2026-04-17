@@ -1,3 +1,8 @@
+---
+description: >-
+  Manage and enforce IaC custom rules automatically by integrating the SDK into your CI/CD pipeline.
+---
+
 # IaC custom rules within a pipeline
 
 Using a CI/CD such as [GitHub Actions](https://github.com/features/actions) is ideal for managing, distributing, and enforcing your custom rules.

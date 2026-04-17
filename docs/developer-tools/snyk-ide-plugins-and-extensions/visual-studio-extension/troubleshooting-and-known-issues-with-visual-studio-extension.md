@@ -1,3 +1,7 @@
+---
+description: Resolve known issues with the Snyk Visual Studio extension and troubleshoot common scan failures.
+---
+
 # Troubleshooting and known issues with Visual Studio extension
 
 {% hint style="warning" %}

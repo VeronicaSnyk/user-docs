@@ -1,3 +1,8 @@
+---
+description: >-
+  Run automated security scans on pull requests to catch issues before code merges into your main branch.
+---
+
 # Pull Request checks
 
 ## Introduction to automated security scans with PR checks

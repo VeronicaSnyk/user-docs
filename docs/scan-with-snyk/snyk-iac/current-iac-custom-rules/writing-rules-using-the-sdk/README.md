@@ -1,3 +1,8 @@
+---
+description: >-
+  Get started with the Snyk IaC SDK by parsing fixture files, writing rules, and testing your custom policies.
+---
+
 # Writing rules using the SDK
 
 To get you started with the SDK, you will learn how to:

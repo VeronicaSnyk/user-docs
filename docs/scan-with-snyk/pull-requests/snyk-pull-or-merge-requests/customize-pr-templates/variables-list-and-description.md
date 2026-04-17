@@ -1,3 +1,8 @@
+---
+description: >-
+  View the full list of variables available for use in API and YAML-based custom PR templates.
+---
+
 # Variables list and description
 
 {% tabs %}

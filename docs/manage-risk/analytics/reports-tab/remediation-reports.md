@@ -1,3 +1,7 @@
+---
+description: Measure issue resolution velocity, SLA compliance, and zero-day exposure using Snyk remediation reports including Issues Summary, SLA Management, and Vulnerabilities Detail.
+---
+
 # Remediation reports
 
 The Remediation reports section includes the following reports:

@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Broker Client for Jira using Docker to enable a secure connection with your on-premise Jira instance.
+---
+
 # Jira - install and configure using Docker
 
 Before installing, review the [prerequisites](./) and the general instructions for installation using [Docker](../../../../../../enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/install-and-configure-broker-using-docker.md).

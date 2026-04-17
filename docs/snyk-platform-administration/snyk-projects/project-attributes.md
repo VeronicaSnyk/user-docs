@@ -1,3 +1,7 @@
+---
+description: Apply predefined attributes such as lifecycle stage, business criticality, and environment to filter and prioritize Projects.
+---
+
 # Project attributes
 
 Project attributes are static and non-configurable fields that allow you to apply attribute values to a Project by selecting from a predefined list of values. After you have applied attributes, you can remove them from a Project as needed.

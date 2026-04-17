@@ -1,3 +1,8 @@
+---
+description: >-
+  Scan Python open-source dependencies for vulnerabilities using the Snyk CLI with configurable Python version support.
+---
+
 # CLI support for Python
 
 ## Set the Python version in the CLI

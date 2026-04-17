@@ -1,3 +1,7 @@
+---
+description: Integrate Snyk vulnerability data into CrowdStrike Falcon Next-Gen SIEM for unified security visibility across application and endpoint domains.
+---
+
 # CrowdStrike Falcon Next-Gen SIEM
 
 {% hint style="info" %}

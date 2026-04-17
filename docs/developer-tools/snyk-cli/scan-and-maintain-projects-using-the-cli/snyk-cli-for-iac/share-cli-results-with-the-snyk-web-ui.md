@@ -1,3 +1,7 @@
+---
+description: Send Snyk CLI IaC scan results to the Snyk Web UI to monitor infrastructure misconfigurations over time.
+---
+
 # Share CLI results with the Snyk Web UI
 
 You can use the [CLI](../../) `snyk iac test` command to address known configuration issues.

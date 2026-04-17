@@ -1,3 +1,7 @@
+---
+description: Install and configure Universal Broker using the snyk-broker-config CLI tool, following guided workflows to create deployments, connections, and Organization integrations.
+---
+
 # Basic steps to install and configure Universal Broker
 
 {% hint style="info" %}

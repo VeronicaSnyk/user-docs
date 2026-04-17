@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Visual Studio extension to scan .NET projects for vulnerabilities inside Visual Studio.
+---
+
 # Visual Studio extension
 
 {% hint style="info" %}

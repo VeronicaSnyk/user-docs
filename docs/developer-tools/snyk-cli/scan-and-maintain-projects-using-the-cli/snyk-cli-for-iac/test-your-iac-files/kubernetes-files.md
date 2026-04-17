@@ -1,3 +1,7 @@
+---
+description: Test Kubernetes manifest files for security misconfigurations using the Snyk CLI.
+---
+
 # Kubernetes files
 
 With Snyk Infrastructure as Code, you can test your configuration files with the CLI. Snyk Infrastructure as Code for Kubernetes supports the following:

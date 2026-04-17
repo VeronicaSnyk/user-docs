@@ -1,3 +1,7 @@
+---
+description: Use external Kubernetes secrets to supply sensitive configuration values to your Snyk Broker Helm Chart installation.
+---
+
 # Kubernetes secrets and Helm Chart installation
 
 Beginning with version `2.8.0` of the Snyk Broker Helm Chart, external secrets are supported.

@@ -1,3 +1,7 @@
+---
+description: Configure the Snyk Eclipse plugin settings, including Organization, proxy, and scan preferences.
+---
+
 # Configuration of the Eclipse plugin
 
 You can configure both [Global settings](configuration-of-the-eclipse-plugin.md#general-settings) and [Project-specific properties](configuration-of-the-eclipse-plugin.md#project-specific-properties).

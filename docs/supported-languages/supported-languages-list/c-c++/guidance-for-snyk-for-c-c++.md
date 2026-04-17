@@ -1,3 +1,8 @@
+---
+description: >-
+  Apply Snyk effectively to C/C++ projects by understanding code analysis behavior and package manager considerations.
+---
+
 # Guidance for Snyk for C/C++
 
 This page reviews considerations about languages and package managers, to help you apply Snyk effectively in your technology stack.

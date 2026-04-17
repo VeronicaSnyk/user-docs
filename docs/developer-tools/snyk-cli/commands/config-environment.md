@@ -1,3 +1,7 @@
+---
+description: Set your Snyk environment before running snyk auth using snyk config environment when you are not in the default region.
+---
+
 # Config environment
 
 **Note:** This command will be available as of CLI version 1.1293.0.
@@ -48,4 +52,3 @@ snyk config environment SNYK-AU-01
 snyk config environment SNYK-AU-01 --no-check
 snyk config environment https://api.eu.snyk.io
 ```
-

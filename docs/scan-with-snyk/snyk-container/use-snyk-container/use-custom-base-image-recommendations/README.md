@@ -1,3 +1,8 @@
+---
+description: >-
+  Use Custom Base Image Recommendations to receive tailored upgrade suggestions based on your internal base images.
+---
+
 # Use Custom Base Image Recommendations
 
 {% hint style="info" %}

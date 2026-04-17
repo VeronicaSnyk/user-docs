@@ -1,3 +1,7 @@
+---
+description: Use the Snyk REST API to create a GitHub connection with Universal Broker, walking through credential references, connections, and Organization integrations step by step.
+---
+
 # Using the API to set up a GitHub connection
 
 This page provides an example of using the API to set up a GitHub connection with the Universal Broker. Repeat connecting your Organization for as many integrations as needed.

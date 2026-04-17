@@ -1,3 +1,7 @@
+---
+description: Measure developer engagement and security training impact across your Organization using Snyk Learn Engagement and Learning Impact and Opportunities reports.
+---
+
 # Education reports
 
 {% hint style="info" %}

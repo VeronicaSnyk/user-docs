@@ -1,3 +1,7 @@
+---
+description: Deploy Snyk Studio as a managed utility to standardize local security testing and AI-assisted remediation across your developer teams.
+---
+
 # Distribution at scale
 
 Distribute Snyk Studio as a managed utility to automate local security testing and integrate it into your software development life cycle (SDLC).

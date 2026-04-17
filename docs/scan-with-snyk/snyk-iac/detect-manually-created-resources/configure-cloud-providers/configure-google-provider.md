@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Google Cloud credentials for the Snyk IaC describe command to detect unmanaged GCP resources.
+---
+
 # Configure Google provider
 
 ## Authentication for Google provider

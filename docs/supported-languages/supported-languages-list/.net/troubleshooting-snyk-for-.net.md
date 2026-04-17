@@ -1,3 +1,8 @@
+---
+description: >-
+  Resolve common issues with .NET dependency resolution, NuGet scanning, and Snyk CLI analysis.
+---
+
 # Troubleshooting Snyk for .NET
 
 ## .NET SDK resolution limitations

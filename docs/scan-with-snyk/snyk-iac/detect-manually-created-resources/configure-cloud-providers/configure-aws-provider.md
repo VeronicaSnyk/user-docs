@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure AWS credentials for the Snyk IaC describe command to detect unmanaged AWS resources.
+---
+
 # Configure AWS provider
 
 ## Authentication for AWS provider

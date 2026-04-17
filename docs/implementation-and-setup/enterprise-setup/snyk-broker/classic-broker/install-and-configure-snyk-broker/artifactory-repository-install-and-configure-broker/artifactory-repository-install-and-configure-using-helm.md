@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Broker Client for Artifactory Repository using the Helm chart with the required environment variables.
+---
+
 # Artifactory Repository - install and configure using Helm
 
 {% hint style="info" %}

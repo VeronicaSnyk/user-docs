@@ -1,3 +1,7 @@
+---
+description: Connect Snyk to GitHub Enterprise to scan private repositories and enforce security across your enterprise GitHub environment.
+---
+
 # GitHub Enterprise
 
 {% hint style="info" %}

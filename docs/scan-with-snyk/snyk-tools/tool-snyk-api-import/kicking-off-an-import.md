@@ -1,3 +1,8 @@
+---
+description: >-
+  Start a bulk import of Projects into Snyk using the snyk-api-import import command with a targets JSON file.
+---
+
 # Kicking off an import
 
 `snyk-api-import` supports the same Project sources that you can import using the Snyk API: Git repositories, Docker images, containers, configuration files and much more. You can configure integrations using the Integrations settings on your Snyk Organization settings page. For more information, see the definition of [Target](../../../snyk-platform-administration/snyk-projects/#target) on the Snyk Projects documentation page.

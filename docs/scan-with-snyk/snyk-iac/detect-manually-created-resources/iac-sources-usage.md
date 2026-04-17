@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Terraform state sources for the snyk iac describe command, including local, S3, and remote backends.
+---
+
 # IAC sources usage
 
 ## **Supported IaC sources**

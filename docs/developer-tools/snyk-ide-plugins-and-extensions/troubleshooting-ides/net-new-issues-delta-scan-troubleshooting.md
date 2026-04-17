@@ -1,3 +1,7 @@
+---
+description: Troubleshoot the net-new issues delta scan feature when it fails to display or filters results incorrectly.
+---
+
 # Net new issues (delta) scan troubleshooting
 
 ## Problem&#x20;

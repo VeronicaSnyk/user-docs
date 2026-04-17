@@ -1,3 +1,7 @@
+---
+description: Diagnose and resolve Snyk Broker issues using logging, healthcheck endpoints, and troubleshooting steps for common problems.
+---
+
 # Troubleshooting Broker
 
 {% hint style="info" %}

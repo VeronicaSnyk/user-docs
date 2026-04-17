@@ -1,3 +1,7 @@
+---
+description: Convert Snyk CLI JSON or SARIF output into a readable HTML report to view vulnerability details in a browser.
+---
+
 # snyk-to-html
 
 The CLI provides a direct or automated way to fail the build and, by default, provides only summary information unless you use the `--json` or `--sarif` format. You can direct this output to a file; these files include the issues discovered. The formats are not human-readable.

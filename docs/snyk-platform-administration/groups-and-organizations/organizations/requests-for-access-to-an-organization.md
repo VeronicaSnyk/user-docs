@@ -1,3 +1,7 @@
+---
+description: Enable or manage access requests so users outside your Organization can request to join and receive an invitation.
+---
+
 # Requests for access to an Organization
 
 Users who are not members of a Snyk Organization can request access.

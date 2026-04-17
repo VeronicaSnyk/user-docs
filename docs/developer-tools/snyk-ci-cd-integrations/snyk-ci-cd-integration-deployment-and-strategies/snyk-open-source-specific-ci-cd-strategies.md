@@ -1,3 +1,7 @@
+---
+description: Apply Snyk Open Source-specific CI/CD strategies to customize build failure behavior and handle multi-project configurations.
+---
+
 # Snyk Open Source-specific CI/CD strategies
 
 These strategies are useful to teams using the Snyk SCA ([Software Composition Analysis](https://snyk.io/blog/what-is-software-composition-analysis-sca-and-does-my-company-need-it/)) testing features.

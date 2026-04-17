@@ -1,3 +1,7 @@
+---
+description: Configure the Terraform Cloud run tasks integration in the Snyk Web UI to start scanning Terraform plans for issues.
+---
+
 # Set up the Terraform Cloud integration for IaC
 
 {% hint style="warning" %}

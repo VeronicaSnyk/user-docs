@@ -1,3 +1,8 @@
+---
+description: >-
+  Test your custom Rego rules using the built-in testing functionality provided by the Snyk IaC SDK.
+---
+
 # Testing a rule
 
 If you have generated the rules using the `template` command, as shown in [Writing a rule](writing-a-rule.md), then you can also benefit from using the testing functionality that comes with the SDK and the generated rules.

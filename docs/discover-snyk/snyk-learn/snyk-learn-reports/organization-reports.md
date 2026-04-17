@@ -1,3 +1,7 @@
+---
+description: View and export Organization-level Snyk Learn usage reports to track team engagement with security education content, available to Group and Organization admins.
+---
+
 # Organization reports
 
 {% hint style="info" %}

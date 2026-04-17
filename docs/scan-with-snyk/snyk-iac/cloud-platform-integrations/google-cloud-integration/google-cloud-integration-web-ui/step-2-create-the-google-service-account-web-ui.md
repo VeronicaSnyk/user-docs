@@ -1,3 +1,8 @@
+---
+description: >-
+  Create the Google service account that grants Snyk access to your Google Cloud Project from the Snyk Web UI.
+---
+
 # Step 2: Create the Google service account (Web UI)
 
 {% hint style="info" %}

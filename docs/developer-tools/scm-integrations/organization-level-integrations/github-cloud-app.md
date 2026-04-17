@@ -1,3 +1,7 @@
+---
+description: Connect Snyk to GitHub using the GitHub Cloud App for enhanced authentication and fine-grained repository access control.
+---
+
 # GitHub Cloud App
 
 {% hint style="info" %}

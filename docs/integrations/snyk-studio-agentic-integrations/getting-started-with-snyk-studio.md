@@ -1,3 +1,7 @@
+---
+description: Configure the Snyk MCP server to enable your AI coding assistant to run Snyk security scans during code generation.
+---
+
 # Getting started with Snyk Studio
 
 {% hint style="info" %}

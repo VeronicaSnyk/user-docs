@@ -1,3 +1,7 @@
+---
+description: Complete the automated provisioning process to set up your Snyk account with your organization name, data region, and authentication method.
+---
+
 # Auto-provisioning guide
 
 {% hint style="info" %}

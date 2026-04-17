@@ -1,3 +1,7 @@
+---
+description: Resolve certificate errors in Snyk IDE plugins caused by custom CAs or corporate SSL inspection proxies.
+---
+
 # Troubleshoot certificate errors
 
 ## Problem <a href="#problem" id="problem"></a>

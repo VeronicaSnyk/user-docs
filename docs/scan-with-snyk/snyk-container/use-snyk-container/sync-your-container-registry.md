@@ -1,3 +1,8 @@
+---
+description: >-
+  Sync your container registry with Snyk to ensure your imported images reflect the latest tags.
+---
+
 # Sync your container registry
 
 {% hint style="info" %}

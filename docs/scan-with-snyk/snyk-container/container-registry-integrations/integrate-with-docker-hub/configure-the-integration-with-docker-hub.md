@@ -1,3 +1,8 @@
+---
+description: >-
+  Enable and configure the integration between Docker Hub and your Snyk Organization to start monitoring images.
+---
+
 # Configure the integration with Docker Hub
 
 This page explains how to enable and configure the integration between Docker Hub and Snyk. When the integration is complete, you can start managing your vulnerabilities.

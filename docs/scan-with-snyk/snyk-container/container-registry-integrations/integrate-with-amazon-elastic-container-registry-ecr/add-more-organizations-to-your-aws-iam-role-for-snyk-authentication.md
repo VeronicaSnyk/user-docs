@@ -1,3 +1,8 @@
+---
+description: >-
+  Add additional Snyk Organizations to an existing AWS IAM role to reuse the same Snyk authentication role.
+---
+
 # Add more Organizations to your AWS IAM role for Snyk authentication
 
 After creating an AWS IAM role for Snyk, you can add more Organizations to the same role for repeated use.

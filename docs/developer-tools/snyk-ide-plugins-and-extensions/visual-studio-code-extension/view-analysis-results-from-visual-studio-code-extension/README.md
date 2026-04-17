@@ -1,3 +1,7 @@
+---
+description: Navigate and interpret Snyk scan results in Visual Studio Code across code, open-source, and IaC findings.
+---
+
 # View analysis results from Visual Studio Code extension
 
 ## Overview of results

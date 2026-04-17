@@ -1,3 +1,7 @@
+---
+description: Use the Snyk CLI to test infrastructure as code files across Terraform, Kubernetes, Helm, and other formats.
+---
+
 # Test your IaC files
 
 {% hint style="info" %}

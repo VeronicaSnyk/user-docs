@@ -1,3 +1,8 @@
+---
+description: >-
+  Run Snyk Code scans entirely within your environment without uploading code to the internet using the Local Engine.
+---
+
 # Snyk Code Local Engine
 
 {% include "../../.gitbook/includes/release-status-snyk-code-local-engine.md" %}

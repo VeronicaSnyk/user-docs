@@ -1,3 +1,7 @@
+---
+description: Create, edit, and assign custom roles in Snyk to define precise permission sets that match your team structure.
+---
+
 # User role management
 
 {% hint style="info" %}

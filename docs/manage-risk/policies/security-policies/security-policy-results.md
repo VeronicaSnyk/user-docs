@@ -1,3 +1,7 @@
+---
+description: See how security policy actions appear to Project collaborators after a rescan, including updated severities, ignored issues, and custom and original severity in the CLI.
+---
+
 # Security policy results
 
 A newly-assigned policy, or changes to a policy, apply when the Project is re-scanned. This is what Project collaborators see when an action is applied to a vulnerability:

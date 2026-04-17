@@ -1,3 +1,7 @@
+---
+description: Build a TypeScript Snyk App that displays a user's Projects by configuring Express, registering the App, and handling OAuth2 authorization.
+---
+
 # Tutorial: create a Snyk App
 
 In this tutorial, we'll create a simple Snyk App using TypeScript to show users a list of their projects within Snyk.

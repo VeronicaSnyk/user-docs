@@ -1,3 +1,7 @@
+---
+description: Add, remove, and update the roles of users in your Snyk Organization.
+---
+
 # Manage users in Organizations
 
 In the **Organization** where you want to manage users, select the **Members** menu option.

@@ -1,3 +1,7 @@
+---
+description: Configure the Snyk Broker Client to run an HTTPS server by providing an SSL certificate and private key to the Docker container.
+---
+
 # HTTPS for Broker Client with Docker
 
 {% hint style="info" %}

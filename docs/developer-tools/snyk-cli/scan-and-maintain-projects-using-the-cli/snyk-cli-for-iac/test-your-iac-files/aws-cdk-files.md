@@ -1,3 +1,7 @@
+---
+description: Test AWS CDK applications for IaC misconfigurations by synthesizing and scanning the output with the Snyk CLI.
+---
+
 # AWS CDK files
 
 With Snyk Infrastructure as Code, you can test your configuration files with the CLI. You can scan the [Amazon Web Services Cloud Development Kit (AWS CDK)](https://aws.amazon.com/cdk/) with the Snyk CLI by generating a CloudFormation file using the CDK CLI.

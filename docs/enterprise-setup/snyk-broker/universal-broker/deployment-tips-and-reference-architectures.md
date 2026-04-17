@@ -1,3 +1,7 @@
+---
+description: Plan your Universal Broker deployment with guidance on high-availability mode, replica configuration, resource limits, and multi-deployment architectures for large environments.
+---
+
 # Deployment tips and reference architectures
 
 {% hint style="info" %}

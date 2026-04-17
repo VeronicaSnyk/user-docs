@@ -1,3 +1,8 @@
+---
+description: >-
+  Scan Elixir open-source dependencies for vulnerabilities using the Snyk CLI and IDE integrations.
+---
+
 # Elixir
 
 {% hint style="info" %}

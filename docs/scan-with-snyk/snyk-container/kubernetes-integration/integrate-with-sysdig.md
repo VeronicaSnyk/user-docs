@@ -1,3 +1,8 @@
+---
+description: >-
+  Enrich Kubernetes workload issue detection by integrating Snyk with Sysdig for runtime context.
+---
+
 # Integrate with Sysdig
 
 To enhance its capabilities when detecting workload information, Snyk has partnered with Sysdig. The integration enriches the workload issues that Snyk detects with the runtime data provided by Sysdig.

@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Broker Client for Nexus Repository Manager using Docker with the required environment variables.
+---
+
 # Nexus Repository - install and configure using Docker
 
 {% hint style="info" %}

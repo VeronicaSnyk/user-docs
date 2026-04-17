@@ -1,3 +1,7 @@
+---
+description: Manage multiple SCM, registry, and tool connections from a single Broker deployment, keeping credentials within your network while Snyk uses credential references to authenticate.
+---
+
 # Universal Broker
 
 The Universal Broker improves the management of Broker deployments and connections by supporting many connections of any type with a single running client (container) or with multiple client replicas. Credentials remain within your network and are never stored by or transmitted to Snyk. The Snyk platform uses credentials references to instruct the Universal Broker how to authenticate with your private resources.

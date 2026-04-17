@@ -1,3 +1,7 @@
+---
+description: Add the Snyk Security Scan task to your Azure Pipelines YAML configuration to scan code and container images.
+---
+
 # Add the Snyk Security Task to your pipelines
 
 ## **Prerequisites to add Snyk Security Task to your pipelines**

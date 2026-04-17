@@ -1,3 +1,7 @@
+---
+description: Track developer IDE and CLI usage, PR check performance, CI/CD test coverage, and Snyk-generated pull requests to measure prevention effectiveness across your teams.
+---
+
 # Prevention reports
 
 The Prevention reports section includes the following reports:

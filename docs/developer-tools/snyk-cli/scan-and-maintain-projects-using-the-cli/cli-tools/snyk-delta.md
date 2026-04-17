@@ -1,3 +1,7 @@
+---
+description: Compare two Snyk Open Source snapshots to identify new vulnerabilities and dependency changes between scans.
+---
+
 # snyk-delta
 
 This tool provides the means to get the delta between two Snyk Open Source snapshots. This is especially useful when you are running CLI-based scans, such as in your local environment, Git hooks, and so on.

@@ -1,3 +1,8 @@
+---
+description: >-
+  Create the Entra ID app registration required to grant Snyk access to your Azure subscription for cloud scanning.
+---
+
 # Step 2: Create the Entra ID app registration
 
 {% hint style="info" %}

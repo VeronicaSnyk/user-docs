@@ -1,3 +1,8 @@
+---
+description: >-
+  Build a custom rules bundle from your Rego rules using the snyk-iac-rules SDK build command.
+---
+
 # Bundling rules
 
 When you are ready, you can **build a custom rules bundle** by running the following command:

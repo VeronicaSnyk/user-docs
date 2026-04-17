@@ -1,3 +1,7 @@
+---
+description: Configure Snyk Studio in Gemini CLI to run security scans on AI-generated code using the Snyk MCP server.
+---
+
 # Gemini CLI guide
 
 You can access Snyk Studio, including Snyk's MCP server, in Gemini CLI to secure code generated with agentic workflows through an LLM. This can be achieved in several ways. When you use it for the first time, Snyk Studio may ask for trust and trigger authentication.

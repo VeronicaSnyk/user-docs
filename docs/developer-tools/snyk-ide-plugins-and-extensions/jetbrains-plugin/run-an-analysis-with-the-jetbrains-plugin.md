@@ -1,3 +1,7 @@
+---
+description: Run a Snyk vulnerability scan inside JetBrains IDEs and review results in the plugin panel.
+---
+
 # Run an analysis with the JetBrains plugin
 
 {% hint style="info" %}

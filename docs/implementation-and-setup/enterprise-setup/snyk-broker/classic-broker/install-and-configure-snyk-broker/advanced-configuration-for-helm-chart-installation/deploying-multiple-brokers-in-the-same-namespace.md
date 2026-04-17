@@ -1,3 +1,7 @@
+---
+description: Deploy multiple Snyk Broker instances in the same Kubernetes namespace using distinct Helm release names.
+---
+
 # Deploying multiple Brokers in the same namespace
 
 ## Helm chart versions 2.x.x

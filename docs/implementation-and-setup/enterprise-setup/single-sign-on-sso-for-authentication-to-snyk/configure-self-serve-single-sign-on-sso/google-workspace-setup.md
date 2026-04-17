@@ -1,3 +1,7 @@
+---
+description: Set up a Google Workspace custom SAML application and connect it to Snyk to enable Single Sign-On.
+---
+
 # Google Workspace setup
 
 This example shows setting up an Google Workspace SAML application and connecting it to Snyk to facilitate SSO.

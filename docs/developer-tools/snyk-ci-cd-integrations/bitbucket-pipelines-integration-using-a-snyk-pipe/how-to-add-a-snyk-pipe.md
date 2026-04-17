@@ -1,3 +1,7 @@
+---
+description: Add the Snyk pipe to your Bitbucket Pipeline configuration to scan for vulnerabilities before each deployment.
+---
+
 # How to add a Snyk pipe
 
 Follow these steps to add a Snyk pipe:

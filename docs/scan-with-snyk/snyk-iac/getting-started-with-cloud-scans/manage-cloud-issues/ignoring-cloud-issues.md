@@ -1,3 +1,8 @@
+---
+description: >-
+  Ignore specific cloud issues in the Snyk Web UI when a rule is irrelevant or a fix is not yet possible.
+---
+
 # Ignoring cloud issues
 
 You can ignore a cloud [issue](./) from the Snyk Web UI.

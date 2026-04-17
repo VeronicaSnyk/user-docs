@@ -1,3 +1,7 @@
+---
+description: Add team members to your Snyk Organization by entering their email addresses and selecting their roles from the Members section in the Snyk Web UI.
+---
+
 # Invite team members
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}

@@ -1,3 +1,8 @@
+---
+description: >-
+  Scan Dart and Flutter code and open-source dependencies for vulnerabilities using Snyk Code and Snyk Open Source.
+---
+
 # Dart and Flutter
 
 {% hint style="info" %}

@@ -1,3 +1,7 @@
+---
+description: Set up cloud-based SCM integrations—GitHub, GitLab, Azure DevOps, and Bitbucket—and configure Snyk Essentials for repository asset discovery during your pilot.
+---
+
 # Configure cloud-based SCM
 
 {% include "../../../../../.gitbook/includes/pilot-guide-toc.md" %}

@@ -1,3 +1,7 @@
+---
+description: Run a Snyk security scan in Visual Studio Code and review vulnerability findings in the editor panel.
+---
+
 # Run an analysis with Visual Studio Code extension
 
 {% hint style="info" %}

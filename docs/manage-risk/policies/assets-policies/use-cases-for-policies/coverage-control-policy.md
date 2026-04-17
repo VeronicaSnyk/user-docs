@@ -1,3 +1,7 @@
+---
+description: Use the Set Coverage Control policy action to identify application assets, specify required security products, and set a timeframe for when the last scan must have occurred.
+---
+
 # Coverage control policy
 
 You can use the **Set Coverage Control** action from the Policies view to identify your application assets, monitor them, and prioritize the risks. You can select one or multiple security products and also specify a timeframe for when the last scan should have taken place.

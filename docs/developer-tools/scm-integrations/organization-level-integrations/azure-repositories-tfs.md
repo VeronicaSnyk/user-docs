@@ -1,3 +1,7 @@
+---
+description: Connect Snyk to Azure Repositories to continuously scan your Azure DevOps Projects for open-source vulnerabilities.
+---
+
 # Azure Repositories (TFS)
 
 {% hint style="info" %}

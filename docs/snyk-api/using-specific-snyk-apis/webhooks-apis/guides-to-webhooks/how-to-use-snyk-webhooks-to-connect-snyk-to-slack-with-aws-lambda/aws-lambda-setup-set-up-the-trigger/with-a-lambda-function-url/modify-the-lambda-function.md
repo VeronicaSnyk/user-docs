@@ -1,3 +1,7 @@
+---
+description: Configure your Lambda function to enable a public Function URL so Snyk can send webhook payloads directly to it.
+---
+
 # Modify the Lambda function
 
 1. Open your Lambda function and click on **Configuration**.

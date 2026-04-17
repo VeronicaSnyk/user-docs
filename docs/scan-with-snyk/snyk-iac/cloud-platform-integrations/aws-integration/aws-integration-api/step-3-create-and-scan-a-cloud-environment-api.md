@@ -1,3 +1,8 @@
+---
+description: >-
+  Create and scan an AWS Cloud Environment in Snyk via the API to detect infrastructure misconfigurations.
+---
+
 # Step 3: Create and scan a Cloud Environment (API)
 
 {% hint style="info" %}

@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure Snyk PR checks at the integration, Organization, and Project level to control automated security scans.
+---
+
 # Configure Pull Request checks
 
 {% hint style="info" %}

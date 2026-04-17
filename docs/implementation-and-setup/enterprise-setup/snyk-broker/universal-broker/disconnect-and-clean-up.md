@@ -1,3 +1,7 @@
+---
+description: Remove Universal Broker resources by disconnecting integrations and deleting connections, credentials, and deployments in the correct order.
+---
+
 # Disconnect and clean up
 
 The `snyk-broker-config workflows <RESOURCE> delete` command allows you to remove resources.

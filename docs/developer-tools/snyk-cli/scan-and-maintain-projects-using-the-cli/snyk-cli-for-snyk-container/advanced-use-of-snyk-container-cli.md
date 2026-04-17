@@ -1,3 +1,7 @@
+---
+description: Use advanced Snyk Container CLI options to control image scanning, output format, and platform targeting.
+---
+
 # Advanced use of Snyk Container CLI
 
 ## Scan archives

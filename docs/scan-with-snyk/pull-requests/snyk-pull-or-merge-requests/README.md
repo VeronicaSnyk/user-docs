@@ -1,3 +1,8 @@
+---
+description: >-
+  Create automatic or manual fix and upgrade pull requests for supported package managers and ecosystems.
+---
+
 # Snyk Pull or Merge Requests
 
 In addition to providing fix advice, Snyk enables you create automatic or manual pull requests for supported package managers and ecosystems. To create PRs automatically in implementations with Snyk Broker, your administrator must upgrade to v4.55.0 or later.

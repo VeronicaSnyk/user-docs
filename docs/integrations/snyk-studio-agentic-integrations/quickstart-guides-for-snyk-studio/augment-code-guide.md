@@ -1,3 +1,7 @@
+---
+description: Add Snyk Studio to Augment Code to scan AI-generated code for vulnerabilities using the Snyk MCP server.
+---
+
 # Augment Code guide
 
 Add Snyk Studio to Augment Code to secure code generated with agentic workflows through a Large Language Model (LLM). You can achieve this in several ways. When you use it for the first time, Snyk Studio asks for trust and, if necessary, trigger authentication.

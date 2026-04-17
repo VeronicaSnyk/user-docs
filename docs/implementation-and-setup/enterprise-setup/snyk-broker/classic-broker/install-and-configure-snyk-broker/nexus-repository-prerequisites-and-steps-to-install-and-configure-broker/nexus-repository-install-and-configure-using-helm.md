@@ -1,3 +1,7 @@
+---
+description: Install and configure the Snyk Broker Client for Nexus Repository Manager using the Helm chart.
+---
+
 # Nexus Repository - install and configure using Helm
 
 {% hint style="info" %}

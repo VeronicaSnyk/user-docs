@@ -1,3 +1,7 @@
+---
+description: Build custom Docker images for the Snyk CLI to replace deprecated Snyk images in your CI/CD pipelines.
+---
+
 # User-defined custom images for CLI
 
 ## Context for user-defined custom images for CLI

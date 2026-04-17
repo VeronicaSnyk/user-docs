@@ -1,3 +1,8 @@
+---
+description: >-
+  Create Snyk Organizations at scale using the snyk-api-import tool with GitHub, GitLab, or Bitbucket data.
+---
+
 # Creating Organizations in Snyk
 
 This page has instructions for creating Organizations (Orgs) in Snyk:

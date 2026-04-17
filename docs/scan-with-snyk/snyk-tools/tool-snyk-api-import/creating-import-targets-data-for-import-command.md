@@ -1,3 +1,8 @@
+---
+description: >-
+  Generate the import JSON data required by the snyk-api-import import command using the import:data utility.
+---
+
 # Creating import targets data for import command
 
 Use the `import:data` utility to help generate the import JSON data needed by the import command. Follow the instructions on this page:

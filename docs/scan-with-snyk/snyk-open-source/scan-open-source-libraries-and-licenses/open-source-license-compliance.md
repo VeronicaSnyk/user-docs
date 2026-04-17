@@ -1,3 +1,8 @@
+---
+description: >-
+  Identify and manage open-source license compliance issues found in your repositories by Snyk Open Source.
+---
+
 # Open-source license compliance
 
 ## Overview of licenses

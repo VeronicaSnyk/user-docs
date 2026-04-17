@@ -1,3 +1,8 @@
+---
+description: >-
+  Disable Snyk IaC scans for a specific Organization to stop scanning infrastructure configuration files.
+---
+
 # Disable IaC scans per Organization
 
 {% hint style="info" %}

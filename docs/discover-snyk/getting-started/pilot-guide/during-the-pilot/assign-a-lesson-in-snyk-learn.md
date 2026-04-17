@@ -1,3 +1,7 @@
+---
+description: Browse and assign interactive security education lessons in Snyk Learn, filtering by programming language or topic to help developers learn how to fix vulnerabilities.
+---
+
 # Assign a lesson in Snyk Learn
 
 {% include "../../../../.gitbook/includes/pilot-guide-toc.md" %}

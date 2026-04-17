@@ -1,3 +1,8 @@
+---
+description: >-
+  Create and apply custom PR templates using the Snyk API or a YAML file in your repository.
+---
+
 # Apply a custom PR template
 
 ## Create and manage a custom PR template using the API

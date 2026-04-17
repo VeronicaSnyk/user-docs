@@ -1,3 +1,8 @@
+---
+description: >-
+  Configure optional Snyk Controller installation steps to fit your Kubernetes environment when using Helm.
+---
+
 # Optional installation steps for the Snyk Controller with Helm
 
 The installation steps depend on how you want to configure the Snyk Controller to fit your environment. Follow the applicable steps that match your situation.

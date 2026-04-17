@@ -1,3 +1,7 @@
+---
+description: Configure a Bitbucket Group-level integration in Snyk AppRisk to discover and track repositories across your workspaces.
+---
+
 # Bitbucket for Snyk Essentials
 
 The Integrations page shows all active integrations, including data from your existing Snyk Organizations that is automatically synced and provides access to the Integration Hub.

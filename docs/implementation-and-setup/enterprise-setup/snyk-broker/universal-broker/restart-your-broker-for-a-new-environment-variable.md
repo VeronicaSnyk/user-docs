@@ -1,3 +1,7 @@
+---
+description: Restart your Universal Broker Docker container after adding or changing an environment variable to apply the new configuration.
+---
+
 # Restart your Broker for a new environment variable
 
 If you change an environment variable, you must restart your Broker, except in Kubernetes deployments.

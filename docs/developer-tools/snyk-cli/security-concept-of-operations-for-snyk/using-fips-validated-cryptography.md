@@ -1,3 +1,7 @@
+---
+description: Configure the Snyk CLI to use FIPS-validated cryptographic modules for regulated environments.
+---
+
 # Using FIPS-validated cryptography
 
 ## Availability of FIPS-validated cryptography in Snyk
