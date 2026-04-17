@@ -8,7 +8,7 @@ Use attributes to group, prioritize, and filter Projects. Use attributes such as
 
 On the **Projects** listing, use **Group by none** (ungrouped) for optimal Project visibility and to apply [tags](project-tags.md) and filtering attributes at the Project level.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-01-23 at 18.07.46 (1).png" alt="Project level filtering attributes"><figcaption><p>Project level filtering attributes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-23 at 18.07.4application-name-integration.png" alt="Project level filtering attributes"><figcaption><p>Project level filtering attributes</p></figcaption></figure>
 
 The available Project attributes are summarized in the following table.
 
@@ -35,7 +35,7 @@ Roles with the **edit project attributes** permission can add an attribute to a 
 
 After you have selected a value for the attribute, it appears on the Project detail page. You can apply multiple values for an attribute and multiple attributes to a Project.
 
-<figure><img src="../../.gitbook/assets/gs2.png" alt="Project detail page showing attribute values applied"><figcaption><p>Project detail page showing attribute values applied</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gsokta-saml-application-creation.png" alt="Project detail page showing attribute values applied"><figcaption><p>Project detail page showing attribute values applied</p></figcaption></figure>
 
 ## **Remove attribute value**
 

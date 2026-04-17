@@ -285,4 +285,4 @@ This creates a snapshot of dependencies and vulnerabilities and imports them int
 
 Importing a Project with unmanaged dependencies creates a new Project that is listed on the Project page:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-04 at 11.18.10.png" alt="Project with unmanaged dependencies"><figcaption><p>Project with unmanaged dependencies</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-04 at 11.18.entity-id-assertion-consumer-service-url.png" alt="Project with unmanaged dependencies"><figcaption><p>Project with unmanaged dependencies</p></figcaption></figure>

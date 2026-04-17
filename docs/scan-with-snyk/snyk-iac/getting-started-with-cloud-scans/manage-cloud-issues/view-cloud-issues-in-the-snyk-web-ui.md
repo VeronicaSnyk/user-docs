@@ -107,11 +107,11 @@ The cloud issue summary panel displays the **Overview** by default, which contai
   * ID, with a link to fix advice
   * Rule description (**Why to fix it** section)
 
-<figure><img src="../../../../.gitbook/assets/snyk-cloud-issue-panel-overview-2.png" alt=""><figcaption><p>Issue summary panel, Overview tab</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/snyk-cloud-issue-panel-overview-okta-saml-application-creation.png" alt=""><figcaption><p>Issue summary panel, Overview tab</p></figcaption></figure>
 
 Select the **Resource** tab to view the scanned resource's attributes:
 
-<figure><img src="../../../../.gitbook/assets/snyk-cloud-issue-panel-resource-2.png" alt=""><figcaption><p>Issue summary panel, Resource tab</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/snyk-cloud-issue-panel-resource-okta-saml-application-creation.png" alt=""><figcaption><p>Issue summary panel, Resource tab</p></figcaption></figure>
 
 ## Filter issues
 

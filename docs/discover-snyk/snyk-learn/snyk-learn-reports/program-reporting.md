@@ -16,7 +16,7 @@ Read more about this report [here](../../../manage-risk/analytics/reports-tab/ed
 [Learning Programs](../snyk-learn-learning-programs.md) are not included in the Engagement Report
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-29 at 19.30.57 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/learn-engagement-report.png" alt=""><figcaption></figcaption></figure>
 
 ## Learning Impact & Opportunities report
 
@@ -28,6 +28,6 @@ The goal of the impact and opportunities report is to provide insights into the 
 
 Read more about this report [here](../../../manage-risk/analytics/reports-tab/education-reports.md#learning-impact-and-opportunities).
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-10-23 at 15.00.57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-10-23 at 15.00.5copy-details-snyk.png" alt=""><figcaption></figcaption></figure>
 
-<div><figure><img src="../../../.gitbook/assets/Screenshot 2025-10-23 at 14.12.24.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-23 at 14.12.18.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/learning-impact-opportunities-report-2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-23 at 14.12.1enter-details-snyk-google.png" alt=""><figcaption></figcaption></figure></div>

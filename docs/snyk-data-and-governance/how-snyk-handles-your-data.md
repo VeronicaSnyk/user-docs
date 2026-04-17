@@ -80,7 +80,7 @@ Your account is subject to contract terms that might restrict your ability to en
 
 ### **Snyk Container**
 
-<figure><img src="../.gitbook/assets/image (201).png" alt="Snyk Container logo"><figcaption><p>Snyk Container</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/snyk-container.png" alt="Snyk Container logo"><figcaption><p>Snyk Container</p></figcaption></figure>
 
 * Snyk accesses and stores package versions, executable hashes and versions, operating system, container image metadata (for example, rootfs hashes, history), and image ID.
 * Snyk accesses and stores information pertaining to the parent image: name, version, and tag.
@@ -161,7 +161,7 @@ Snyk puts the following safeguards in place to ensure data is secure:
 
 ## Snyk certifications
 
-<figure><img src="../.gitbook/assets/Soc2.png" alt=""><figcaption><p>Soc 2 Type 2 AICPA Soc</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Socokta-saml-application-creation.png" alt=""><figcaption><p>Soc 2 Type 2 AICPA Soc</p></figcaption></figure>
 
 Snyk is certified to ISO 27001:2022 with the additional objective controls of ISO 27017:2015.
 

@@ -69,7 +69,7 @@ snyk config set org=a7708807-3881-xxxx-xxxx-xxxxxxxxxxxx
 
 From now on, all the CLI tests will run by default under the Snyk Demo Org Organization, and the Snyk Demo Org ID will appear in the test results:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - Organization - Global Settings - Results - 2.png" alt="Snyk Demo Org ID in test results"><figcaption><p>Snyk Demo Org ID in test results</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - Organization - Global Settings - Results - okta-saml-application-creation.png" alt="Snyk Demo Org ID in test results"><figcaption><p>Snyk Demo Org ID in test results</p></figcaption></figure>
 
 ## Set an Organization locally for a specific CLI test
 
@@ -89,4 +89,4 @@ snyk code test --org=snyk-xxxx-xxx
 
 The internal name of the Snyk Test Org Organization appears in the results of this test:
 
-![Organization internal name in test results](<../../../../.gitbook/assets/Snyk Code - CLI - Organization - Specific test Settings - Results - 2.png>)
+![Organization internal name in test results](<../../../../.gitbook/assets/Snyk Code - CLI - Organization - Specific test Settings - Results - okta-saml-application-creation.png>)

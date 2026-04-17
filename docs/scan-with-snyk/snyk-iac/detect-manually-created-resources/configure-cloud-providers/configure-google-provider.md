@@ -20,7 +20,7 @@ You can use any `env var` from the [GoogleCloud sdk environment variables](https
 
 The `iac describe` command uses the [Google Asset API](https://console.cloud.google.com/apis/api/cloudasset.googleapis.com/overview) to enumerate resources on your account and the [Cloud Resource Manager API](https://console.cloud.google.com/marketplace/product/google/cloudresourcemanager.googleapis.com) to enumerate project IAM resources. Be sure to enable these APIs for the GCP project you are using as shown in the following screenshot.
 
-<figure><img src="https://docs.driftctl.com/assets/images/enable_api-dffb8e57a0ce1c667527ede14b2728df.png" alt="Enable Cloud Asset API"><figcaption><p>Enable Cloud Asset API</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/iac-google-enable-cloud-asset-api.png" alt="Enable Cloud Asset API"><figcaption><p>Enable Cloud Asset API</p></figcaption></figure>
 
 To enumerate resources, you need at least the role [Cloud Asset Viewer](https://cloud.google.com/iam/docs/understanding-roles#cloud-asset-roles).
 

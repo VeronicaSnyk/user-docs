@@ -37,7 +37,7 @@ If you have the Node.js npx executable installed, open **Settings/Preferences** 
 }
 ```
 
-<figure><img src="../../../.gitbook/assets/image3 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/imagename-saml-app.png" alt=""><figcaption></figcaption></figure>
 
 #### Install with pre-installed Snyk CLI
 
@@ -66,7 +66,7 @@ Reload the IDE window for the changes to apply.
 
 Verify that the Snyk MCP Server is available by checking the Status column in the MCP configuration and requesting it to list the tools it has available.
 
-<figure><img src="../../../.gitbook/assets/image1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/imagecreate-new-app-integration-okta.png" alt=""><figcaption></figcaption></figure>
 
 \
 As a one-time setup, you may need to authenticate and trust the current Project directory. If required, the agentic workflow will likely manage this automatically.
@@ -87,4 +87,4 @@ Scan this directory for code security & dependency vulnerabilities and security 
 
 Junie indicates in the plan that this request is related to security vulnerability scanning and calls the Snyk MCP Server for various scans.
 
-<figure><img src="../../../.gitbook/assets/image2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/imagegroup-settings-sso.png" alt=""><figcaption></figcaption></figure>

@@ -69,4 +69,4 @@ $ snyk iac describe --from="tfstate+azurerm://my-container/terraform.tfstate"
 
 You can find these values in your Azure console, as shown in the following screenshot:
 
-<figure><img src="https://docs.driftctl.com/assets/images/azure_storage_account_keys-ccb38d8792616d4376050fc6b715a6ef.png" alt="Azure storage environment variables"><figcaption><p>Azure storage environment variables</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/iac-azure-storage-account-keys.png" alt="Azure storage environment variables"><figcaption><p>Azure storage environment variables</p></figcaption></figure>

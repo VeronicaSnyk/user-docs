@@ -17,7 +17,7 @@ You can also [display the CLI results in HTML format using `snyk-to-html`](../cl
 
 After you run the `snyk code test` command in the CLI, the results of the test are displayed:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results Details - 2.png" alt="Snyk Code test restuls from the CLI"><figcaption><p>Snyk Code test restuls from the CLI</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results Details - okta-saml-application-creation.png" alt="Snyk Code test restuls from the CLI"><figcaption><p>Snyk Code test restuls from the CLI</p></figcaption></figure>
 
 Note that if you ignored issues on the Snyk Web UI, these issues would still appear in the CLI results. Each section on this page explains one section of the displayed results.
 
@@ -27,7 +27,7 @@ The list of issues discovered in the Snyk Code test is organized by the severity
 
 For each detected issue, the following information is provided:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Issue summary - 2.png" alt="CLI test information for each Snyk Code issue"><figcaption><p>CLI test information for each Snyk Code issue</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Issue summary - okta-saml-application-creation.png" alt="CLI test information for each Snyk Code issue"><figcaption><p>CLI test information for each Snyk Code issue</p></figcaption></figure>
 
 * Header: The severity level and vulnerability type of the issue.
 * Path: The file name and the line in the file where the issue was found. These location details refer to the sink of the issue, meaning where the vulnerability may be executed in the tested repository.
@@ -35,13 +35,13 @@ For each detected issue, the following information is provided:
 
 The message that appears in the `Info` section is the same as the one in the **Data flow** section on the Web UI:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Issue summary - In the UI - 2.png" alt="CLI test Info for Snyk Code issue in the Data flow section"><figcaption><p>CLI test Info for Snyk Code issue in the Data flow section</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Issue summary - In the UI - okta-saml-application-creation.png" alt="CLI test Info for Snyk Code issue in the Data flow section"><figcaption><p>CLI test Info for Snyk Code issue in the Data flow section</p></figcaption></figure>
 
 ### General information about the test results
 
 The general information about the test results includes the following details:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Test summary - 2.png" alt="Details in general information about the CLI test results"><figcaption><p>Detals in general information about the CLI test results</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Test summary - okta-saml-application-creation.png" alt="Details in general information about the CLI test results"><figcaption><p>Detals in general information about the CLI test results</p></figcaption></figure>
 
 * Test success: Whether the test was completed or not.
 * Organization: The Snyk ID or internal name of the Organization under which the test run. For more information, see [Set the Snyk Organization for the CLI tests](set-the-snyk-organization-for-the-cli-tests.md).
@@ -52,7 +52,7 @@ The general information about the test results includes the following details:
 
 The summary of the test findings includes the following details:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Summary - 2.png" alt="Summary ot CLI test findings for Snyk Code issues"><figcaption><p>Summary ot CLI test findings for Snyk Code issues</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Summary - okta-saml-application-creation.png" alt="Summary ot CLI test findings for Snyk Code issues"><figcaption><p>Summary ot CLI test findings for Snyk Code issues</p></figcaption></figure>
 
 * The number of vulnerability issues that Snyk Code discovered in the tested repository.
 * The number of discovered issues at each severity level.
@@ -77,7 +77,7 @@ The results will include only issues with the specified severity level and issue
 
 For example, in the `snyk-goof-master` folder, eight issues were found, four with a High severity level and four with Medium:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Filter Severity - Example - before - 2.png" alt="CLI test results for Snyk Code with High and Medium severity"><figcaption><p>CLI test results for Snyk Code with High and Medium severity</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Filter Severity - Example - before - okta-saml-application-creation.png" alt="CLI test results for Snyk Code with High and Medium severity"><figcaption><p>CLI test results for Snyk Code with High and Medium severity</p></figcaption></figure>
 
 To display only issues with a High severity level and above, enter the following:
 
@@ -87,7 +87,7 @@ snyk code test /Users/username/Documents/Repositories/snyk-goof-master --severit
 
 The results show four issues, all with a High severity level. Issues with a lower severity level are not displayed:
 
-![CLI test results for Snyk Code with High severity](<../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Filter Severity - Example - after - 2.png>)
+![CLI test results for Snyk Code with High severity](<../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - Filter Severity - Example - after - okta-saml-application-creation.png>)
 
 ## Severity levels in JSON and SARIF files
 

@@ -53,7 +53,7 @@ Reload the IDE window for the changes to apply.
 
 Verify that the Snyk MCP Server is available by checking the Status column in the MCP configuration and requesting it to list the tools it has available.
 
-<figure><img src="../../../.gitbook/assets/image3 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/imageadd-sso-details-okta.png" alt=""><figcaption></figcaption></figure>
 
 \
 As a one-time setup, authenticate and trust the current Project directory. If required, the agentic workflow will likely manage this automatically.

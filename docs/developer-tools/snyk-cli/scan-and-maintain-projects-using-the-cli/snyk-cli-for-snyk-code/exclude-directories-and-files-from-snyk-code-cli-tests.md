@@ -42,7 +42,7 @@ To re-include in the test directories or files that were excluded from it, manua
 
 1\. In the `snyk-goof-master` folder, 12 issues were found in three different files: `app.js`, `db.js`, and `routes/index.js`:
 
-<figure><img src="../../../../.gitbook/assets/snyk Code - CLI - snyk code test - Exclusion - before -2.png" alt="Issues found by a CLI test"><figcaption><p>Issues found by a CLI test</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/snyk Code - CLI - snyk code test - Exclusion - before -okta-saml-application-creation.png" alt="Issues found by a CLI test"><figcaption><p>Issues found by a CLI test</p></figcaption></figure>
 
 2\. To exclude the `app.js` and `db.js` files, and display only issues that are discovered in the `routes/index.js` file, enter:
 
@@ -62,4 +62,4 @@ This `.snyk` file contains the files specified for exclusion:
 
 4\. When the test runs again, the `app.js` and `db.js` files are excluded from the test, and the results show only the issues that were found in the `routes/index.js` file:
 
-<figure><img src="../../../../.gitbook/assets/snyk Code - CLI - snyk code test - Exclusion - after - 2.png" alt="Issues found after using the ignore command"><figcaption><p>Issues found after using the <code>ignore</code> command</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/snyk Code - CLI - snyk code test - Exclusion - after - okta-saml-application-creation.png" alt="Issues found after using the ignore command"><figcaption><p>Issues found after using the <code>ignore</code> command</p></figcaption></figure>
