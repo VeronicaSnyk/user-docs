@@ -1,7 +1,3 @@
----
-description: Test your Snyk webhook integration by sending a sample POST request through Postman to verify the full pipeline works.
----
-
 # Test the Snyk webhook connection
 
 The Snyk Webhook only updates when there is a new vulnerability found, but you can test your implementation using Postman.

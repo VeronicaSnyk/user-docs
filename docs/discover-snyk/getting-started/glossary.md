@@ -1,7 +1,3 @@
----
-description: Look up definitions for key Snyk and application security terms, from ADE and advisors to vulnerabilities and zero-day issues, to build a shared understanding across your team.
----
-
 # Glossary
 
 ## A

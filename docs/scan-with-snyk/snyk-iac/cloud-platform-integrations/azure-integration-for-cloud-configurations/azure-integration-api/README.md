@@ -1,8 +1,3 @@
----
-description: >-
-  Onboard your Azure subscription to Snyk via the API to begin scanning cloud configurations.
----
-
 # Azure Integration: API
 
 To onboard an Azure subscription to Snyk via the API:

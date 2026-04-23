@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Groovy code for security vulnerabilities using Snyk Code in Early Access for Enterprise plans.
----
-
 # Groovy
 
 ## Groovy for Snyk Code

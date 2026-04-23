@@ -1,7 +1,3 @@
----
-description: Install and use the Snyk Visual Studio Code extension to scan for vulnerabilities and misconfigurations in your code.
----
-
 # Visual Studio Code extension
 
 ## **Scan early, fix as you develop: elevate your security posture**

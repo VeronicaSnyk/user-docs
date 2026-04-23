@@ -1,7 +1,3 @@
----
-description: Configure your Snyk Organization name and activate the Git or CI/CD integrations selected in Phase 1.
----
-
 # Phase 2: Configure your Organization
 
 ## Name your Organization

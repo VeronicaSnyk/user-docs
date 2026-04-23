@@ -1,8 +1,3 @@
----
-description: >-
-  Onboard a Google Cloud Project to Snyk using the Snyk Web UI to begin scanning cloud configurations.
----
-
 # Google Cloud Integration: Web UI
 
 The steps follow to onboard a Google Cloud Project to Snyk via the Web UI:

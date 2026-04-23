@@ -1,7 +1,3 @@
----
-description: Create service accounts that use OAuth 2.0 client credentials for secure, automatically refreshed authentication in your pipelines.
----
-
 # Service accounts using OAuth 2.0
 
 {% hint style="info" %}

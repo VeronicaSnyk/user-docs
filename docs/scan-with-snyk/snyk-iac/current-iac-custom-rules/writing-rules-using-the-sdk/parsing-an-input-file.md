@@ -1,8 +1,3 @@
----
-description: >-
-  Parse IaC input files to understand their internal representation before writing Rego custom rules.
----
-
 # Parsing an input file
 
 It can be difficult to understand the internal representation of your input files as you write your Rego code. As you will see when you learn [how to write a rule](writing-a-rule.md), the input value is a JSON-like object, but the input files could also be YAML, Terraform, or [Terraform Plan JSON Output](https://www.terraform.io/docs/internals/json-format.html). To help you understand how these are translated into JSON, Snyk provides a `parse` command.
@@ -14,7 +9,7 @@ You will need an IaC file to use as an input file. This input file can also be u
 Take, for example, the following Terraform file:
 
 {% code title="example.tf" %}
-```hcl
+```
 resource "aws_redshift_cluster" "example" {
   cluster_identifier = "tf-redshift-cluster"
   database_name      = "mydb"
@@ -28,13 +23,13 @@ resource "aws_redshift_cluster" "example" {
 
 To get the equivalent JSON format, run the parse command:
 
-```bash
+```
 snyk-iac-rules parse example.tf --format hcl2
 ```
 
 This prints out the JSON, which you can use as guidance for writing your rules:
 
-```json
+```
 {
 	"resource": {
 		"aws_redshift_cluster": {
@@ -53,7 +48,7 @@ This prints out the JSON, which you can use as guidance for writing your rules:
 
 In Rego, accessing the `node_type` field would look like this:
 
-```text
+```
 input.resource.aws_redshift_cluster.example.node_type
 ```
 
@@ -62,7 +57,7 @@ input.resource.aws_redshift_cluster.example.node_type
 Another example is the following YAML file, defining a Kubernetes resource:
 
 {% code title="example.yaml" %}
-```yaml
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -78,13 +73,13 @@ spec:
 
 To get the equivalent JSON format, run the parse command:
 
-```bash
+```
 snyk-iac-rules parse example.yaml --format=yaml
 ```
 
 This prints out the JSON, which you can use as guidance for writing your rules:
 
-```json
+```
 {
 	"apiVersion": "v1",
 	"kind": "Pod",
@@ -107,7 +102,7 @@ This prints out the JSON, which you can use as guidance for writing your rules:
 
 In Rego, accessing the `privileged` field would look like this:
 
-```text
+```
 input.spec.containers[0].securityContext.privileged
 ```
 
@@ -116,7 +111,7 @@ input.spec.containers[0].securityContext.privileged
 Another example is the following Terraform Plan JSON Output file, returned by the `terraform show -json ./plan/example.json.tfplan` command:
 
 {% code title="example.json.tfplan" %}
-```json
+```
 {
   "format_version": "0.2",
   "terraform_version": "1.0.11",
@@ -221,13 +216,13 @@ Another example is the following Terraform Plan JSON Output file, returned by th
 
 To get the equivalent JSON format, run the parse command:
 
-```bash
+```
 snyk-iac-rules parse example.json.tfplan --format=tf-plan
 ```
 
 This prints out the JSON, which you can use as guidance for writing your rules:
 
-```json
+```
 {
 	"data": {},
 	"resource": {
@@ -246,6 +241,6 @@ This prints out the JSON, which you can use as guidance for writing your rules:
 
 In Rego, accessing the `tags` field would look like this:
 
-```text
+```
 input.resource.aws_vpc.example.tags
 ```

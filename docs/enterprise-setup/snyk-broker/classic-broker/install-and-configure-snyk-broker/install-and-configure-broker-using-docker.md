@@ -1,7 +1,3 @@
----
-description: Install and configure Snyk Broker integrations using Docker images for SCM, container registry, and other supported connections in non-Kubernetes environments.
----
-
 # Install and configure Broker using Docker
 
 {% hint style="info" %}

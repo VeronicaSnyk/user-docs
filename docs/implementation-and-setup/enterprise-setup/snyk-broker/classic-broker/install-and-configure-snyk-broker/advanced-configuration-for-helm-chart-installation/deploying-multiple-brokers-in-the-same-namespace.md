@@ -1,7 +1,3 @@
----
-description: Deploy multiple Snyk Broker instances in the same Kubernetes namespace using distinct Helm release names.
----
-
 # Deploying multiple Brokers in the same namespace
 
 ## Helm chart versions 2.x.x
@@ -18,7 +14,7 @@ To deploy an additional Broker into the same namespace as an existing broker, fo
 
 ### Deploy with existing service account
 
-```bash
+```
 helm install <ENTER_UNIQUE_CHART_NAME> snyk-broker/snyk-broker \
              --set scmType=github-com \
              --set brokerToken=<ENTER_BROKER_TOKEN> \
@@ -31,7 +27,7 @@ helm install <ENTER_UNIQUE_CHART_NAME> snyk-broker/snyk-broker \
 
 ### Deploy with new service account
 
-```bash
+```
 helm install <ENTER_UNIQUE_CHART_NAME> snyk-broker/snyk-broker \
              --set scmType=github-com \
              --set brokerToken=<ENTER_BROKER_TOKEN> \

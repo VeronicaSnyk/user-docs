@@ -1,7 +1,3 @@
----
-description: Install the Snyk CLI on your machine using npm, Homebrew, Docker, a GitHub Action, or a standalone binary download.
----
-
 # Install the Snyk CLI
 
 The Snyk CLI can be installed across all major operating systems using several different methods, depending on your existing toolset:

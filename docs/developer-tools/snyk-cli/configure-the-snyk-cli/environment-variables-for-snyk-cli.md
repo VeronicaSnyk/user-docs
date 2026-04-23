@@ -1,7 +1,3 @@
----
-description: Review the environment variables available to configure Snyk CLI behavior, including network retries and proxy settings.
----
-
 # Environment variables for Snyk CLI
 
 This page identifies environment variables that you can use to configure specific settings for the CLI.

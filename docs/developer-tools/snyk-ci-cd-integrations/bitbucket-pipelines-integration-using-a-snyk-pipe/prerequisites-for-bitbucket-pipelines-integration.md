@@ -1,7 +1,3 @@
----
-description: Review the prerequisites for setting up the Snyk pipe in Bitbucket Pipelines, including build minutes and API tokens.
----
-
 # Prerequisites for Bitbucket Pipelines integration
 
 The following are prerequisites for Bitbucket Pipelines integration:

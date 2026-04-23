@@ -1,7 +1,3 @@
----
-description: Apply security policy actions—change severity or ignore current and future instances—to issues that match your defined conditions in Snyk Open Source and Container Projects.
----
-
 # Security policy actions
 
 An action defines what you want to happen when the [security policy conditions](security-policies-conditions.md) are matched.

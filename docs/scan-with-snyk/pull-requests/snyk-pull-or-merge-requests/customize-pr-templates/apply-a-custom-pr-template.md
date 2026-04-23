@@ -1,8 +1,3 @@
----
-description: >-
-  Create and apply custom PR templates using the Snyk API or a YAML file in your repository.
----
-
 # Apply a custom PR template
 
 ## Create and manage a custom PR template using the API
@@ -80,6 +75,6 @@ If you use [Snyk Broker](../../../../implementation-and-setup/enterprise-setup/s
 
 To do this, you must remove `ACCEPT=/path/to/custom.json` and add the following environment variable to your Broker container or deployment:
 
-```bash
+```
 ACCEPT_CUSTOM_PR_TEMPLATES=true
 ```

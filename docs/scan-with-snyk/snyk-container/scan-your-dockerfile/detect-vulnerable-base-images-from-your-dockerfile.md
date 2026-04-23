@@ -1,8 +1,3 @@
----
-description: >-
-  Detect vulnerable base images in your Dockerfile by linking it to an imported container Project.
----
-
 # Detect vulnerable base images from your Dockerfile
 
 {% hint style="info" %}

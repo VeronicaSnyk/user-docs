@@ -1,7 +1,3 @@
----
-description: Build custom dashboards, access enhanced metrics, and explore analytics at the Tenant, Group, or Organization level with Snyk Analytics.
----
-
 # Analytics
 
 {% hint style="info" %}

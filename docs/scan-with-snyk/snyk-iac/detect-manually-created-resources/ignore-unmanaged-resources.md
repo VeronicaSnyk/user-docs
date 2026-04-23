@@ -1,8 +1,3 @@
----
-description: >-
-  Exclude specific unmanaged resources from Snyk IaC describe results using the .snyk policy file.
----
-
 # Ignore unmanaged resources
 
 The `.snyk` policy file can be used to exclude unmanaged resources from being detected by `snyk iac describe`. See [the `.snyk` policy file doc](../../../manage-risk/policies/the-.snyk-file.md) for general information.
@@ -69,7 +64,7 @@ exclude:
 
 Ignore the S3 bucket called `my-bucket` and so on, as shown.
 
-```yaml
+```
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.22.1
 exclude:
@@ -100,6 +95,6 @@ This command helps to generate a `.snyk` policy file, adding all the detected dr
 
 For example, to ignore all the unmanaged resources at once, run the following command:
 
-```bash
+```
 $ snyk iac describe --json | snyk iac update-exclude-policy
 ```

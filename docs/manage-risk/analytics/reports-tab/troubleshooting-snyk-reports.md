@@ -1,7 +1,3 @@
----
-description: Resolve common issues with Snyk reporting access, including firewall allowlisting requirements and Snyk Code resolved-issue discrepancies.
----
-
 # Troubleshooting Snyk reports
 
 ## Access to reporting

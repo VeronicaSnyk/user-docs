@@ -1,7 +1,3 @@
----
-description: Access governance resources covering data handling, regional hosting, AI usage, vulnerability disclosure, support terms, and usage measurement for Snyk deployments.
----
-
 # Overview
 
 To assist you with operational and governance decisions when using Snyk in your production environment, Snyk provides the following resources:

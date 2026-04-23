@@ -1,8 +1,3 @@
----
-description: >-
-  Secure cloud infrastructure configurations before and after deployment using Snyk Infrastructure as Code.
----
-
 # Snyk IaC
 
 With Snyk Infrastructure as Code (IaC), you can secure cloud infrastructure configurations before and after deployment.&#x20;

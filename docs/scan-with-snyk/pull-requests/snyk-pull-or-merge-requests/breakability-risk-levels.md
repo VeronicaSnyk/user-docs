@@ -1,8 +1,3 @@
----
-description: >-
-  Understand breakability risk levels that Snyk assigns to dependency upgrades to assess upgrade safety.
----
-
 # Breakability risk levels
 
 {% hint style="info" %}

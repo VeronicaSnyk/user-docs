@@ -1,7 +1,3 @@
----
-description: Authenticate your machine with your Snyk account using the snyk auth command before running scans.
----
-
 # Auth
 
 ## Usage

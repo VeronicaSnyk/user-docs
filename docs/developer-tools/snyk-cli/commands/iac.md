@@ -1,7 +1,3 @@
----
-description: Find and report security issues in Infrastructure as Code files and manage drift using the snyk iac commands.
----
-
 # IaC
 
 ## Usage

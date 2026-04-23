@@ -1,7 +1,3 @@
----
-description: Find security issues in your source code using Snyk Code static analysis from the CLI.
----
-
 # Code
 
 ## Description

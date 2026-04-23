@@ -1,7 +1,3 @@
----
-description: Review examples for the now-removed Snyk Python 3.6 GitHub Action and migrate to a supported alternative.
----
-
 # Snyk Python-3.6 action
 
 {% hint style="warning" %}

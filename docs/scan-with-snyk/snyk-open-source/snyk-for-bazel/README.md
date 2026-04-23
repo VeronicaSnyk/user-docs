@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Bazel project dependencies for vulnerabilities using the Snyk Dep Graph API.
----
-
 # Snyk for Bazel
 
 {% hint style="info" %}

@@ -1,7 +1,3 @@
----
-description: Use Snyk webhooks with an AWS Lambda function to forward new vulnerability notifications to a Slack channel.
----
-
 # Using Snyk Webhooks to connect Snyk to Slack with AWS Lambda
 
 You can use Snyk Webhooks alongside a Lambda function to receive and filter new vulnerabilities discovered by Snyk in your Slack.

@@ -1,8 +1,3 @@
----
-description: >-
-  View the Snyk Code security rules applied when scanning Apex code, including CWE references and OWASP categories.
----
-
 # Apex rules
 
 Each rule includes the following information.

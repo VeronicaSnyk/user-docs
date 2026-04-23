@@ -1,8 +1,3 @@
----
-description: >-
-  View the Azure resource types supported by Snyk cloud context for configuration scanning.
----
-
 # Supported Azure resources for cloud context
 
 Snyk cloud context works with the following Azure resource types:

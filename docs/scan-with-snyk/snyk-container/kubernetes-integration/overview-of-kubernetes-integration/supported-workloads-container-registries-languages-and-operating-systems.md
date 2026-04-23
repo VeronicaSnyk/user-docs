@@ -1,8 +1,3 @@
----
-description: >-
-  View the workloads, container registries, languages, and operating systems supported by the Snyk Kubernetes integration.
----
-
 # Supported workloads, container registries, languages, and operating systems
 
 ## Supported workloads

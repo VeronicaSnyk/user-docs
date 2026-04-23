@@ -1,7 +1,3 @@
----
-description: Migrate from the deprecated V1 List all Projects API to the REST Projects endpoint with improved filtering and pagination.
----
-
 # List all Projects V1 API to REST API migration guide (completed migration)
 
 {% hint style="warning" %}

@@ -1,8 +1,3 @@
----
-description: >-
-  Scan PHP code and Composer dependencies for vulnerabilities using Snyk Code and Snyk Open Source.
----
-
 # PHP
 
 {% hint style="info" %}

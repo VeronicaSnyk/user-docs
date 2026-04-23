@@ -1,7 +1,3 @@
----
-description: List, update, and delete Snyk Apps and manage the Organizations that have installed your App using the REST API.
----
-
 # Manage App details
 
 ## List Apps created by an Organization

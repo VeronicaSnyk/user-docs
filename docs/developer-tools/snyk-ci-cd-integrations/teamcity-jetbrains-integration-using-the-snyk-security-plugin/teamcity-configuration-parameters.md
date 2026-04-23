@@ -1,7 +1,3 @@
----
-description: Review all configuration parameters available for the Snyk Security plugin build step in TeamCity.
----
-
 # TeamCity configuration parameters
 
 This page provides information about [Snyk settings](teamcity-configuration-parameters.md#snyk-settings), [Additional parameters](teamcity-configuration-parameters.md#additional-parameters), and [Snyk tool settings](teamcity-configuration-parameters.md#snyk-tool-settings).

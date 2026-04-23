@@ -1,8 +1,3 @@
----
-description: >-
-  Remove or deactivate imported repositories from Snyk to stop vulnerability testing on selected Projects.
----
-
 # Remove imported repository from a Project
 
 If you do not want Snyk to continue testing one or more of your imported repositories, you can do one of the following:

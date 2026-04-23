@@ -1,8 +1,3 @@
----
-description: >-
-  Import repositories into Snyk Projects using SCM integrations and track import progress in the Snyk Web UI.
----
-
 # Project repositories
 
 ## Importing Project repositories

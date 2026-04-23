@@ -1,7 +1,3 @@
----
-description: Scan infrastructure as code files for security misconfigurations using the Snyk CLI.
----
-
 # Snyk CLI for IaC
 
 ## Overview

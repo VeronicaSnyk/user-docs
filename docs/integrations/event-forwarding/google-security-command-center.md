@@ -1,7 +1,3 @@
----
-description: Send Snyk issues to Google Security Command Center to view and manage application security findings alongside cloud security data.
----
-
 # Google Security Command Center
 
 {% hint style="info" %}

@@ -1,8 +1,3 @@
----
-description: >-
-  Start a bulk import of Projects into Snyk using the snyk-api-import import command with a targets JSON file.
----
-
 # Kicking off an import
 
 `snyk-api-import` supports the same Project sources that you can import using the Snyk API: Git repositories, Docker images, containers, configuration files and much more. You can configure integrations using the Integrations settings on your Snyk Organization settings page. For more information, see the definition of [Target](../../../snyk-platform-administration/snyk-projects/#target) on the Snyk Projects documentation page.
@@ -15,7 +10,7 @@ The steps to start an import follow.
 
 The file is expected to have a required `targets` top-level key, which is an array of import targets.
 
-```text
+```
 {
   targets: [
     {..},
@@ -26,7 +21,7 @@ The file is expected to have a required `targets` top-level key, which is an arr
 
 Each **import target** has the following keys:
 
-```json
+```
 {
   // required
   "orgId": "<public_snyk_org_id>",
@@ -55,7 +50,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: GitLab**
 
-```json
+```
 {
   "targets": [
     {
@@ -80,7 +75,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: Bitbucket Server**
 
-```json
+```
 {
   "targets": [
     {
@@ -110,7 +105,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: GitHub.com, GitHub Enterprise, dev.azure.com, Hosted Azure Repos**
 
-```json
+```
 {
   "targets": [
     {
@@ -129,7 +124,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: Google Container Registry**
 
-```json
+```
 {
   "targets": [
     {
@@ -145,7 +140,7 @@ If you have any tests or fixtures that should be ignored, set the `exclusionGLob
 
 ### **Example: Azure Container Registry, Elastic Container Registry, Artifactory Container Registry**
 
-```json
+```
 {
   "targets": [
     {

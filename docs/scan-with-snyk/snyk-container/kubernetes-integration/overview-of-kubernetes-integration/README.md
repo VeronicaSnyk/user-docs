@@ -1,8 +1,3 @@
----
-description: >-
-  Understand how the Snyk Kubernetes integration monitors workloads and detects vulnerabilities in your cluster.
----
-
 # Overview of Kubernetes integration
 
 {% hint style="info" %}

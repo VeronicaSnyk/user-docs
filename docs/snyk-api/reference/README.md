@@ -1,7 +1,3 @@
----
-description: Download the V1 API and REST API OpenAPI specifications and browse the full Snyk API reference by endpoint group.
----
-
 # Reference
 
 V1 API OpenAPI specification

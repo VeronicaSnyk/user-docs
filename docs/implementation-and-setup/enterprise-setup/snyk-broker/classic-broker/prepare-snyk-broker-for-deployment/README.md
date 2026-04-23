@@ -1,7 +1,3 @@
----
-description: Review system requirements, network prerequisites, and environment variables before deploying the Snyk Broker Client.
----
-
 # Prepare Snyk Broker for deployment
 
 {% hint style="info" %}

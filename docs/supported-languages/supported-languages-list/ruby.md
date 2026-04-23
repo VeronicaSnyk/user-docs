@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Ruby code and Gem dependencies for vulnerabilities using Snyk Code and Snyk Open Source.
----
-
 # Ruby
 
 ## Applicability and integration

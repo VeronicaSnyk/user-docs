@@ -1,8 +1,3 @@
----
-description: >-
-  Connect Snyk Container to your container registries to import and monitor images for vulnerabilities.
----
-
 # Container registry integrations
 
 ## Overview of Snyk Container integrations

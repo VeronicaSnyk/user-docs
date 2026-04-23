@@ -1,7 +1,3 @@
----
-description: Add AWS API Gateway as the trigger for your Lambda function to receive incoming Snyk webhook requests.
----
-
 # AWS API Gateway: Setting up a trigger
 
 Follow these steps to add the AWS API Gateway to the function:

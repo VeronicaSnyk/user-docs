@@ -1,8 +1,3 @@
----
-description: >-
-  Analyze C/C++ code for security vulnerabilities using Snyk Code with SCM and CLI integrations.
----
-
 # C/C++ for code analysis
 
 Refer to the [C/C++ details ](./)for supported frameworks, libraries, and features.

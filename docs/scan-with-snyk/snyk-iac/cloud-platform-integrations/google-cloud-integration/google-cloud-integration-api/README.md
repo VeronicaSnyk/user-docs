@@ -1,8 +1,3 @@
----
-description: >-
-  Onboard a Google Cloud Project to Snyk via the API using a service account IaC template.
----
-
 # Google Cloud Integration: API
 
 To onboard a Google Cloud Project to Snyk via the API:

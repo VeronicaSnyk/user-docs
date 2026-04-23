@@ -1,7 +1,3 @@
----
-description: Use this Group-level role template to grant integration-focused users the permissions needed to configure and manage third-party integrations.
----
-
 # Integration Editor/Implementor role template
 
 This is a Group-level role with integration-related permissions to enable and process the integration of multiple third-party tools.

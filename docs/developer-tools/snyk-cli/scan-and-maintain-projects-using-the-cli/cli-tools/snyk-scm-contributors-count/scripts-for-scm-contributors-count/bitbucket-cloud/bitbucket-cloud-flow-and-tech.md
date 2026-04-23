@@ -1,7 +1,3 @@
----
-description: Understand the flow and technical details of how snyk-scm-contributors-count fetches Bitbucket Cloud contributor data.
----
-
 # Bitbucket Cloud - Flow and Tech
 
 ## Flow

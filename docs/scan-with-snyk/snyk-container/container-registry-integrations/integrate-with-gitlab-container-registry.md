@@ -1,8 +1,3 @@
----
-description: >-
-  Integrate Snyk with GitLab Container Registry to import and monitor container images for vulnerabilities.
----
-
 # Integrate with GitLab Container Registry
 
 Snyk integrates with GitLab Container Registry to enable you to import your container images and monitor them for vulnerabilities.

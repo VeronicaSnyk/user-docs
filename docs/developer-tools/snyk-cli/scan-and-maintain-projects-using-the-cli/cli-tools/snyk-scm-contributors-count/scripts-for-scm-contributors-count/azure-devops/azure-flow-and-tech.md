@@ -1,7 +1,3 @@
----
-description: Understand the flow and technical details of how snyk-scm-contributors-count fetches Azure DevOps contributor data.
----
-
 # Azure - Flow and Tech
 
 ## Flow

@@ -1,8 +1,3 @@
----
-description: >-
-  Create the Entra ID app registration and federated identity credentials required for Azure cloud scanning via the API.
----
-
 # Step 2: Create the Entra ID app registration (API)
 
 {% hint style="info" %}

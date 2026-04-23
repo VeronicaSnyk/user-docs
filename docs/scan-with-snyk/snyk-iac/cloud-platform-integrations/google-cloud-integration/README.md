@@ -1,8 +1,3 @@
----
-description: >-
-  Integrate Snyk with Google Cloud to find configuration issues and generate cloud context for prioritization.
----
-
 # Google Cloud integration
 
 Snyk integrations with your [Google Cloud](https://cloud.google.com/) Projects to find issues in your cloud configurations and generate cloud context to help you prioritize your vulnerabilities.

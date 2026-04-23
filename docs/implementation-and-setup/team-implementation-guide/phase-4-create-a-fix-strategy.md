@@ -1,7 +1,3 @@
----
-description: Prioritize your vulnerability backlog by identifying critical assets and repositories to fix before expanding to your wider codebase.
----
-
 # Phase 4: Create a fix strategy
 
 After setting up your integrations, creating your Organization, and importing your Projects, you now have visibility into your business's current vulnerability backlog.&#x20;

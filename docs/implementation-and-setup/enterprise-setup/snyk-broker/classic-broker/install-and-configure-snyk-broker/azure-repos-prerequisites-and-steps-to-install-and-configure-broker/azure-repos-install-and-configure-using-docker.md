@@ -1,7 +1,3 @@
----
-description: Install and configure the Snyk Broker Client for Azure Repos using Docker with the required environment variables.
----
-
 # Azure Repos - install and configure using Docker
 
 {% hint style="info" %}

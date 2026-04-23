@@ -1,12 +1,8 @@
----
-description: Install or upgrade Node.js to the version required for Snyk CLI to ensure full compatibility.
----
-
 # Install or upgrade to version of Node.js required for Snyk CLI
 
 Node.js v12 or higher is required for Snyk CLI version 1.853.0 and higher. Snyk recommends running as recent a version of Node.js and npm as possible to ensure full compatibility.
 
-## How to upgrade Node.js
+### How to upgrade Node.js
 
 Node.js comes with npm pre-installed, but the manager is updated more frequently than Node.js.
 
@@ -14,7 +10,7 @@ To update Node.js, you need need the npm [n module](https://www.npmjs.com/packag
 
 Run this code to clear the npm cache, install `n`, and install the latest stable version of Node.js:
 
-```bash
+```
 sudo npm cache clean -f
 sudo npm install -g n
 sudo n stable
@@ -32,6 +28,6 @@ Follow these steps to upgrade Node.js:
 
 To upgrade npm, run the following:
 
-```bash
+```
 npm install -g npm
 ```

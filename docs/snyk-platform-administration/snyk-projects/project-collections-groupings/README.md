@@ -1,7 +1,3 @@
----
-description: Group your Snyk Projects using flexible Project views or persistent Project collections for organized reporting and management.
----
-
 # Project collections groupings
 
 {% hint style="info" %}

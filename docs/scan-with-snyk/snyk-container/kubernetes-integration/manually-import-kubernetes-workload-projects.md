@@ -1,8 +1,3 @@
----
-description: >-
-  Manually import Kubernetes workload Projects into Snyk for vulnerability monitoring across multiple clusters.
----
-
 # Manually import Kubernetes workload Projects
 
 Using the same integration ID, you can import multiple clusters to one Snyk Organization by giving clusters a unique cluster name during installation.
@@ -34,7 +29,7 @@ Snyk purposely ignores scanning certain namespaces that Snyk believes are intern
 
 You can configure the list by adding the following code to Helm when you are setting up the snyk-monitor:
 
-```bash
+```
       --set excludedNamespaces={kube-node-lease,local-path-storage,some_namespace}
 ```
 

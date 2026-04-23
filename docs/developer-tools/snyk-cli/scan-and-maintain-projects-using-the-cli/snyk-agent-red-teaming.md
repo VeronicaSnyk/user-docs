@@ -1,7 +1,3 @@
----
-description: Use the Snyk CLI red-teaming agent to evaluate AI-generated code for security vulnerabilities before deployment.
----
-
 # Snyk Agent Red Teaming
 
 {% hint style="warning" %}

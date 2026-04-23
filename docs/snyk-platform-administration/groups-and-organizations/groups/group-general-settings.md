@@ -1,7 +1,3 @@
----
-description: View and modify your Group name, Group ID, and other general settings in the Snyk Web UI.
----
-
 # Group general settings
 
 To view and modify settings for your Group, navigate to **Settings** > **General**.

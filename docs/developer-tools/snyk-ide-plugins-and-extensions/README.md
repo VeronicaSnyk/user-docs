@@ -1,7 +1,3 @@
----
-description: Install and configure Snyk IDE plugins and extensions to find and fix vulnerabilities while you code.
----
-
 # Snyk IDE plugins and extensions
 
 {% hint style="info" %}

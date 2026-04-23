@@ -1,7 +1,3 @@
----
-description: Find detailed guidance for scanning Projects, monitoring dependencies, and maintaining your code security using the Snyk CLI.
----
-
 # Scan and maintain Projects using the CLI
 
 This group of pages provides detailed "how-to" information for the Snyk CLI.

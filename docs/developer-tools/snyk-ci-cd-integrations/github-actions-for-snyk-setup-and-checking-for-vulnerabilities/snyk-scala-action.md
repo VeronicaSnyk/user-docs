@@ -1,7 +1,3 @@
----
-description: Review examples for the now-removed Snyk Scala GitHub Action and migrate to a supported alternative.
----
-
 # Snyk Scala action
 
 {% hint style="warning" %}

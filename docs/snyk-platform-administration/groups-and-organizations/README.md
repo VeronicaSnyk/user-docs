@@ -1,7 +1,3 @@
----
-description: Understand the Snyk hierarchy of Tenants, Groups, and Organizations and how to manage access and settings at each level.
----
-
 # Tenant, Groups, and Organizations
 
 ## The Snyk hierarchy

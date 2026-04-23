@@ -1,7 +1,3 @@
----
-description: Find guides for integrating Snyk webhooks with Zapier, New Relic, and Slack through AWS Lambda.
----
-
 # Guides to webhooks
 
 This section includes the following guides:

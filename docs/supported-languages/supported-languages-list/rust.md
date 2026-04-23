@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Rust code for vulnerabilities using Snyk Code and detect limited open-source dependency issues with Snyk Open Source.
----
-
 # Rust
 
 {% hint style="info" %}

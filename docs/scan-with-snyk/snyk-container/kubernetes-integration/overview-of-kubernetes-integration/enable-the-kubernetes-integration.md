@@ -1,8 +1,3 @@
----
-description: >-
-  Enable the Snyk Kubernetes integration to start monitoring workloads and detecting container vulnerabilities.
----
-
 # Enable the Kubernetes integration
 
 {% hint style="info" %}

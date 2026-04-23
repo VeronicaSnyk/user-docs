@@ -1,7 +1,3 @@
----
-description: Use the Snyk Learn REST API to programmatically access the content catalog, track learning progress for individuals and Organizations, and manage assignments.
----
-
 # Snyk Learn API
 
 {% hint style="info" %}

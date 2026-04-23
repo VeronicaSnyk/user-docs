@@ -1,7 +1,3 @@
----
-description: Understand how Snyk Code Consistent Ignores affect pull request check outcomes, inline comments, and summary counts when findings are ignored before or after a PR check runs.
----
-
 # Consistent Ignores for Snyk Code Pull Request Checks
 
 ## Pull Request Check default ignore behavior

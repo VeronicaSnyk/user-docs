@@ -1,7 +1,3 @@
----
-description: Run a static application security test on your source code using the snyk code test CLI command.
----
-
 # Code test
 
 ## Usage

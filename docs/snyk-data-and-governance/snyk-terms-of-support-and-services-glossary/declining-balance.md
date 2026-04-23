@@ -1,7 +1,3 @@
----
-description: Allocate a pool of expert consulting hours across enterprise migration, integration, best practices, and training services to maximize your Snyk investment.
----
-
 # Snyk Declining Balance of Hours Service Description
 
 ## Overview of Declining Balance of Hours

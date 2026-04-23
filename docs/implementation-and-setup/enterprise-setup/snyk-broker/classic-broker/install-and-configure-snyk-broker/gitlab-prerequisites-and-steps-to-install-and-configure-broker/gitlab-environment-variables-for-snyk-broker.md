@@ -1,7 +1,3 @@
----
-description: Reference the required environment variables for configuring the Snyk Broker Client for GitLab.com or a self-hosted GitLab instance.
----
-
 # GitLab - environment variables for Snyk Broker
 
 The following environment variables are required to configure the Broker Client for GitLab:

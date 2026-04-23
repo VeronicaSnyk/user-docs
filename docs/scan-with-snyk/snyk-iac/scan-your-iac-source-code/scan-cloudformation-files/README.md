@@ -1,8 +1,3 @@
----
-description: >-
-  Scan AWS CloudFormation files for security issues using Snyk IaC SCM integration or the CLI.
----
-
 # Scan CloudFormation files
 
 The following information is provided to help you scan CloudFormation files:

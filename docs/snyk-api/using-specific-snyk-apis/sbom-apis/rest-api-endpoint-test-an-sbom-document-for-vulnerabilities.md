@@ -1,7 +1,3 @@
----
-description: Test an SBOM document against the Snyk vulnerability database using the REST API beta endpoint.
----
-
 # Test an SBOM document for vulnerabilities
 
 {% hint style="info" %}

@@ -1,7 +1,3 @@
----
-description: Understand when to use snyk test versus snyk monitor in your CI/CD pipeline to expose and track vulnerabilities.
----
-
 # Snyk test and snyk monitor in CI/CD integration
 
 Depending on your approach and goals for your Snyk Open Source Project, you may need to use both the `snyk monitor` and `snyk test` commands in your pipeline. Examples and details follow.
@@ -10,13 +6,13 @@ Depending on your approach and goals for your Snyk Open Source Project, you may 
 
 Use `snyk monitor` to expose vulnerabilities and post to the Snyk UI for ongoing monitoring:
 
-```bash
+```
 snyk monitor --all-projects --org=snyk-apps
 ```
 
 Use `snyk test` to fail the build on high-severity issues:
 
-```bash
+```
 snyk test --all-projects --org=snyk-apps --severity-threshold=high
 ```
 
@@ -40,7 +36,7 @@ Among the most common options used in a CI/CD integration are the following:
 
 \--org=\<ORG\_ID>: Specify the `ORG_ID` to run Snyk commands for a specific Organization. This influences where new Projects are created after running the `monitor` command, some availabilty of features, and private test limits. If you have multiple Organizations, you can set a default from the CLI using:
 
-```bash
+```
 $ snyk config set org=<ORG_ID>
 ```
 

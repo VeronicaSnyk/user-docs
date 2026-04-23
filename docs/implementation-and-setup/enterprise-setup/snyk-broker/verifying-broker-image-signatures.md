@@ -1,7 +1,3 @@
----
-description: Verify Snyk Broker container image signatures using Cosign to confirm authenticity before deployment.
----
-
 # Verifying Broker image signatures
 
 Beginning with version 4.169.1, all Broker container images are signed using Cosign.
@@ -20,7 +16,7 @@ To verify the signed image, you must use the built-in `cosign verify` command.
 
 It is not necessary to pull the Broker container image to perform the verification step
 
-```bash
+```
 $ cosign verify --key cosign.pub snyk/broker:4.169.1-github-com
 
 Verification for index.docker.io/snyk/broker:4.169.1-github-com --
@@ -34,7 +30,7 @@ The following checks were performed on each of these signatures:
 
 ## Broker Cosign public key
 
-```text
+```
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEd+2mEWyDk8Cmm0CD1Z8jcsXGaQ2i
 sL8pxHrwoIH4DxmdyJ2nzwWaxYfsfZM6NoCRVsgYAVe5GBhFbr6hzcj5gw==

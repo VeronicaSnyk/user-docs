@@ -1,8 +1,3 @@
----
-description: >-
-  Review technical specifications for Snyk Code and Snyk Open Source, including encoding, file size, and coverage limits.
----
-
 # Technical specifications and guidance
 
 ## Unicode character encoding

@@ -1,8 +1,3 @@
----
-description: >-
-  View the GitHub resources supported by Snyk IaC unmanaged resource detection.
----
-
 # GitHub resources
 
 Snyk IaC unmanaged resource scanning supports the following resources for GitHub:

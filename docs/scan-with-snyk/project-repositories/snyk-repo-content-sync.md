@@ -1,8 +1,3 @@
----
-description: >-
-  Keep Snyk Projects in sync with repository content automatically using the repo content sync feature.
----
-
 # Snyk repo content sync
 
 {% hint style="info" %}

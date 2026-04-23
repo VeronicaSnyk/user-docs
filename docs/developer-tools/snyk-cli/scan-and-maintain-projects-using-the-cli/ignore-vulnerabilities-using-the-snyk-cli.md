@@ -1,7 +1,3 @@
----
-description: Suppress specific vulnerabilities in Snyk CLI results by adding ignore rules to your .snyk policy file.
----
-
 # Ignore vulnerabilities using the Snyk CLI
 
 {% hint style="info" %}

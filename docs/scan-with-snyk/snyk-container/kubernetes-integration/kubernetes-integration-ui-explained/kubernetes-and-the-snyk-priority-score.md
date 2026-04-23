@@ -1,8 +1,3 @@
----
-description: >-
-  Understand how Kubernetes-specific factors influence the Snyk Priority Score for detected vulnerabilities.
----
-
 # Kubernetes and the Snyk Priority Score
 
 {% hint style="info" %}
@@ -21,7 +16,7 @@ The Kubernetes integration collects information about how workloads are configur
 
 To see the factors taken into consideration for the Priority Score of each vulnerability, hover over the score.
 
-![Hovering over the priority score in Snyk to see the contributing risk factors for a Kubernetes vulnerability](../../../../.gitbook/assets/hover_priority_score.png)
+![](../../../../.gitbook/assets/hover_priority_score.png)
 
 The rationale is based on the fact that a vulnerability that is present in a poorly configured workload scores higher than the same vulnerability found in a well-configured workload.
 

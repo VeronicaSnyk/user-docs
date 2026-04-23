@@ -1,7 +1,3 @@
----
-description: Retrieve Group IDs, Organization IDs, and Organization lists using the Snyk API for use in API requests.
----
-
 # Organization and Group identification for Projects using the API
 
 Using the API, you can do the following:

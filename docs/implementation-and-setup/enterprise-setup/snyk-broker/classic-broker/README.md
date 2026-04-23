@@ -1,7 +1,3 @@
----
-description: Access documentation for Classic Broker installation, configuration, troubleshooting, and SCM integrations.
----
-
 # Classic Broker
 
 This section provides information about the classic Snyk Broker:

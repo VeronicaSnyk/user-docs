@@ -1,7 +1,3 @@
----
-description: Use Snyk GitHub Actions to check for vulnerabilities in your GitHub repositories as part of your CI/CD workflow.
----
-
 # GitHub actions for Snyk setup and checking for vulnerabilities
 
 ## Overview of GitHub Actions Integration

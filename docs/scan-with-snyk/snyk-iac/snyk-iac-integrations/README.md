@@ -1,8 +1,3 @@
----
-description: >-
-  Connect Snyk IaC with Jira and self-hosted Git repositories using Broker to extend your scanning workflow.
----
-
 # Snyk IaC integrations
 
 This section provides information about the following:

@@ -1,7 +1,3 @@
----
-description: Enable Automated Collections to automatically group your Projects into collections based on source targets.
----
-
 # Automatically created Project collections
 
 {% hint style="info" %}

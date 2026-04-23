@@ -1,8 +1,3 @@
----
-description: >-
-  View the Azure resources supported by Snyk IaC unmanaged resource detection.
----
-
 # Azure resources
 
 Snyk IaC unmanaged resource scanning supports the following resources for Azure:

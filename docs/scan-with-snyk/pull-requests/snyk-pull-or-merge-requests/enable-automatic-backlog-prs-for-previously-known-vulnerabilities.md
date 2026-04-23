@@ -1,8 +1,3 @@
----
-description: >-
-  Enable automatic fix PRs for previously known vulnerabilities to keep your backlog addressed without manual intervention.
----
-
 # Enable automatic backlog PRs for previously known vulnerabilities
 
 {% hint style="info" %}

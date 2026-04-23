@@ -1,7 +1,3 @@
----
-description: Configure the Snyk CLI to use FIPS-validated cryptographic modules for regulated environments.
----
-
 # Using FIPS-validated cryptography
 
 ## Availability of FIPS-validated cryptography in Snyk
@@ -30,7 +26,7 @@ The Snyk Language Server can now be executed as a CLI command.
 
 As a consequence, instructions for using FIPS-validated cryptography are the same for the CLI and the Language Server.
 
-## Prerequisites for FIPS-cryptography in the CLI and Snyk Language Server
+### Prerequisites for FIPS-cryptography in the CLI and Snyk Language Server
 
 **Linux operating systems**
 
@@ -46,7 +42,7 @@ To enable FIPS on Windows, [use the Windows FIPS policy](https://docs.microsoft.
 
 For testing, FIPS can be enabled using the following registry key `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy` by setting the value of `Enabled` to 1.
 
-### Download FIPS-enabled binaries
+#### Download FIPS-enabled binaries
 
 Snyk binaries are available with and without FIPS support. They are all hosted on downloads.snyk.io, differentiated by their Base URL.
 

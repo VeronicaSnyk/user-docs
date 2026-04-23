@@ -1,8 +1,3 @@
----
-description: >-
-  View the Snyk Code security rules applied when scanning C# and ASP.NET code, including CWE and OWASP mappings.
----
-
 # C# and ASP.NET rules
 
 Each rule includes the following information.

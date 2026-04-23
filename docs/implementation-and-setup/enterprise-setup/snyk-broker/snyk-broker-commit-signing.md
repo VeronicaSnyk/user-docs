@@ -1,7 +1,3 @@
----
-description: Sign GitHub fix PR commits with your GPG key using the Snyk Broker Client commit signing feature.
----
-
 # Snyk Broker - commit signing
 
 {% hint style="info" %}

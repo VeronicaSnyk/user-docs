@@ -1,7 +1,3 @@
----
-description: Create and configure an Azure Function App to receive Snyk webhook payloads and forward them to the New Relic Security API.
----
-
 # Create an Azure Function App
 
 Follow the regular process to create and configure an Azure Function App. For more information see the [Microsoft Azure Functions documentation](https://learn.microsoft.com/en-us/azure/azure-functions/).

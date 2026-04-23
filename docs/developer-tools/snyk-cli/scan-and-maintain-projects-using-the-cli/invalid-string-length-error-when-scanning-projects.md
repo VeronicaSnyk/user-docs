@@ -1,7 +1,3 @@
----
-description: Resolve the invalid string length error that occurs when the Snyk CLI scans very large Projects.
----
-
 # Invalid string length error when scanning projects
 
 The invalid string length error can occur in the following situations:

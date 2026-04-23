@@ -1,7 +1,3 @@
----
-description: Navigate Group and Organization settings including SSO, member roles, service accounts, and notifications.
----
-
 # Group and Organization settings
 
 ## Group settings

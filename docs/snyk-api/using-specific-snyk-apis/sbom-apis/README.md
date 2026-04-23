@@ -1,7 +1,3 @@
----
-description: Use the Snyk SBOM APIs to generate SBOM documents for Projects and test SBOM files for known vulnerabilities.
----
-
 # SBOM APIs
 
 Information about how to use the following API endpoints is provided:

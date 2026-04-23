@@ -1,8 +1,3 @@
----
-description: >-
-  Scan COBOL code for security vulnerabilities using Snyk Code in Early Access for Enterprise plans.
----
-
 # COBOL
 
 {% hint style="info" %}

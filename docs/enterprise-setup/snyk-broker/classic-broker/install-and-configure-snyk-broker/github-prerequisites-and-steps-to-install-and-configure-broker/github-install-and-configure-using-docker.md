@@ -1,7 +1,3 @@
----
-description: Configure Snyk Broker for GitHub using Docker to establish a secure connection between Snyk and your on-premise or cloud GitHub deployment.
----
-
 # GitHub - install and configure using Docker
 
 Before installing, review the [prerequisites](./) and the general instructions for installation using [Docker](../install-and-configure-broker-using-docker.md).

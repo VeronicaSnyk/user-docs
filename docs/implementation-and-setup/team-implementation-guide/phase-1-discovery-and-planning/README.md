@@ -1,7 +1,3 @@
----
-description: Complete the discovery and planning phase by validating your license, identifying stakeholders, and creating your rollout plan.
----
-
 # Phase 1: Discovery and planning
 
 ## Discovery phase steps

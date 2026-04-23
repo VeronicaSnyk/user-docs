@@ -1,7 +1,3 @@
----
-description: Register a Snyk webhook that sends vulnerability events to your Azure Function URL for ingestion into New Relic.
----
-
 # Create a Snyk Webhook
 
 Create the Snyk Webhook using the [Create a webhook API](../../../../reference/webhooks-v1.md#org-orgid-webhooks).
@@ -24,7 +20,7 @@ Content-Type: application/json
 
 The response is like this:
 
-```json
+```
 {
   "id": "{SNYK-WEBHOOK-ID}",
   "url": "https://{TARGET-WEBHOOK-URL}",

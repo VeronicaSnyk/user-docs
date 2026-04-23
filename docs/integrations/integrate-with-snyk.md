@@ -1,7 +1,3 @@
----
-description: Connect Snyk Studio to AI coding assistants using the MCP server to embed security scanning into agentic development workflows.
----
-
 # Overview
 
 ## Snyk Studio - Agentic integrations

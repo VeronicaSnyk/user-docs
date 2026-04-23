@@ -1,8 +1,3 @@
----
-description: >-
-  View the Snyk Code security rules applied when scanning PHP code, including CWE references and OWASP Top 10 categories.
----
-
 # PHP rules
 
 Each rule includes the following information.

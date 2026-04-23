@@ -1,8 +1,3 @@
----
-description: >-
-  Uninstall the Snyk Controller and disconnect your Kubernetes cluster from the Snyk integration.
----
-
 # Disable the Kubernetes integration
 
 To disable the Kubernetes integration:

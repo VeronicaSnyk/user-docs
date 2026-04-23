@@ -1,7 +1,3 @@
----
-description: Test Terraform configuration files for security misconfigurations using the Snyk CLI.
----
-
 # Terraform files
 
 With Snyk Infrastructure as Code, you can scan both your static configuration files and Terraform plan output using the CLI.
@@ -14,7 +10,7 @@ With Snyk IaC you can scan the configuration files, for example `main.tf`, using
 
 You can specify either a file name or a whole directory:
 
-```bash
+```
 snyk iac test main.tf
 snyk iac test .
 ```
@@ -37,7 +33,7 @@ This file is not sent to Snyk to be processed; it is scanned locally with the CL
 
 Provide the path to your Terraform plan output which must be stored as a valid JSON file.
 
-```bash
+```
 snyk iac test tf-plan.json
 ```
 
@@ -50,7 +46,7 @@ You can change this behavior by using the `--scan=` option.
 
 If you do not already have your Terraform plan output saved as a JSON file, you may need to follow these steps:
 
-```bash
+```
 terraform plan -out=tfplan.binary
 terraform show -json tfplan.binary > tf-plan.json
 ```

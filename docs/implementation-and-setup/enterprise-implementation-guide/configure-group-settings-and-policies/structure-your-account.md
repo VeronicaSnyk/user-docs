@@ -1,7 +1,3 @@
----
-description: Plan your Group and Organization hierarchy to reflect your business units and support efficient policy and access management.
----
-
 # Structure your account
 
 ## Plan your Group structure

@@ -1,7 +1,3 @@
----
-description: Understand the Snyk feature release stages—Alpha, Closed Beta, Early Access, and General Availability—and the lifecycle stages including Deprecated, End of Support, and End of Life.
----
-
 # Snyk release process
 
 {% hint style="info" %}

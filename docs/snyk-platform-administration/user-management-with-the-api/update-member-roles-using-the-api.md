@@ -1,7 +1,3 @@
----
-description: Update member roles across Organizations using the API in bounded batches to avoid rate limits.
----
-
 # Update member roles using the API
 
 To migrate members of existing organizations to new roles, you must use the API. Follow the steps in each section of this document.

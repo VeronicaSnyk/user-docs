@@ -1,7 +1,3 @@
----
-description: Upgrade your existing Classic Broker Organization integrations to Universal Broker one Organization at a time.
----
-
 # Upgrade an Organization integration from Classic Broker to Universal Broker
 
 {% hint style="info" %}

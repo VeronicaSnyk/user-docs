@@ -1,7 +1,3 @@
----
-description: Meet the prerequisites for each Snyk product module before your Jumpstart engagement begins to ensure a smooth and successful implementation.
----
-
 # Snyk Jumpstart Customer Prerequisites
 
 ## Overview of Snyk Jumpstart Customer Prerequisites

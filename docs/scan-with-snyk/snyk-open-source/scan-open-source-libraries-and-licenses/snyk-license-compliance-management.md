@@ -1,8 +1,3 @@
----
-description: >-
-  Define and enforce license policies across your Projects using Snyk License Compliance Management.
----
-
 # Snyk License Compliance Management
 
 {% hint style="info" %}

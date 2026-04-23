@@ -1,7 +1,3 @@
----
-description: Create a custom Group-level Learning Admin role to manage Snyk Learn assignments beyond the default admin roles.
----
-
 # Snyk Learn - Learning Admin
 
 {% hint style="info" %}

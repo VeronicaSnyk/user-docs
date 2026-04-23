@@ -1,7 +1,3 @@
----
-description: See example requests for the Update existing integration endpoint, including how to configure Broker for an existing integration.
----
-
 # Examples for the Update existing integration endpoint
 
 Examples follow for the [Update existing integration](../reference/integrations-v1.md#org-orgid-integrations-integrationid) endpoint in the [Integrations (v1)](../reference/integrations-v1.md) API.
@@ -10,7 +6,7 @@ Examples follow for the [Update existing integration](../reference/integrations-
 
 ### Command
 
-```bash
+```
 curl --include \
      --request PUT \
      --header "Content-Type: application/json; charset=utf-8" \
@@ -24,7 +20,7 @@ curl --include \
 
 ### Response
 
-```json
+```
 {
   "id": "9a3e5d90-b782-468a-a042-9a2073736f0b",
   "brokerToken": "4a18d42f-0706-4ad0-b127-24078731fbed"
@@ -125,7 +121,7 @@ Edit Integrations
 
 ### Command
 
-```bash
+```
 curl --include \
      --request PUT \
      --header "Content-Type: application/json; charset=utf-8" \
@@ -139,7 +135,7 @@ curl --include \
 
 ### Response
 
-```json
+```
 {
   "id": "9a3e5d90-b782-468a-a042-9a2073736f0b"
 }
@@ -163,7 +159,7 @@ Edit Integrations
 
 ### Command
 
-```bash
+```
 curl --include \
      --request PUT \
      --header "Content-Type: application/json; charset=utf-8" \
@@ -178,7 +174,7 @@ curl --include \
 
 ### Response
 
-```json
+```
 {
   "id": "9a3e5d90-b782-468a-a042-9a2073736f0b"
 }

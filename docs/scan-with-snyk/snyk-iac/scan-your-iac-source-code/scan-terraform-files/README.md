@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Terraform files for security misconfigurations using Snyk IaC SCM integration or the CLI.
----
-
 # Scan Terraform files
 
 The following information is provided to help you scan Terraform files:

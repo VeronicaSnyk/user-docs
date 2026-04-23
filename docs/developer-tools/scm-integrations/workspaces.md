@@ -1,7 +1,3 @@
----
-description: Enable Workspaces to improve the accuracy and reliability of Snyk SCM scanning results at enterprise scale.
----
-
 # Workspaces
 
 {% hint style="info" %}

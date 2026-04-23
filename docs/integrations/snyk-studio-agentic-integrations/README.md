@@ -1,7 +1,3 @@
----
-description: Embed Snyk security scanning into AI-assisted development workflows using Snyk Studio and the MCP server integration.
----
-
 # Agentic security with Snyk Studio
 
 Agentic workflows accelerate software development and innovation but introduce security risks, for example, AI-generated vulnerabilities or providing insecure practice suggestions. To address these risks, Snyk Studio embeds directives directly into AI-assisted development workflows to guide the agent towards secure software development.

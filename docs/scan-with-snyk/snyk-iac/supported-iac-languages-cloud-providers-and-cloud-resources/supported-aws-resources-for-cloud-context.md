@@ -1,8 +1,3 @@
----
-description: >-
-  View the AWS resource types supported by Snyk cloud context for configuration scanning.
----
-
 # Supported AWS resources for cloud context
 
 Snyk cloud context works with the following Amazon Web Services resource types:

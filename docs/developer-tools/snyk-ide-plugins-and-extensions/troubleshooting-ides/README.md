@@ -1,7 +1,3 @@
----
-description: Find solutions to common problems with Snyk IDE plugins, including scan failures and authentication issues.
----
-
 # Troubleshooting IDEs
 
 This section provides the following articles to help in using Snyk IDE plugins and extensions:
@@ -18,3 +14,4 @@ This section provides the following articles to help in using Snyk IDE plugins a
 * [Error executing binary because of corporate policy (Windows)](error-executing-binary-because-of-corporate-policy-windows.md)
 * [Net new issues (delta) scan troubleshooting](net-new-issues-delta-scan-troubleshooting.md)
 * [IDE plugin fails with `Scan failed` on Windows systems with .exe download blocking](ide-plugin-fails-with-scan-failed-on-windows-systems-with-.exe-download-blocking.md)
+

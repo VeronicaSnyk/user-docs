@@ -1,7 +1,3 @@
----
-description: Scan Docker images for vulnerabilities in GitHub Actions using the Snyk Docker action and your Snyk API token.
----
-
 # Snyk Docker action
 
 This page provides instructions for and examples of using the Snyk GitHub Action for [Docker](https://github.com/snyk/actions/tree/master/docker). For general instructions and information, see [GitHub Actions for Snyk setup and checking for vulnerabilities](./).

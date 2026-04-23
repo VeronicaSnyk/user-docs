@@ -1,8 +1,3 @@
----
-description: >-
-  Apply custom IaC rules bundles with the Snyk CLI to enforce your organization's security policies during scanning.
----
-
 # Use IaC custom rules with CLI
 
 {% hint style="info" %}

@@ -1,8 +1,3 @@
----
-description: >-
-  Sync your container registry with Snyk to ensure your imported images reflect the latest tags.
----
-
 # Sync your container registry
 
 {% hint style="info" %}
@@ -296,7 +291,7 @@ curl -X POST \
 {% endstep %}
 
 {% step %}
-## Wait for the sync
+### Wait for the sync
 
 Snyk schedules new policies to run immediately. Snyk executes subsequent runs based on the defined `schedule_frequency_hours`. Check the Snyk web UI for new targets and Projects based on your defined policy.
 {% endstep %}

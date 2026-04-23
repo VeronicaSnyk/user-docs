@@ -1,7 +1,3 @@
----
-description: Define KPIs and success metrics to measure the impact of your Snyk rollout at each phase of adoption.
----
-
 # Plan for success
 
 ## Determine success metrics with Snyk

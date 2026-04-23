@@ -1,7 +1,3 @@
----
-description: Install and configure the Snyk Broker Client using Helm or Docker to connect Snyk to your private source control integrations.
----
-
 # Install and configure Snyk Broker
 
 ## How to use Snyk Broker

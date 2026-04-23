@@ -1,7 +1,3 @@
----
-description: Set the Broker server URL for your regional Snyk deployment when installing the Broker Helm chart in a multi-tenant environment.
----
-
 # Multi-tenant settings for Helm chart installation
 
 To use the Helm chart in different multi-tenant regions, set the `brokerServerUrl` for the region you are using.
@@ -10,6 +6,6 @@ See [Broker URLs](../../../../../../snyk-data-and-governance/regional-hosting-an
 
 Use the following command:
 
-```bash
+```
 --set brokerServerUrl=<broker-region-url>
 ```

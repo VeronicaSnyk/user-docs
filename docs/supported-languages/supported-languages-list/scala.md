@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Scala code and open-source dependencies for vulnerabilities using Snyk Code and Snyk Open Source.
----
-
 # Scala
 
 ## Applicability and integration

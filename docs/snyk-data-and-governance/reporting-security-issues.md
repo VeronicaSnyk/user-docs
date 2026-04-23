@@ -1,7 +1,3 @@
----
-description: Report security vulnerabilities found in Snyk services through the Snyk Vulnerability Disclosure Program on Intigriti.
----
-
 # Reporting security issues
 
 Snyk requests that vulnerabilities in a Snyk service be reported according to the process explained on this page.

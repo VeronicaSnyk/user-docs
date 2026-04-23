@@ -1,8 +1,3 @@
----
-description: >-
-  Upgrade direct and transitive dependency versions in your Projects to resolve detected vulnerabilities.
----
-
 # Upgrade package versions to fix vulnerabilities
 
 Snyk will always recommend the smallest upgrade of a dependency to resolve a vulnerability.

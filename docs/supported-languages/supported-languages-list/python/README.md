@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Python code and open-source dependencies for security vulnerabilities using Snyk Code and Snyk Open Source.
----
-
 # Python
 
 ## Applicability and integration

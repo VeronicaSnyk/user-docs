@@ -1,8 +1,3 @@
----
-description: >-
-  View the Google Cloud resources supported by Snyk IaC unmanaged resource detection.
----
-
 # Google resources
 
 Snyk IaC unmanaged resource scanning supports the following resources for Google:

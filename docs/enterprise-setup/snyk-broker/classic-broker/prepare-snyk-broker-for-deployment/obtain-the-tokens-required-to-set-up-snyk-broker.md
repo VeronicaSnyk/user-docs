@@ -1,7 +1,3 @@
----
-description: Generate the Broker token and integrated SCM token you need to authenticate and deploy Snyk Broker across your Organizations.
----
-
 # Obtain the tokens required to set up Snyk Broker
 
 {% hint style="info" %}

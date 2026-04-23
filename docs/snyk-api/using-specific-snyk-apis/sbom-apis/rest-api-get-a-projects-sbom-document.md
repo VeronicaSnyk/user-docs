@@ -1,7 +1,3 @@
----
-description: Generate an SBOM document for a monitored Snyk Open Source or Container Project using the REST API.
----
-
 # Get a Project’s SBOM document
 
 {% hint style="info" %}

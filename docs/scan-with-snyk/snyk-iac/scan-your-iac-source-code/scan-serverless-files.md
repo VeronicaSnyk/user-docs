@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Serverless framework configuration files for security issues using the Snyk CLI.
----
-
 # Scan Serverless files
 
 Snyk IaC supports the scanning of Serverless configuration files only through the CLI.

@@ -1,7 +1,3 @@
----
-description: Set the environment variables required by Snyk IDE plugins and the CLI on macOS, Linux, and Windows.
----
-
 # How to set environment variables by operating system for IDEs and CLI
 
 ## Windows <a href="#windows" id="windows"></a>

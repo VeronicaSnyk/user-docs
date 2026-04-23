@@ -1,8 +1,3 @@
----
-description: >-
-  Follow a complete example of scanning a Bazel Java project for vulnerabilities using the Snyk Dep Graph API.
----
-
 # Example of Snyk for Bazel
 
 {% hint style="info" %}
@@ -11,7 +6,7 @@ See [Manually creating a Dep Graph from Bazel Java project](https://github.com/s
 
 For a simple Bazel Project with a single dependency on a Maven package, you may specify the dependency like this:
 
-```text
+```
 maven_jar(
     name = "logback-core",
     artifact = "ch.qos.logback:logback-core:1.0.13",
@@ -21,7 +16,7 @@ maven_jar(
 
 From this, you could construct the following Dep Graph JSON object:
 
-```json
+```
 {
   "depGraph": {
     "schemaVersion": "1.2.0",

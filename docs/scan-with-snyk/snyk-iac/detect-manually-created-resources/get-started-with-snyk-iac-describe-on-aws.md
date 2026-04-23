@@ -1,8 +1,3 @@
----
-description: >-
-  Get started using the Snyk IaC describe command on AWS to identify unmanaged infrastructure resources.
----
-
 # Get started with Snyk IaC Describe on AWS
 
 ## Step 1: Configure AWS authentication for your environment

@@ -1,7 +1,3 @@
----
-description: Find an index of Snyk API endpoints with tips, use case solutions, and guidance for working with Projects, issues, and Organizations.
----
-
 # API endpoints index and tips
 
 {% hint style="info" %}

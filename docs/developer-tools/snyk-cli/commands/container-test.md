@@ -1,7 +1,3 @@
----
-description: Scan container images for known vulnerabilities using the snyk container test CLI command.
----
-
 # Container test
 
 ## Usage

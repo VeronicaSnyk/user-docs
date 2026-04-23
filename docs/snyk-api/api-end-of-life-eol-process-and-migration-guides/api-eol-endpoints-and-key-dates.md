@@ -1,7 +1,3 @@
----
-description: Find a list of API endpoints in the end-of-life process, their EOL dates, and links to their migration guides.
----
-
 # API EOL endpoints and key dates
 
 ## APIs at EOL

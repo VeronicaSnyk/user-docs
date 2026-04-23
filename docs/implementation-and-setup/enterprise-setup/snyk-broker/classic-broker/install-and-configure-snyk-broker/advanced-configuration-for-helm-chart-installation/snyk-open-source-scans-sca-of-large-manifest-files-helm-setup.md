@@ -1,7 +1,3 @@
----
-description: Enable the Broker to fetch large manifest files from GitHub or GitHub Enterprise repositories using an alternative SCM endpoint.
----
-
 # Snyk Open Source scans (SCA) of large manifest files, Helm setup
 
 {% hint style="info" %}

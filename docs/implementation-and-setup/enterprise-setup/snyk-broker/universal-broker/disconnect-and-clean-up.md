@@ -1,7 +1,3 @@
----
-description: Remove Universal Broker resources by disconnecting integrations and deleting connections, credentials, and deployments in the correct order.
----
-
 # Disconnect and clean up
 
 The `snyk-broker-config workflows <RESOURCE> delete` command allows you to remove resources.
@@ -34,7 +30,7 @@ Enter the number of the connection you want to delete.
 
 In response to the prompt, type Y and press Enter if you want to disconnect all the Organizations reported as using the connection.
 
-```text
+```
 Universal Broker - Delete Connection Workflow
 ✓ Valid Snyk Token.
 ✓ Tenant Admin role confirms.
@@ -53,7 +49,7 @@ Enter the connection from which to disconnect.
 
 Press Tab to select (check) an Organization. Press backspace to uncheck.
 
-```text
+```
 Universal Broker - Connections Disconnect Integration(s) Workflow
 ✓ Valid Snyk Token
 ✓ Tenant Admin role confirmed.

@@ -1,7 +1,3 @@
----
-description: Test your AI bill of materials against Snyk Evo policies using the snyk aibom test CLI command.
----
-
 # AI-BOM test
 
 ## Prerequisites

@@ -1,7 +1,3 @@
----
-description: Understand that the Snyk CLI executes package manager commands on your machine to gather dependency information for analysis.
----
-
 # Code execution warning for Snyk CLI
 
 {% hint style="warning" %}

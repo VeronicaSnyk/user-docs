@@ -1,8 +1,3 @@
----
-description: >-
-  Configure Snyk to access private NuGet repositories for scanning .NET package dependencies.
----
-
 # Private NuGet repositories for .NET configuration
 
 {% hint style="info" %}

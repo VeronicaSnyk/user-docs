@@ -1,7 +1,3 @@
----
-description: Authenticate to the Snyk API using your personal API token or a service account token on Enterprise plans.
----
-
 # Authentication for API
 
 {% hint style="info" %}

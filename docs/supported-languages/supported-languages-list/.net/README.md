@@ -1,8 +1,3 @@
----
-description: >-
-  Scan .NET projects for vulnerabilities using Snyk Code and Snyk Open Source across C# and VB.NET.
----
-
 # .NET (C# and VB.NET)
 
 {% hint style="info" %}

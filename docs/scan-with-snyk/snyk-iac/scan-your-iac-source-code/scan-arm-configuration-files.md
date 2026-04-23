@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Azure ARM configuration files for security issues using the Snyk CLI.
----
-
 # Scan ARM configuration files
 
 Snyk IaC currently supports scanning ARM configurations with the CLI only.

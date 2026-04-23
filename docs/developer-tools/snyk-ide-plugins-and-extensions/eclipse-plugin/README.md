@@ -1,7 +1,3 @@
----
-description: Install and use the Snyk Eclipse plugin to scan your projects for vulnerabilities directly from your IDE.
----
-
 # Eclipse plugin
 
 ## **Scan early, fix as you develop: elevate your security posture**

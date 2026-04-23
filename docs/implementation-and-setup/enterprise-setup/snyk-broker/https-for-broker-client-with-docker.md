@@ -1,7 +1,3 @@
----
-description: Configure the Snyk Broker Client to run an HTTPS server by providing an SSL certificate and private key to the Docker container.
----
-
 # HTTPS for Broker Client with Docker
 
 {% hint style="info" %}
@@ -14,7 +10,7 @@ The Broker Client runs an HTTP server by default. It can be configured to run an
 
 For example, if your certificate files are found locally at `./private/broker.crt` and `./private/broker.key`, provide these files to the Docker container by mounting the folder and using the `HTTPS_CERT` and `HTTPS_KEY` environment variables:
 
-```bash
+```
 docker run --restart=always \
            -p 8000:8000 \
            -e BROKER_TOKEN=secret-broker-token \

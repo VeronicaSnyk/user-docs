@@ -1,7 +1,3 @@
----
-description: Use the Snyk Maven plugin to scan and monitor your Maven dependencies for vulnerabilities as part of your build.
----
-
 # Maven plugin integration with Snyk
 
 Snyk offers a [Maven plugin](https://github.com/snyk/snyk-maven-plugin) based on the [Snyk CLI](../snyk-cli/). This plugin allows you to scan and monitor your Maven dependencies for vulnerabilities.

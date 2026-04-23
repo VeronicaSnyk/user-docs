@@ -1,8 +1,3 @@
----
-description: >-
-  Scan Swift and Objective-C code and dependencies for vulnerabilities using Snyk Code and Snyk Open Source.
----
-
 # Swift and Objective-C
 
 {% hint style="info" %}

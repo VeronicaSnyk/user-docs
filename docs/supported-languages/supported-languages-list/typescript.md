@@ -1,8 +1,3 @@
----
-description: >-
-  Scan TypeScript code and open-source dependencies for vulnerabilities using Snyk Open Source and Snyk Code.
----
-
 # TypeScript
 
 ## Applicability and integration

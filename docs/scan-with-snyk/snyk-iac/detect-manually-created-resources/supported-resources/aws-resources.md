@@ -1,8 +1,3 @@
----
-description: >-
-  View the AWS resources supported by Snyk IaC unmanaged resource detection.
----
-
 # AWS resources
 
 Snyk IaC unmanaged resource scanning supports the following resources for AWS:

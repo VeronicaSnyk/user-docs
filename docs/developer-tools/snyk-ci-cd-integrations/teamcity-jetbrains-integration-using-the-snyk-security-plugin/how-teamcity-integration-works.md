@@ -1,7 +1,3 @@
----
-description: Understand how the Snyk TeamCity plugin scans your Projects, displays results, and monitors for new vulnerabilities.
----
-
 # How TeamCity integration works
 
 Use the Snyk plugin with your TeamCity Projects to test and monitor your code for vulnerabilities on an ongoing basis, for breaking builds when newly disclosed vulnerabilities related to your Project are announced, and to receive relevant notifications, all based on your configurations.

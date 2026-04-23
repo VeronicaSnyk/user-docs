@@ -1,7 +1,3 @@
----
-description: Use the Snyk CLI to test infrastructure as code files across Terraform, Kubernetes, Helm, and other formats.
----
-
 # Test your IaC files
 
 {% hint style="info" %}
@@ -27,19 +23,19 @@ In the examples that follow, you can replace the sample file names with the name
 
 When you provide no arguments, the `snyk iac test` command recursively traverses the current working directory and scans every file it finds:
 
-```bash
+```
 snyk iac test
 ```
 
 You can scan specific files under the current working directory. If you provide one or more file paths, the command scans only those files:
 
-```bash
+```
 snyk iac test file-1.tf dir/file-2.tf
 ```
 
 The command returns an error if you provide file paths outside the current working directory. For example, this is **not a valid invocation of the command**:
 
-```bash
+```
 snyk iac test ../main.tf
 ```
 
@@ -47,25 +43,25 @@ snyk iac test ../main.tf
 
 When you provide no arguments, the command recursively traverses the current working directory and scans every file it finds:
 
-```bash
+```
 snyk iac test
 ```
 
 You can restrict the scan to a specific directory:
 
-```bash
+```
 snyk iac test my-folder
 ```
 
 You can limit the depth of the directories that are traversed. The current working directory has a depth of one; directories under the current working directory have a depth of two, and so on. For example, if you want to restrict the search to the current working directory and two more levels of directories, you can invoke the command like this:
 
-```bash
+```
 snyk iac test --detection-depth=3
 ```
 
 The command returns an error if you provide directory paths outside the current working directory. For example, this is **not a valid invocation of the command**:
 
-```bash
+```
 snyk iac test ../my-folder
 ```
 
@@ -73,7 +69,7 @@ snyk iac test ../my-folder
 
 Use the following command to receive output in the JSON file format:
 
-```bash
+```
 snyk iac test  --json
 ```
 
@@ -81,7 +77,7 @@ This can be helpful if you want to store a snapshot of the results locally or pr
 
 Example:
 
-```bash
+```
 snyk iac test main.tf --json
 ```
 
@@ -91,13 +87,13 @@ SARIF is an open standard for the output of static analysis tools. You can view 
 
 Use the following command to receive output in the SARIF file format
 
-```bash
+```
 snyk iac test main.tf --sarif
 ```
 
 To save this to a file output, you can run the following command:
 
-```bash
+```
 snyk iac test main.tf --sarif-file-output=snyk.sarif
 ```
 
@@ -105,13 +101,13 @@ snyk iac test main.tf --sarif-file-output=snyk.sarif
 
 Use the following command to limit results displayed to issues above a specified severity.
 
-```bash
+```
 snyk iac test  --severity-threshold=medium
 ```
 
 Example:
 
-```bash
+```
 snyk iac test main.tf --severity-threshold=medium
 ```
 
@@ -123,25 +119,25 @@ You can control the severity settings of your security rules at the Organization
 
 Use the following command to specify the Organization:
 
-```bash
+```
 snyk iac test  --org=infrastructure
 ```
 
 Example:
 
-```bash
+```
 snyk iac test main.tf --org=infrastructure
 ```
 
 You can also set the `org` flag in `snyk config`, so you do not need to use the `--org` option each time you want to specify the Organization.
 
-```bash
+```
 snyk config set org=infrastructure
 ```
 
 ## Example Test Output
 
-```text
+```
 Snyk Infrastructure as Code
 
 ✔ Test completed.

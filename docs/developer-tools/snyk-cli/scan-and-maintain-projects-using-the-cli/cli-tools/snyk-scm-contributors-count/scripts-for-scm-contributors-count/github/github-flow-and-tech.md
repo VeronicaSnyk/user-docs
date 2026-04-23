@@ -1,7 +1,3 @@
----
-description: Understand the flow and technical details of how snyk-scm-contributors-count fetches GitHub contributor data.
----
-
 # GitHub - Flow and Tech
 
 ## Flow <a href="#flow" id="flow"></a>
