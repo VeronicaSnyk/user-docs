@@ -96,3 +96,20 @@ The following use cases show how the logic applies.
 | API removal            | From `3.0` to `4.0`     | High                 | The changelog confirms that `_.pluck` was removed and must be replaced with `_.map`. Code changes are required.                      |
 | Long term support drop | From `5.0` to `6.0`     | High                 | The upgrade drops support for Java 17, which is an active LTS. This upgrade breaks builds that are running on standard environments. |
 |                        |                         |                      |                                                                                                                                      |
+
+## Using breakability risk with Snyk Broker
+
+To use breakability comments, your broker configuration must include the rule for creating pull request comments.
+
+If you use the [official broker templates](https://github.com/snyk/broker/tree/master/client-templates), this rule is already included. Ensure your `accept.json` is up-to-date with the latest template for your SCM platform.
+
+If you maintain a custom `accept.json` configuration, ensure that it includes the appropriate rule for your SCM:
+
+* GitHub or GHE: `POST /repos/:name/:repo/issues/:issueNumber/comments`
+* GitLab: `POST /api/v4/projects/:project/merge_requests/:pullRef/notes`
+* Azure Repos: `POST /:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads`
+* Bitbucket Server: `POST /rest/api/1.0/projects/:project/repos/:repo/pull-requests/:pullRequestId/comments`
+
+If the rule is missing, Snyk generates the pull request and summary successfully, but fails to post the comment containing the breakability risk level and analysis.
+
+For configuration details, visit [Snyk Broker](https://docs.snyk.io/enterprise-setup/snyk-broker).

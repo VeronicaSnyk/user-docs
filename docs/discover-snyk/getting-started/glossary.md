@@ -249,10 +249,6 @@ Hooks are automated processes that execute skills or tools at specific points in
 
 Infrastructure as Code. See [Snyk Infrastructure as Code.](glossary.md#snyk-infrastructure-as-code)
 
-### IAST
-
-Interactive Application Security Testing. A runtime analysis tool that focuses on code behavior during execution to determine behaviors of interest to you, for example, what packages are loaded, where data flows in the running application, or how end users interact with the application. Capabilities vary between vendors and products. IAST works with a running application to analyze it internally by using sensors or agents placed within the application's runtime environment. IAST offers more detailed insights than [DAST](glossary.md#dast), for example, by tracing the source of vulnerabilities in the code. See also [SAST](glossary.md#sast).
-
 ### IDE
 
 Integrated Development Environment. An application that has facilities for software development, typically with a source code editor, build automation tools, and a debugger.
